@@ -1,1 +1,1 @@
-include: [web/webroot/_ui/responsive/theme-up/css/style.css]
+include: ["web/webroot/_ui/responsive/theme-up/css/style.css"]
