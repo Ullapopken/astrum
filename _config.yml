@@ -1,4 +1,4 @@
 include:
   - .htaccess
   - "web/webroot/_ui/responsive/theme-up/css/style.css"
-  - "https://ullapopken.github.io/astrum/web/webroot/_ui/"
+  - "web/webroot/_ui/"
