@@ -40,7 +40,7 @@
     },
     "content": {
         "show_first_page_on_load": true,
-        "title": "Overview",
+        "title": "Overviewtest",
         "pages": [
             {
                 "name": "introduction",
