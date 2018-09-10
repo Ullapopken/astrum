@@ -43,7 +43,7 @@
         "title": "Overviewtest",
         "pages": [
             {
-                "name": "introduction",
+                "name": "introductiontest",
                 "title": "Introduction",
                 "file": "./pages/intro.md"
             }
