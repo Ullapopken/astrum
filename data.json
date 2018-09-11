@@ -40,10 +40,10 @@
     },
     "content": {
         "show_first_page_on_load": true,
-        "title": "Overviewtest",
+        "title": "Overview",
         "pages": [
             {
-                "name": "introductiontest",
+                "name": "introduction",
                 "title": "Introduction",
                 "file": "./pages/intro.md"
             }
