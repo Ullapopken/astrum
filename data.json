@@ -1,5 +1,5 @@
 {
-    "project_logo": null,
+    "project_logo": "logo-up.png",
     "project_favicon": "favicon.png",
     "project_name": null,
     "project_url": null,
@@ -24,13 +24,15 @@
         "show_version": true,
         "max_width": null,
         "titles": {
-            "library_title": "Pattern Library",
-            "pages_title": "Overview",
-            "components_title": "Components"
+            "library_title": "Pattern Library UP/GL",
+            "pages_title": "Übersicht",
+            "components_title": "Komponenten"
         }
     },
     "assets": {
-        "css": ["css/theme-up/style.css"],
+        "css": [
+            "css/theme-up/style.css"
+        ],
         "js": []
     },
     "font_libraries": {
@@ -50,6 +52,36 @@
         ]
     },
     "groups": [
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "farben",
+                    "title": "Farben",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "typografie",
+            "title": "Typografie",
+            "components": [
+                {
+                    "group": "typografie",
+                    "name": "ueberschriften",
+                    "title": "Überschriften"
+                },
+                {
+                    "group": "typografie",
+                    "name": "texte",
+                    "title": "Texte"
+                }
+            ]
+        },
         {
             "name": "buttons",
             "title": "Buttons",
