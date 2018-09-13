@@ -5116,13 +5116,13 @@ button.bg-dark:focus {
   white-space: normal; }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.06) !important; }
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1) !important; }
 
 .shadow-none {
   box-shadow: none !important; }
@@ -6370,5 +6370,23 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3 {
   font-family: "Comic Sans MS", serif; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #FE8273;
+    border-color: #FE8273; }
+
+.btn-primary.inverted {
+  color: #343a40;
+  background-color: #fff;
+  border-color: #fff; }
+  .btn-primary.inverted:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

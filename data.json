@@ -1,5 +1,5 @@
 {
-    "project_logo": "logo-up.png",
+    "project_logo": "images/logo-up.svg",
     "project_favicon": "favicon.png",
     "project_name": null,
     "project_url": null,
@@ -58,6 +58,14 @@
             "components": [
                 {
                     "group": "branding",
+                    "name": "logo",
+                    "title": "Logo",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "branding",
                     "name": "farben",
                     "title": "Farben",
                     "options": {
@@ -83,14 +91,56 @@
             ]
         },
         {
+            "name": "borders",
+            "title": "Borders",
+            "components": [
+                {
+                    "group": "borders",
+                    "name": "borders",
+                    "title": "Borders",
+                    "width": "half"
+                },
+                {
+                    "group": "borders",
+                    "name": "schatten",
+                    "title": "Schatten",
+                    "width": "half"
+                }
+            ]
+        },
+        {
             "name": "buttons",
             "title": "Buttons",
             "components": [
                 {
                     "group": "buttons",
-                    "name": "test-button",
-                    "title": "Test Button",
+                    "name": "primary-button",
+                    "title": "Primary Button",
                     "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "primary-button-inverted",
+                    "title": "Primary Button Inverted",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                },
+                {
+                    "group": "buttons",
+                    "name": "secondary-button",
+                    "title": "Secondary Button",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "secondary-button-inverted",
+                    "title": "Secondary Button Inverted",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
                 }
             ]
         }
