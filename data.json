@@ -33,7 +33,9 @@
         "css": [
             "css/theme-up/style.css"
         ],
-        "js": []
+        "js": [
+            "js/astrum.js"
+        ]
     },
     "font_libraries": {
         "typekit_code": null,
@@ -141,6 +143,22 @@
                     "options": {
                         "sample_dark_background": true
                     }
+                }
+            ]
+        },
+        {
+            "name": "komponenten",
+            "title": "Komponenten",
+            "components": [
+                {
+                    "group": "komponenten",
+                    "name": "usp-bar",
+                    "title": "USP-Bar"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "collapsible-components-wrapper",
+                    "title": "Collapsible Component Wrapper"
                 }
             ]
         }
