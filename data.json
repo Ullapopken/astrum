@@ -1,5 +1,5 @@
 {
-    "project_logo": "images/logo-up.svg",
+    "project_logo": "logo/logo-up.svg",
     "project_favicon": "favicon.png",
     "project_name": null,
     "project_url": null,
@@ -159,6 +159,11 @@
                     "group": "komponenten",
                     "name": "collapsible-components-wrapper",
                     "title": "Collapsible Component Wrapper"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "collapsible-linklist",
+                    "title": "Collapsible Linklist"
                 }
             ]
         }

@@ -6951,196 +6951,6 @@ a.text-gray:hover, a.text-gray:focus {
 .svg-white path {
   fill: #fff; }
 
-.bg-full-width-primary {
-  position: relative; }
-  .bg-full-width-primary::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #FE8273;
-    z-index: -1; }
-  .bg-full-width-primary::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #FE8273;
-    z-index: -1; }
-
-.bg-full-width-secondary {
-  position: relative; }
-  .bg-full-width-secondary::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #828282;
-    z-index: -1; }
-  .bg-full-width-secondary::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #828282;
-    z-index: -1; }
-
-.bg-full-width-success {
-  position: relative; }
-  .bg-full-width-success::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #28a745;
-    z-index: -1; }
-  .bg-full-width-success::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #28a745;
-    z-index: -1; }
-
-.bg-full-width-info {
-  position: relative; }
-  .bg-full-width-info::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #17a2b8;
-    z-index: -1; }
-  .bg-full-width-info::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #17a2b8;
-    z-index: -1; }
-
-.bg-full-width-warning {
-  position: relative; }
-  .bg-full-width-warning::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #ffc107;
-    z-index: -1; }
-  .bg-full-width-warning::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #ffc107;
-    z-index: -1; }
-
-.bg-full-width-danger {
-  position: relative; }
-  .bg-full-width-danger::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #dc3545;
-    z-index: -1; }
-  .bg-full-width-danger::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #dc3545;
-    z-index: -1; }
-
-.bg-full-width-light {
-  position: relative; }
-  .bg-full-width-light::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #F2F2F2;
-    z-index: -1; }
-  .bg-full-width-light::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #F2F2F2;
-    z-index: -1; }
-
-.bg-full-width-dark {
-  position: relative; }
-  .bg-full-width-dark::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #191919;
-    z-index: -1; }
-  .bg-full-width-dark::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #191919;
-    z-index: -1; }
-
-.bg-full-width-gray {
-  position: relative; }
-  .bg-full-width-gray::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #E7E7E7;
-    z-index: -1; }
-  .bg-full-width-gray::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #E7E7E7;
-    z-index: -1; }
-
-.bg-full-width-white {
-  position: relative; }
-  .bg-full-width-white::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #fff;
-    z-index: -1; }
-  .bg-full-width-white::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50vw;
-    background-color: #fff;
-    z-index: -1; }
-
 footer a {
   color: #000; }
   footer a:hover {
@@ -7148,9 +6958,15 @@ footer a {
 
 .btn-collapsible {
   color: #000;
-  background-color: #fff; }
+  background-color: #fff;
+  background-image: url("../../images/icon_minus.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box; }
   .btn-collapsible:focus {
     box-shadow: none; }
+  .btn-collapsible.collapsed {
+    background-image: url("../../images/icon_plus.svg"); }
 
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
