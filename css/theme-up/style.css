@@ -6968,6 +6968,11 @@ footer a {
   .btn-collapsible.collapsed {
     background-image: url("../../images/icon_plus.svg"); }
 
+.top-header a {
+  color: #000; }
+  .top-header a:hover {
+    color: #000; }
+
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
 
