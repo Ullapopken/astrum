@@ -6998,6 +6998,28 @@ header a {
 .header-icon a:hover {
   text-decoration: none; }
 
+.form-input-search__submit-icon {
+  background: url("../../images/icon_search.svg") no-repeat center center;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 0;
+  top: 0;
+  z-index: 2;
+  width: 32px; }
+
+.form-control::-webkit-input-placeholder {
+  color: #495057; }
+
+.form-control:-ms-input-placeholder {
+  color: #495057; }
+
+.form-control::-ms-input-placeholder {
+  color: #495057; }
+
+.form-control::placeholder {
+  color: #495057; }
+
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
 
