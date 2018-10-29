@@ -7020,6 +7020,13 @@ header a {
 .form-control::placeholder {
   color: #495057; }
 
+.siteLogo-component img {
+  max-width: 230px; }
+
+@media (max-width: 767.98px) {
+  .siteLogo-component img {
+    max-width: 141px; } }
+
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
 
