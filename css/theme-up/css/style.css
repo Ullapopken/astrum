@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: 'GT Super Display Bold';
-  src: url("../fonts/GT-Supder-Display-Bold.eot");
+  src: url("../fonts/GT-Super-Display-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/GT-Supder-Display-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GT-Supder-Display-Bold.woff2") format("woff2"), url("../fonts/GT-Supder-Display-Bold.woff") format("woff"), url("../fonts/GT-Supder-Display-Bold.ttf") format("truetype"); }
+  src: url("../fonts/GT-Super-Display-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GT-Super-Display-Bold.woff2") format("woff2"), url("../fonts/GT-Super-Display-Bold.woff") format("woff"), url("../fonts/GT-Super-Display-Bold.ttf") format("truetype"); }
 
 :root {
   --blue: #007bff;
@@ -7032,6 +7032,38 @@ header a {
 @media (max-width: 767.98px) {
   .siteLogo-component img {
     max-width: 141px; } }
+
+.sideMenuOpener {
+  cursor: pointer; }
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  transition: all 0.5s ease-in-out; }
+  .overlay.active {
+    display: block;
+    opacity: 0.6; }
+
+#sideMenu {
+  display: none;
+  width: 88vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+  #sideMenu.active {
+    display: block;
+    transition: width 1s; }
+  #sideMenu .sideMenuCloser {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem; }
+  #sideMenu.border-right-big {
+    border-right: 0.25rem solid; }
 
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
