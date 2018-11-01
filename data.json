@@ -31,7 +31,7 @@
     },
     "assets": {
         "css": [
-            "css/theme-up/style.css"
+            "css/theme-up/css/style.css"
         ],
         "js": [
             "js/astrum.js"
