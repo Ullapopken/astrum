@@ -5,6 +5,21 @@
   /* IE9 Compat Modes */
   src: url("../fonts/GT-Super-Display-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GT-Super-Display-Bold.woff2") format("woff2"), url("../fonts/GT-Super-Display-Bold.woff") format("woff"), url("../fonts/GT-Super-Display-Bold.ttf") format("truetype"); }
 
+.border-big {
+  border: 0.25rem solid; }
+
+.border-top-big {
+  border-top: 0.25rem solid; }
+
+.border-right-big {
+  border-right: 0.25rem solid; }
+
+.border-bottom-big {
+  border-bottom: 0.25rem solid; }
+
+.border-left-big {
+  border-left: 0.25rem solid; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7062,8 +7077,46 @@ header a {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem; }
-  #sideMenu.border-right-big {
-    border-right: 0.25rem solid; }
+
+.navigation-flyout-opener {
+  cursor: pointer;
+  z-index: 99; }
+  .navigation-flyout-opener:hover {
+    text-decoration: underline; }
+
+.navigation-flyout {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  width: 100vw;
+  height: 540px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 98;
+  border-top: 1px solid #E7E7E7;
+  border-bottom-color: #FE8273; }
+  .navigation-flyout .navigation-flyout-closer {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: -1rem; }
+  .navigation-flyout.active {
+    display: block; }
+  .navigation-flyout .navigation-list {
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    overflow: hidden; }
+    .navigation-flyout .navigation-list .navigation-headline-wrapper {
+      height: 0;
+      position: relative;
+      top: -3rem; }
+    .navigation-flyout .navigation-list .navigation-headline, .navigation-flyout .navigation-list .navigation-link {
+      margin-right: 0.75rem;
+      margin-left: 0.75rem; }
+    .navigation-flyout .navigation-list .navigation-linebreak {
+      width: 0;
+      height: 101%; }
 
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
