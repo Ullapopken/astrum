@@ -7120,6 +7120,21 @@ header a {
     .navigation-flyout .navigation-list .navigation-link .navigation-image-text {
       height: 2.5rem; }
 
+.category-bar-component .link-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden; }
+  .category-bar-component .link-wrapper .category-btn {
+    overflow: hidden;
+    min-height: 72px;
+    line-height: 72px; }
+    @media (max-width: 1199.98px) {
+      .category-bar-component .link-wrapper .category-btn {
+        min-width: 173px; } }
+    .category-bar-component .link-wrapper .category-btn:hover, .category-bar-component .link-wrapper .category-btn:active, .category-bar-component .link-wrapper .category-btn:focus {
+      color: #fff;
+      background-color: #000;
+      border-color: #fff; }
+
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
 
