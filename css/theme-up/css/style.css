@@ -4513,7 +4513,7 @@ button.bg-gray:focus {
 .border-right {
   border-right: 1px solid #dee2e6 !important; }
 
-.border-bottom, header nav .nav-elem :hover {
+.border-bottom, header nav .nav-elem:hover {
   border-bottom: 1px solid #dee2e6 !important; }
 
 .border-left {
@@ -4555,7 +4555,7 @@ button.bg-gray:focus {
 .border-light {
   border-color: #F2F2F2 !important; }
 
-.border-dark, header nav .nav-elem :hover {
+.border-dark, header nav .nav-elem:hover {
   border-color: #191919 !important; }
 
 .border-gray {
