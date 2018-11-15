@@ -7203,6 +7203,27 @@ header nav .navigation-flyout-opener {
   height: 16rem;
   background: linear-gradient(rgba(255, 255, 255, 0), white 80%); }
 
+.language-selector .language {
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit; }
+
+.language-selector .language.selected {
+  cursor: text; }
+
+footer .language-selector {
+  color: #fff; }
+  footer .language-selector .language {
+    color: #fff; }
+
+header .language-selector .languageprefix {
+  display: none; }
+
+header .language-selector .language {
+  color: #191919; }
+
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
 
