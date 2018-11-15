@@ -1302,16 +1302,16 @@ pre {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(254, 130, 115, 0.25); }
   .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: #828282;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: #828282;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #6c757d;
+    color: #828282;
     opacity: 1; }
   .form-control::placeholder {
-    color: #6c757d;
+    color: #828282;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
@@ -7027,7 +7027,7 @@ header a {
 .header-icon .icon-overlay {
   position: absolute;
   top: -10px;
-  right: 5px; }
+  right: 8px; }
   .header-icon .icon-overlay .icon-overlay-number {
     position: absolute;
     width: 1rem;
@@ -7055,18 +7055,6 @@ header a {
   top: 0;
   z-index: 2;
   width: 32px; }
-
-.form-control::-webkit-input-placeholder {
-  color: #495057; }
-
-.form-control:-ms-input-placeholder {
-  color: #495057; }
-
-.form-control::-ms-input-placeholder {
-  color: #495057; }
-
-.form-control::placeholder {
-  color: #495057; }
 
 .siteLogo-component img {
   max-width: 230px; }
@@ -7162,6 +7150,39 @@ header nav .navigation-flyout-opener {
       color: #fff;
       background-color: #000;
       border-color: #fff; }
+
+.flyout-login {
+  z-index: 3;
+  right: 0;
+  margin-top: 1px;
+  position: absolute;
+  display: none; }
+
+.headerLogin-button.active {
+  border-bottom: 1px solid #FE8273;
+  margin: -1px 0; }
+
+.flyout-close {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 20px; }
+
+.icon-password-show {
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  line-height: 24px; }
+  .icon-password-show .icon-show {
+    display: block; }
+  .icon-password-show .icon-hide {
+    display: none; }
+  .icon-password-show svg path:nth-child(1) {
+    stroke: #828282; }
+  .icon-password-show svg path:nth-child(2) {
+    fill: #828282; }
 
 .seotext {
   -webkit-column-count: 2;
