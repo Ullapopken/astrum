@@ -7126,9 +7126,9 @@ header nav .navigation-flyout-opener {
   overflow-y: hidden; }
   .category-bar-component .link-wrapper .category-btn {
     overflow: hidden;
-    min-height: 72px;
+    height: 72px;
     line-height: 72px; }
-    @media (max-width: 1199.98px) {
+    @media (max-width: 991.98px) {
       .category-bar-component .link-wrapper .category-btn {
         min-width: 173px; } }
     .category-bar-component .link-wrapper .category-btn:hover, .category-bar-component .link-wrapper .category-btn:active, .category-bar-component .link-wrapper .category-btn:focus {
