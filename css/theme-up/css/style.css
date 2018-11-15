@@ -6945,29 +6945,56 @@ a.text-gray:hover, a.text-gray:focus {
 .svg-primary path {
   fill: #FE8273; }
 
+.svg-stroke-primary path {
+  stroke: #FE8273; }
+
 .svg-secondary path {
   fill: #828282; }
+
+.svg-stroke-secondary path {
+  stroke: #828282; }
 
 .svg-success path {
   fill: #28a745; }
 
+.svg-stroke-success path {
+  stroke: #28a745; }
+
 .svg-info path {
   fill: #17a2b8; }
+
+.svg-stroke-info path {
+  stroke: #17a2b8; }
 
 .svg-warning path {
   fill: #ffc107; }
 
+.svg-stroke-warning path {
+  stroke: #ffc107; }
+
 .svg-danger path {
   fill: #dc3545; }
+
+.svg-stroke-danger path {
+  stroke: #dc3545; }
 
 .svg-light path {
   fill: #F2F2F2; }
 
+.svg-stroke-light path {
+  stroke: #F2F2F2; }
+
 .svg-dark path {
   fill: #191919; }
 
+.svg-stroke-dark path {
+  stroke: #191919; }
+
 .svg-gray path {
   fill: #E7E7E7; }
+
+.svg-stroke-gray path {
+  stroke: #E7E7E7; }
 
 .svg-white path {
   fill: #fff; }
@@ -7135,6 +7162,25 @@ header nav .navigation-flyout-opener {
       color: #fff;
       background-color: #000;
       border-color: #fff; }
+
+.seotext {
+  -webkit-column-count: 2;
+          column-count: 2; }
+  @media (max-width: 767.98px) {
+    .seotext {
+      -webkit-column-count: auto;
+              column-count: auto; } }
+
+.seotext-mobile-collapsed {
+  overflow: hidden;
+  max-height: 360px; }
+
+.readMoreButton {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 16rem;
+  background: linear-gradient(rgba(255, 255, 255, 0), white 80%); }
 
 h4, h5, .h4, .h5 {
   font-family: "Open Sans", Arial, sans-serif; }
