@@ -7187,14 +7187,6 @@ header nav .navigation-flyout-opener {
 .seotext {
   -webkit-column-count: 2;
           column-count: 2; }
-  @media (max-width: 767.98px) {
-    .seotext {
-      -webkit-column-count: auto;
-              column-count: auto; } }
-
-.seotext-mobile-collapsed {
-  overflow: hidden;
-  max-height: 360px; }
 
 .readMoreButton {
   bottom: 0;
@@ -7202,6 +7194,14 @@ header nav .navigation-flyout-opener {
   left: 0;
   height: 16rem;
   background: linear-gradient(rgba(255, 255, 255, 0), white 80%); }
+
+@media (max-width: 767.98px) {
+  .seotext {
+    -webkit-column-count: auto;
+            column-count: auto; }
+  .seotext-mobile-collapsed {
+    overflow: hidden;
+    max-height: 360px; } }
 
 .language-selector .language {
   outline: none;
