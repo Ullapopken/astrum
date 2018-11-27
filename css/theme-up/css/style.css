@@ -7152,8 +7152,8 @@ header nav .navigation-flyout-opener {
       border-color: #fff; }
 
 .flyout-login {
-  z-index: 3;
-  right: 0;
+  z-index: 100;
+  right: 15px;
   margin-top: 1px;
   position: absolute;
   display: none; }
@@ -7166,7 +7166,7 @@ header nav .navigation-flyout-opener {
   cursor: pointer;
   position: absolute;
   top: 5px;
-  right: 20px; }
+  right: 5px; }
 
 .icon-password-show {
   cursor: pointer;
