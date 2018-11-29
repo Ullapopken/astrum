@@ -7145,16 +7145,19 @@ header nav a:hover {
   overflow-x: auto;
   overflow-y: hidden; }
   .category-bar-component .link-wrapper .category-btn {
-    overflow: hidden;
     height: 72px;
-    line-height: 72px; }
+    line-height: 21px;
+    white-space: pre-wrap; }
     @media (max-width: 991.98px) {
       .category-bar-component .link-wrapper .category-btn {
         min-width: 173px; } }
-    .category-bar-component .link-wrapper .category-btn:hover, .category-bar-component .link-wrapper .category-btn:active, .category-bar-component .link-wrapper .category-btn:focus {
-      color: #fff;
+    .category-bar-component .link-wrapper .category-btn a {
+      color: #000; }
+    .category-bar-component .link-wrapper .category-btn:hover, .category-bar-component .link-wrapper .category-btn:active {
       background-color: #000;
-      border-color: #fff; }
+      border-color: #fff;
+      color: #fff;
+      text-decoration: none; }
 
 .flyout-login {
   z-index: 100;
