@@ -7024,18 +7024,18 @@ header a {
   header a:hover {
     color: #000; }
 
-.header-icon .icon-overlay {
+.header-icon .icon .icon-hover {
+  display: none; }
+
+.header-icon .icon .icon-overlay {
   position: absolute;
   top: -10px;
-  right: 8px; }
-  .header-icon .icon-overlay .icon-overlay-number {
+  right: -7px; }
+  .header-icon .icon .icon-overlay .icon-overlay-number {
     position: absolute;
     width: 1rem;
     top: 6px;
     right: 0; }
-
-.header-icon .icon .icon-hover {
-  display: none; }
 
 .header-icon:hover .icon .icon-non-hover {
   display: none; }
