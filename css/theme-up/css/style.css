@@ -4555,7 +4555,7 @@ button.bg-gray:focus {
 .border-light {
   border-color: #F2F2F2 !important; }
 
-.border-dark, header nav .nav-elem:hover {
+.border-dark, header nav .nav-elem:hover, .first-level-nav .nav-elem.active {
   border-color: #191919 !important; }
 
 .border-gray {
@@ -6784,7 +6784,7 @@ button.bg-gray:focus {
 .font-weight-normal {
   font-weight: 400 !important; }
 
-.font-weight-bold {
+.font-weight-bold, .first-level-nav .nav-elem.active {
   font-weight: 600 !important; }
 
 .font-italic {
@@ -7099,13 +7099,18 @@ header nav .nav-elem {
 header nav a:hover {
   text-decoration: none; }
 
-header nav .navigation-flyout-opener {
+.second-level-nav nav {
+  display: none; }
+  .second-level-nav nav.active {
+    display: block; }
+
+.second-level-nav .navigation-flyout-opener {
   cursor: pointer; }
 
 .navigation-flyout {
   display: none;
   position: absolute;
-  top: 3rem;
+  top: 3.3rem;
   left: 50%;
   width: 100vw;
   height: 540px;
