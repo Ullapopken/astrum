@@ -7055,6 +7055,19 @@ header a {
 .header-icon a:hover {
   text-decoration: none; }
 
+.header-icons-mobile {
+  position: absolute;
+  bottom: 0px; }
+
+.icon-overlay-logged {
+  position: absolute;
+  right: 2px;
+  top: -5px; }
+
+.bg-icon-mobile {
+  width: 2.5rem;
+  height: 2.5rem; }
+
 .form-input-search__submit-icon {
   background: url("../../images/icon_search.svg") no-repeat center center;
   bottom: 0;
@@ -7100,7 +7113,8 @@ header a {
   #sideMenu .sideMenuCloser {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem; }
+    right: 0.5rem;
+    z-index: 11; }
 
 header nav .nav-elem {
   z-index: 99; }
@@ -7168,22 +7182,25 @@ header nav a:hover {
       color: #fff;
       text-decoration: none; }
 
-.flyout-login {
+.flyout-login,
+.modal-close {
   z-index: 100;
   right: 15px;
   margin-top: 1px;
   position: absolute;
   display: none; }
 
-.headerLogin-button.active {
-  border-bottom: 1px solid #FE8273;
-  margin: -1px 0; }
+.headerLogin-button {
+  cursor: pointer; }
+  .headerLogin-button.active {
+    border-bottom: 1px solid #FE8273;
+    margin: -1px 0; }
 
 .flyout-close {
   cursor: pointer;
   position: absolute;
-  top: 5px;
-  right: 5px; }
+  top: 0.5rem;
+  right: 0.5rem; }
 
 .icon-password-show {
   cursor: pointer;
@@ -7200,6 +7217,26 @@ header nav a:hover {
     stroke: #828282; }
   .icon-password-show svg path:nth-child(2) {
     fill: #828282; }
+
+.userFormLogin-mobile .btn-register,
+.userFormLogin-mobile .btn-login {
+  max-width: 280px; }
+
+.userAccountMenu-mobile {
+  z-index: 10;
+  overflow: auto; }
+  .userAccountMenu-mobile .btn-logout {
+    max-width: 280px; }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: inherit; } }
+
+.modal-close {
+  z-index: 2000;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: inherit; }
 
 .seotext {
   -webkit-column-count: 2;
