@@ -6930,6 +6930,15 @@ a.text-gray:hover, a.text-gray:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: none; } }
+
 .text-16 {
   font-size: 1rem; }
 

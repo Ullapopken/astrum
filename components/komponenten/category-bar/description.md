@@ -1,0 +1,1 @@
+Ist im Backoffice vom Typ CategoryBarComponent.

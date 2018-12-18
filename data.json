@@ -164,6 +164,11 @@
                     "group": "komponenten",
                     "name": "collapsible-linklist",
                     "title": "Collapsible Linklist"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "category-bar",
+                    "title": "Kategorie-Bar"
                 }
             ]
         }
