@@ -4603,7 +4603,7 @@ button.bg-gray:focus {
 .d-inline-block {
   display: inline-block !important; }
 
-.d-block {
+.d-block, .heroBanner .btn > a {
   display: block !important; }
 
 .d-table {
@@ -5494,7 +5494,8 @@ button.bg-gray:focus {
   padding: 0.5rem !important; }
 
 .pt-2,
-.py-2 {
+.py-2,
+.heroBanner .btn > a {
   padding-top: 0.5rem !important; }
 
 .pr-2,
@@ -5502,7 +5503,8 @@ button.bg-gray:focus {
   padding-right: 0.5rem !important; }
 
 .pb-2,
-.py-2 {
+.py-2,
+.heroBanner .btn > a {
   padding-bottom: 0.5rem !important; }
 
 .pl-2,
@@ -6951,6 +6953,9 @@ a.text-gray:hover, a.text-gray:focus {
 .text-10 {
   font-size: 0.625rem; }
 
+.teaserCategoryLabel {
+  letter-spacing: 2px; }
+
 .svg-primary path {
   fill: #FE8273; }
 
@@ -7181,6 +7186,51 @@ header nav a:hover {
       border-color: #fff;
       color: #fff;
       text-decoration: none; }
+
+.heroBanner .line {
+  width: 24px;
+  height: 1px; }
+
+.heroBanner .teaserHeadline {
+  word-wrap: break-word; }
+
+.heroBanner .heroBackground {
+  height: 100%;
+  top: 0;
+  z-index: -50;
+  width: 100vw;
+  left: 0%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.heroBanner .img-fluid {
+  width: 100%; }
+
+.heroBanner .btn > a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.heroBanner .btn > a:hover {
+  text-decoration: none; }
+
+@media (max-width: 991.98px) {
+  .heroBanner .heroImage {
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); } }
+
+@media (min-width: 992px) {
+  .heroBanner .teaserHeadline {
+    text-indent: -1.5rem; }
+  .heroBanner .heroImage {
+    width: calc(100% + 120px); } }
+
+@media (min-width: 1200px) {
+  .heroBanner .heroImage {
+    width: 125%; } }
 
 .flyout-login,
 .modal-close {
