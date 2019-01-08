@@ -7296,8 +7296,8 @@ header nav a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 16rem;
-  background: linear-gradient(rgba(255, 255, 255, 0), white 80%); }
+  height: 10rem;
+  background: linear-gradient(rgba(255, 255, 255, 0), white 45%); }
 
 @media (max-width: 767.98px) {
   .seotext {
@@ -7305,7 +7305,7 @@ header nav a:hover {
             column-count: auto; }
   .seotext-mobile-collapsed {
     overflow: hidden;
-    max-height: 360px; } }
+    max-height: 460px; } }
 
 .language-selector .language {
   outline: none;
