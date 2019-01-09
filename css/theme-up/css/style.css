@@ -6944,7 +6944,7 @@ button.bg-gray:focus {
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-truncate {
+.text-truncate, .heroBanner .btn > a, .heroBanner .btn-nav-primary-mobile a > a, .btn-nav-primary-mobile .heroBanner a > a, .heroBanner .btn-nav-secondary-mobile a > a, .btn-nav-secondary-mobile .heroBanner a > a, .heroBanner .btn-nav-thirdly-mobile a > a, .btn-nav-thirdly-mobile .heroBanner a > a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -7374,10 +7374,7 @@ body.moveRight {
     #sideMenu .sideMenuOverlay .scrollable {
       overflow-y: auto; }
     #sideMenu .sideMenuOverlay .sideMenuOverlayHeadline {
-      bottom: -1px;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis; }
+      bottom: -1px; }
 
 header nav .nav-elem {
   z-index: 99; }
@@ -7467,11 +7464,6 @@ header nav a:hover {
 .heroBanner .img-fluid {
   width: 100%; }
 
-.heroBanner .btn > a, .heroBanner .btn-nav-primary-mobile a > a, .btn-nav-primary-mobile .heroBanner a > a, .heroBanner .btn-nav-secondary-mobile a > a, .btn-nav-secondary-mobile .heroBanner a > a, .heroBanner .btn-nav-thirdly-mobile a > a, .btn-nav-thirdly-mobile .heroBanner a > a {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; }
-
 .heroBanner .btn > a:hover, .heroBanner .btn-nav-primary-mobile a > a:hover, .btn-nav-primary-mobile .heroBanner a > a:hover, .heroBanner .btn-nav-secondary-mobile a > a:hover, .btn-nav-secondary-mobile .heroBanner a > a:hover, .heroBanner .btn-nav-thirdly-mobile a > a:hover, .btn-nav-thirdly-mobile .heroBanner a > a:hover {
   text-decoration: none; }
 
@@ -7532,12 +7524,6 @@ header nav a:hover {
 .userFormLogin-mobile .btn-register,
 .userFormLogin-mobile .btn-login {
   max-width: 280px; }
-
-.userAccountMenu-mobile {
-  z-index: 10;
-  overflow: auto; }
-  .userAccountMenu-mobile .btn-logout {
-    max-width: 280px; }
 
 @media (min-width: 576px) {
   .modal-dialog {
