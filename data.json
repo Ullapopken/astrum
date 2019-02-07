@@ -117,38 +117,7 @@
                 {
                     "group": "buttons",
                     "name": "buttons",
-                    "title": "Buttons",
-                    "width": "half"
-                },
-                {
-                    "group": "buttons",
-                    "name": "primary-button",
-                    "title": "Primary Button",
-                    "width": "half"
-                },
-                {
-                    "group": "buttons",
-                    "name": "primary-button-inverted",
-                    "title": "Primary Button Inverted",
-                    "width": "half",
-                    "options": {
-                        "sample_dark_background": true
-                    }
-                },
-                {
-                    "group": "buttons",
-                    "name": "secondary-button",
-                    "title": "Secondary Button",
-                    "width": "half"
-                },
-                {
-                    "group": "buttons",
-                    "name": "secondary-button-inverted",
-                    "title": "Secondary Button Inverted",
-                    "width": "half",
-                    "options": {
-                        "sample_dark_background": true
-                    }
+                    "title": "Buttons"
                 }
             ]
         },
