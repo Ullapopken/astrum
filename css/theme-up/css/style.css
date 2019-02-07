@@ -8406,6 +8406,27 @@ a.text-green-velvet:hover, a.text-green-velvet:focus {
 .svg-white path {
   fill: #FFF; }
 
+.z-index-modal-1 {
+  z-index: 900; }
+
+.z-index-modal-2 {
+  z-index: 910; }
+
+.z-index-modal-3 {
+  z-index: 920; }
+
+.z-index-overlay {
+  z-index: 800; }
+
+.z-index-dropdown {
+  z-index: 700; }
+
+.z-index-header {
+  z-index: 600; }
+
+.z-index-footer {
+  z-index: 500; }
+
 .z-index-1 {
   z-index: 1; }
 
@@ -8420,291 +8441,6 @@ a.text-green-velvet:hover, a.text-green-velvet:focus {
 
 .z-index-5 {
   z-index: 5; }
-
-.z-index-6 {
-  z-index: 6; }
-
-.z-index-7 {
-  z-index: 7; }
-
-.z-index-8 {
-  z-index: 8; }
-
-.z-index-9 {
-  z-index: 9; }
-
-.z-index-10 {
-  z-index: 10; }
-
-.z-index-11 {
-  z-index: 11; }
-
-.z-index-12 {
-  z-index: 12; }
-
-.z-index-13 {
-  z-index: 13; }
-
-.z-index-14 {
-  z-index: 14; }
-
-.z-index-15 {
-  z-index: 15; }
-
-.z-index-16 {
-  z-index: 16; }
-
-.z-index-17 {
-  z-index: 17; }
-
-.z-index-18 {
-  z-index: 18; }
-
-.z-index-19 {
-  z-index: 19; }
-
-.z-index-20 {
-  z-index: 20; }
-
-.z-index-21 {
-  z-index: 21; }
-
-.z-index-22 {
-  z-index: 22; }
-
-.z-index-23 {
-  z-index: 23; }
-
-.z-index-24 {
-  z-index: 24; }
-
-.z-index-25 {
-  z-index: 25; }
-
-.z-index-26 {
-  z-index: 26; }
-
-.z-index-27 {
-  z-index: 27; }
-
-.z-index-28 {
-  z-index: 28; }
-
-.z-index-29 {
-  z-index: 29; }
-
-.z-index-30 {
-  z-index: 30; }
-
-.z-index-31 {
-  z-index: 31; }
-
-.z-index-32 {
-  z-index: 32; }
-
-.z-index-33 {
-  z-index: 33; }
-
-.z-index-34 {
-  z-index: 34; }
-
-.z-index-35 {
-  z-index: 35; }
-
-.z-index-36 {
-  z-index: 36; }
-
-.z-index-37 {
-  z-index: 37; }
-
-.z-index-38 {
-  z-index: 38; }
-
-.z-index-39 {
-  z-index: 39; }
-
-.z-index-40 {
-  z-index: 40; }
-
-.z-index-41 {
-  z-index: 41; }
-
-.z-index-42 {
-  z-index: 42; }
-
-.z-index-43 {
-  z-index: 43; }
-
-.z-index-44 {
-  z-index: 44; }
-
-.z-index-45 {
-  z-index: 45; }
-
-.z-index-46 {
-  z-index: 46; }
-
-.z-index-47 {
-  z-index: 47; }
-
-.z-index-48 {
-  z-index: 48; }
-
-.z-index-49 {
-  z-index: 49; }
-
-.z-index-50 {
-  z-index: 50; }
-
-.z-index-51 {
-  z-index: 51; }
-
-.z-index-52 {
-  z-index: 52; }
-
-.z-index-53 {
-  z-index: 53; }
-
-.z-index-54 {
-  z-index: 54; }
-
-.z-index-55 {
-  z-index: 55; }
-
-.z-index-56 {
-  z-index: 56; }
-
-.z-index-57 {
-  z-index: 57; }
-
-.z-index-58 {
-  z-index: 58; }
-
-.z-index-59 {
-  z-index: 59; }
-
-.z-index-60 {
-  z-index: 60; }
-
-.z-index-61 {
-  z-index: 61; }
-
-.z-index-62 {
-  z-index: 62; }
-
-.z-index-63 {
-  z-index: 63; }
-
-.z-index-64 {
-  z-index: 64; }
-
-.z-index-65 {
-  z-index: 65; }
-
-.z-index-66 {
-  z-index: 66; }
-
-.z-index-67 {
-  z-index: 67; }
-
-.z-index-68 {
-  z-index: 68; }
-
-.z-index-69 {
-  z-index: 69; }
-
-.z-index-70 {
-  z-index: 70; }
-
-.z-index-71 {
-  z-index: 71; }
-
-.z-index-72 {
-  z-index: 72; }
-
-.z-index-73 {
-  z-index: 73; }
-
-.z-index-74 {
-  z-index: 74; }
-
-.z-index-75 {
-  z-index: 75; }
-
-.z-index-76 {
-  z-index: 76; }
-
-.z-index-77 {
-  z-index: 77; }
-
-.z-index-78 {
-  z-index: 78; }
-
-.z-index-79 {
-  z-index: 79; }
-
-.z-index-80 {
-  z-index: 80; }
-
-.z-index-81 {
-  z-index: 81; }
-
-.z-index-82 {
-  z-index: 82; }
-
-.z-index-83 {
-  z-index: 83; }
-
-.z-index-84 {
-  z-index: 84; }
-
-.z-index-85 {
-  z-index: 85; }
-
-.z-index-86 {
-  z-index: 86; }
-
-.z-index-87 {
-  z-index: 87; }
-
-.z-index-88 {
-  z-index: 88; }
-
-.z-index-89 {
-  z-index: 89; }
-
-.z-index-90 {
-  z-index: 90; }
-
-.z-index-91 {
-  z-index: 91; }
-
-.z-index-92 {
-  z-index: 92; }
-
-.z-index-93 {
-  z-index: 93; }
-
-.z-index-94 {
-  z-index: 94; }
-
-.z-index-95 {
-  z-index: 95; }
-
-.z-index-96 {
-  z-index: 96; }
-
-.z-index-97 {
-  z-index: 97; }
-
-.z-index-98 {
-  z-index: 98; }
-
-.z-index-99 {
-  z-index: 99; }
-
-.z-index-100 {
-  z-index: 100; }
 
 footer a {
   color: #000; }
@@ -8795,12 +8531,12 @@ header a {
 .overlay {
   visibility: hidden;
   position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   transition: opacity 0.5s;
-  opacity: 0;
-  overflow: scroll; }
+  opacity: 0; }
   .overlay.active {
     visibility: visible;
     opacity: 0.3; }
@@ -8812,44 +8548,44 @@ body {
 
 body.moveRight {
   left: 88vw;
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
-#sideMenu {
+.mobile-side-menu {
   visibility: hidden;
   width: 88vw;
-  height: 100vh;
   position: fixed;
   top: 0;
+  bottom: 0;
   left: -88vw;
-  z-index: 9998;
+  overflow: scroll;
   transition: 0.5s;
   touch-action: manipulation; }
-  #sideMenu.active {
+  .mobile-side-menu.active {
     visibility: visible;
     left: 0; }
-  #sideMenu .sideMenuSlot {
+  .mobile-side-menu .sideMenuSlot {
     min-height: 0; }
-  #sideMenu .sideMenuCloser {
+  .mobile-side-menu .sideMenuCloser {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
     z-index: 11; }
-  #sideMenu .sideMenuOverlay {
+  .mobile-side-menu .sideMenuOverlay {
     visibility: hidden;
     width: calc(88vw - 0.25rem);
     height: 100vh;
     position: fixed;
     top: 0;
     left: -88vw;
-    z-index: 9999;
     background-color: #FFF;
     transition: 0.5s; }
-    #sideMenu .sideMenuOverlay.active {
+    .mobile-side-menu .sideMenuOverlay.active {
       visibility: visible;
       left: 0; }
-    #sideMenu .sideMenuOverlay .scrollable {
+    .mobile-side-menu .sideMenuOverlay .scrollable {
       overflow-y: auto; }
-    #sideMenu .sideMenuOverlay .sideMenuOverlayHeadline {
+    .mobile-side-menu .sideMenuOverlay .sideMenuOverlayHeadline {
       bottom: -1px; }
 
 header nav .nav-elem {
