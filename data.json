@@ -116,8 +116,18 @@
             "components": [
                 {
                     "group": "buttons",
+                    "name": "ButtonIcons",
+                    "title": "Button Icons"
+                },
+                {
+                    "group": "buttons",
                     "name": "buttons",
                     "title": "Buttons"
+                },
+                {
+                    "group": "buttons",
+                    "name": "dark",
+                    "title": "btn-dark"
                 }
             ]
         },
