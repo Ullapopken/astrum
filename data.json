@@ -116,7 +116,7 @@
             "components": [
                 {
                     "group": "buttons",
-                    "name": "ButtonIcons",
+                    "name": "button-icons",
                     "title": "Button Icons"
                 },
                 {
