@@ -5171,7 +5171,7 @@ button.bg-green-velvet:focus {
 .border-right {
   border-right: 1px solid #dee2e6 !important; }
 
-.border-bottom, header nav .nav-elem:hover {
+.border-bottom {
   border-bottom: 1px solid #dee2e6 !important; }
 
 .border-left {
@@ -5192,7 +5192,7 @@ button.bg-green-velvet:focus {
 .border-left-0, .btn-nav-primary-mobile a, .btn-nav-secondary-mobile a {
   border-left: 0 !important; }
 
-.border-primary {
+.border-primary, .second-level-nav .nav-elem.active, .second-level-nav .nav-elem:hover {
   border-color: #FE8273 !important; }
 
 .border-secondary {
@@ -5213,7 +5213,7 @@ button.bg-green-velvet:focus {
 .border-light, .btn-nav-primary-mobile a, .btn-nav-secondary-mobile a {
   border-color: #F2F2F2 !important; }
 
-.border-dark, header nav .nav-elem:hover, .first-level-nav .nav-elem.active {
+.border-dark, .first-level-nav .nav-elem:hover {
   border-color: #191919 !important; }
 
 .border-gray {
@@ -8089,7 +8089,7 @@ button.bg-green-velvet:focus {
 .font-weight-normal {
   font-weight: 400 !important; }
 
-.font-weight-bold, .btn-nav-primary-mobile a, .first-level-nav .nav-elem.active {
+.font-weight-bold, .btn-nav-primary-mobile a {
   font-weight: 600 !important; }
 
 .font-weight-bolder {
@@ -8560,10 +8560,7 @@ body.moveRight {
     .mobile-side-menu .sideMenuOverlay .sideMenuOverlayHeadline {
       bottom: -1px; }
 
-header nav .nav-elem {
-  z-index: 99; }
-
-header nav a:hover {
+.first-level-nav a:hover, .second-level-nav a:hover {
   text-decoration: none; }
 
 .second-level-nav nav {
@@ -8578,22 +8575,16 @@ header nav a:hover {
   overflow-y: auto; }
 
 .navigation-flyout {
-  display: none;
   position: absolute;
-  top: 3.3rem;
-  left: 50%;
-  width: 100vw;
-  height: 540px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: 98;
+  width: 100%;
+  height: 34.25rem;
   border-top: 1px solid #E7E7E7;
   border-bottom-color: #FE8273; }
   .navigation-flyout .navigation-flyout-closer {
     cursor: pointer;
     position: absolute;
-    top: 0.5rem;
-    right: -1rem; }
+    top: 0;
+    right: 0; }
   .navigation-flyout .navigation-list {
     margin-right: -0.75rem;
     margin-left: -0.75rem;
