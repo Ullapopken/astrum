@@ -8912,8 +8912,11 @@ body.moveRight {
   font-family: inherit;
   font-size: inherit; }
 
-.language-selector .language.selected {
-  cursor: text; }
+.language-selector .language.selected:hover {
+  text-decoration: underline; }
+
+.language-selector button:hover {
+  text-decoration: underline; }
 
 footer .language-selector {
   color: #FFF; }
