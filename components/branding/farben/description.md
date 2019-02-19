@@ -1,13 +1,13 @@
 <h3>$theme-colors</h3>
 <p>
-Theme colors Map is used by to generate a couple of color-classes.
+Theme colors Map generates a couple of color-classes.
 </p>
-eg: 
-<div>bg-white for "background-color: $white;"</div>
-<div>text-dark for "color: $dark;"</div>
+eg: <br>
+<span class="bg-info text-white">bg-info for "background-color: $info;"</span>
+<div class="text-danger">text-danger for "color: $danger;"</div>
 <br>
 <br>
-<p>Is also be used by Bootstrap to generate Classe for Buttons.</p>
+<p>The Map is also used by Bootstrap to generate classnames for Buttons.</p>
 eg: 
 <div class="btn btn-success">btn-success</div>
 <hr class="mb-6" />

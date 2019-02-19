@@ -60,14 +60,6 @@
             "components": [
                 {
                     "group": "branding",
-                    "name": "logo",
-                    "title": "Logo",
-                    "options": {
-                        "disable_code_sample": true
-                    }
-                },
-                {
-                    "group": "branding",
                     "name": "farben",
                     "title": "Farben",
                     "options": {
@@ -98,12 +90,6 @@
             "components": [
                 {
                     "group": "borders",
-                    "name": "borders",
-                    "title": "Borders",
-                    "width": "half"
-                },
-                {
-                    "group": "borders",
                     "name": "schatten",
                     "title": "Schatten",
                     "width": "half"
@@ -116,6 +102,21 @@
             "components": [
                 {
                     "group": "buttons",
+                    "name": "primary",
+                    "title": "btn-primary"
+                },
+                {
+                    "group": "buttons",
+                    "name": "dark",
+                    "title": "btn-dark"
+                },
+                {
+                    "group": "buttons",
+                    "name": "light",
+                    "title": "btn-light"
+                },
+                {
+                    "group": "buttons",
                     "name": "button-icons",
                     "title": "Button Icons"
                 },
@@ -123,11 +124,6 @@
                     "group": "buttons",
                     "name": "buttons",
                     "title": "Buttons"
-                },
-                {
-                    "group": "buttons",
-                    "name": "dark",
-                    "title": "btn-dark"
                 }
             ]
         },
