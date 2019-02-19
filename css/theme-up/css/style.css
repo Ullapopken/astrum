@@ -8658,9 +8658,9 @@ body.moveRight {
   .mobile-side-menu .sideMenuOverlay {
     visibility: hidden;
     width: calc(88vw - 0.25rem);
-    height: 100vh;
     position: fixed;
     top: 0;
+    bottom: 0;
     left: -88vw;
     background-color: #FFF;
     transition: 0.5s; }
