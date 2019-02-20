@@ -117,6 +117,11 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "yellow-sunshine",
+                    "title": "btn-yellow-sunshine"
+                },
+                {
+                    "group": "buttons",
                     "name": "button-icons",
                     "title": "Button Icons"
                 },
