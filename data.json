@@ -122,6 +122,11 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "link",
+                    "title": "btn-link"
+                },
+                {
+                    "group": "buttons",
                     "name": "button-icons",
                     "title": "Button Icons"
                 },
