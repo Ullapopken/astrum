@@ -6419,7 +6419,7 @@ button.bg-yellow-sunshine:focus {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-lg {
-  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1) !important; }
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-none {
   box-shadow: none !important; }
@@ -8974,6 +8974,10 @@ a.text-yellow-sunshine:hover, a.text-yellow-sunshine:focus {
 .z-index-5 {
   z-index: 5; }
 
+@media (min-width: 992px) {
+  .overflow-lg-visible {
+    overflow: visible !important; } }
+
 footer a {
   color: #000; }
   footer a:hover {
@@ -9207,7 +9211,9 @@ body.moveRight {
         background-color: #FE8273; } }
   @media (min-width: 768px) {
     .bannerComponent .headlineWrapper {
-      text-indent: -2.5rem; } }
+      text-indent: -2.5rem;
+      padding-left: 2.5rem;
+      margin-left: -2.5rem; } }
   .bannerComponent img {
     height: auto;
     width: 100%; }
@@ -9215,6 +9221,9 @@ body.moveRight {
 @media (min-width: 992px) {
   .herobanner .textWrapper-inner {
     max-width: 35.4375rem; } }
+
+.herobanner .textWrapper-inner .btn, .herobanner .textWrapper-inner .btn-nav-primary-mobile a, .btn-nav-primary-mobile .herobanner .textWrapper-inner a, .herobanner .textWrapper-inner .btn-nav-secondary-mobile a, .btn-nav-secondary-mobile .herobanner .textWrapper-inner a, .herobanner .textWrapper-inner .btn-nav-thirdly-mobile a, .btn-nav-thirdly-mobile .herobanner .textWrapper-inner a {
+  display: block; }
 
 @media (min-width: 992px) {
   .herobanner picture {
@@ -9404,10 +9413,10 @@ header .language-selector .language {
   .cart-items .next-to-cart-image {
     width: calc(100% - 128px - 1rem); } }
 
-.display-1, .display-2, .display-3, .display-4, .display-5 {
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif; }
 
 /* GT Super Display Bold, 32/40px */
@@ -9435,7 +9444,7 @@ h1, h2, h3, h4, h5 {
     line-height: 3rem; } }
 
 /* GT Super Display Bold, 24/32px */
-.display-5 {
+.display-5, .display-8 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 400; }
@@ -9451,6 +9460,16 @@ h1, h2, h3, h4, h5 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600; }
+
+/*
+GT Super Display Bold, 24/32px
+GT Super Display Bold, 32/40px
+display-8 = sm-display-5 --> md-display-4
+*/
+@media (min-width: 768px) {
+  .display-8 {
+    font-size: 2rem;
+    line-height: 2.5rem; } }
 
 /* Open Sans Regular, 16/26px */
 .display-21 {
@@ -9527,403 +9546,601 @@ h1, h2, h3, h4, h5 {
 
 .display-1.max-lines-1 {
   overflow: hidden;
+  color: 40;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-1.max-lines-2 {
   overflow: hidden;
+  color: 40;
+  border: 80;
   max-height: 5rem; }
 
 .display-1.max-lines-3 {
   overflow: hidden;
+  color: 40;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-1.max-lines-4 {
   overflow: hidden;
+  color: 40;
+  border: 160;
   max-height: 10rem; }
 
 .display-1.max-lines-5 {
   overflow: hidden;
+  color: 40;
+  border: 200;
   max-height: 12.5rem; }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-1 {
     overflow: hidden;
+    color: 64;
+    border: 64;
     max-height: 4rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-2 {
     overflow: hidden;
+    color: 64;
+    border: 128;
     max-height: 8rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-3 {
     overflow: hidden;
+    color: 64;
+    border: 192;
     max-height: 12rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-4 {
     overflow: hidden;
+    color: 64;
+    border: 256;
     max-height: 16rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-5 {
     overflow: hidden;
+    color: 64;
+    border: 320;
     max-height: 20rem; } }
 
 .display-2.max-lines-1 {
   overflow: hidden;
+  color: 40;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-2.max-lines-2 {
   overflow: hidden;
+  color: 40;
+  border: 80;
   max-height: 5rem; }
 
 .display-2.max-lines-3 {
   overflow: hidden;
+  color: 40;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-2.max-lines-4 {
   overflow: hidden;
+  color: 40;
+  border: 160;
   max-height: 10rem; }
 
 .display-2.max-lines-5 {
   overflow: hidden;
+  color: 40;
+  border: 200;
   max-height: 12.5rem; }
 
 @media (min-width: 768px) {
   .display-2.max-lines-md-1 {
     overflow: hidden;
+    color: 58;
+    border: 58;
     max-height: 3.625rem; } }
 
 @media (min-width: 768px) {
   .display-2.max-lines-md-2 {
     overflow: hidden;
+    color: 58;
+    border: 116;
     max-height: 7.25rem; } }
 
 @media (min-width: 768px) {
   .display-2.max-lines-md-3 {
     overflow: hidden;
+    color: 58;
+    border: 174;
     max-height: 10.875rem; } }
 
 @media (min-width: 768px) {
   .display-2.max-lines-md-4 {
     overflow: hidden;
+    color: 58;
+    border: 232;
     max-height: 14.5rem; } }
 
 @media (min-width: 768px) {
   .display-2.max-lines-md-5 {
     overflow: hidden;
+    color: 58;
+    border: 290;
     max-height: 18.125rem; } }
 
 .display-3.max-lines-1 {
   overflow: hidden;
+  color: 40;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-3.max-lines-2 {
   overflow: hidden;
+  color: 40;
+  border: 80;
   max-height: 5rem; }
 
 .display-3.max-lines-3 {
   overflow: hidden;
+  color: 40;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-3.max-lines-4 {
   overflow: hidden;
+  color: 40;
+  border: 160;
   max-height: 10rem; }
 
 .display-3.max-lines-5 {
   overflow: hidden;
+  color: 40;
+  border: 200;
   max-height: 12.5rem; }
 
 @media (min-width: 768px) {
   .display-3.max-lines-md-1 {
     overflow: hidden;
+    color: 48;
+    border: 48;
     max-height: 3rem; } }
 
 @media (min-width: 768px) {
   .display-3.max-lines-md-2 {
     overflow: hidden;
+    color: 48;
+    border: 96;
     max-height: 6rem; } }
 
 @media (min-width: 768px) {
   .display-3.max-lines-md-3 {
     overflow: hidden;
+    color: 48;
+    border: 144;
     max-height: 9rem; } }
 
 @media (min-width: 768px) {
   .display-3.max-lines-md-4 {
     overflow: hidden;
+    color: 48;
+    border: 192;
     max-height: 12rem; } }
 
 @media (min-width: 768px) {
   .display-3.max-lines-md-5 {
     overflow: hidden;
+    color: 48;
+    border: 240;
     max-height: 15rem; } }
 
 .display-4.max-lines-1 {
   overflow: hidden;
+  color: 32;
+  border: 32;
   max-height: 2rem; }
 
 .display-4.max-lines-2 {
   overflow: hidden;
+  color: 32;
+  border: 64;
   max-height: 4rem; }
 
 .display-4.max-lines-3 {
   overflow: hidden;
+  color: 32;
+  border: 96;
   max-height: 6rem; }
 
 .display-4.max-lines-4 {
   overflow: hidden;
+  color: 32;
+  border: 128;
   max-height: 8rem; }
 
 .display-4.max-lines-5 {
   overflow: hidden;
+  color: 32;
+  border: 160;
   max-height: 10rem; }
 
 .display-5.max-lines-1 {
   overflow: hidden;
+  color: 32;
+  border: 32;
   max-height: 2rem; }
 
 .display-5.max-lines-2 {
   overflow: hidden;
+  color: 32;
+  border: 64;
   max-height: 4rem; }
 
 .display-5.max-lines-3 {
   overflow: hidden;
+  color: 32;
+  border: 96;
   max-height: 6rem; }
 
 .display-5.max-lines-4 {
   overflow: hidden;
+  color: 32;
+  border: 128;
   max-height: 8rem; }
 
 .display-5.max-lines-5 {
   overflow: hidden;
+  color: 32;
+  border: 160;
   max-height: 10rem; }
 
 .display-6.max-lines-1 {
   overflow: hidden;
+  color: 28;
+  border: 28;
   max-height: 1.75rem; }
 
 .display-6.max-lines-2 {
   overflow: hidden;
+  color: 28;
+  border: 56;
   max-height: 3.5rem; }
 
 .display-6.max-lines-3 {
   overflow: hidden;
+  color: 28;
+  border: 84;
   max-height: 5.25rem; }
 
 .display-6.max-lines-4 {
   overflow: hidden;
+  color: 28;
+  border: 112;
   max-height: 7rem; }
 
 .display-6.max-lines-5 {
   overflow: hidden;
+  color: 28;
+  border: 140;
   max-height: 8.75rem; }
 
 .display-7.max-lines-1 {
   overflow: hidden;
+  color: 24;
+  border: 24;
   max-height: 1.5rem; }
 
 .display-7.max-lines-2 {
   overflow: hidden;
+  color: 24;
+  border: 48;
   max-height: 3rem; }
 
 .display-7.max-lines-3 {
   overflow: hidden;
+  color: 24;
+  border: 72;
   max-height: 4.5rem; }
 
 .display-7.max-lines-4 {
   overflow: hidden;
+  color: 24;
+  border: 96;
   max-height: 6rem; }
 
 .display-7.max-lines-5 {
   overflow: hidden;
+  color: 24;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-21.max-lines-1 {
   overflow: hidden;
+  color: 26;
+  border: 26;
   max-height: 1.625rem; }
 
 .display-21.max-lines-2 {
   overflow: hidden;
+  color: 26;
+  border: 52;
   max-height: 3.25rem; }
 
 .display-21.max-lines-3 {
   overflow: hidden;
+  color: 26;
+  border: 78;
   max-height: 4.875rem; }
 
 .display-21.max-lines-4 {
   overflow: hidden;
+  color: 26;
+  border: 104;
   max-height: 6.5rem; }
 
 .display-21.max-lines-5 {
   overflow: hidden;
+  color: 26;
+  border: 130;
   max-height: 8.125rem; }
 
 .display-22.max-lines-1 {
   overflow: hidden;
+  color: 24;
+  border: 24;
   max-height: 1.5rem; }
 
 .display-22.max-lines-2 {
   overflow: hidden;
+  color: 24;
+  border: 48;
   max-height: 3rem; }
 
 .display-22.max-lines-3 {
   overflow: hidden;
+  color: 24;
+  border: 72;
   max-height: 4.5rem; }
 
 .display-22.max-lines-4 {
   overflow: hidden;
+  color: 24;
+  border: 96;
   max-height: 6rem; }
 
 .display-22.max-lines-5 {
   overflow: hidden;
+  color: 24;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-23.max-lines-1 {
   overflow: hidden;
+  color: 24;
+  border: 24;
   max-height: 1.5rem; }
 
 .display-23.max-lines-2 {
   overflow: hidden;
+  color: 24;
+  border: 48;
   max-height: 3rem; }
 
 .display-23.max-lines-3 {
   overflow: hidden;
+  color: 24;
+  border: 72;
   max-height: 4.5rem; }
 
 .display-23.max-lines-4 {
   overflow: hidden;
+  color: 24;
+  border: 96;
   max-height: 6rem; }
 
 .display-23.max-lines-5 {
   overflow: hidden;
+  color: 24;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-24.max-lines-1 {
   overflow: hidden;
+  color: 20;
+  border: 20;
   max-height: 1.25rem; }
 
 .display-24.max-lines-2 {
   overflow: hidden;
+  color: 20;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-24.max-lines-3 {
   overflow: hidden;
+  color: 20;
+  border: 60;
   max-height: 3.75rem; }
 
 .display-24.max-lines-4 {
   overflow: hidden;
+  color: 20;
+  border: 80;
   max-height: 5rem; }
 
 .display-24.max-lines-5 {
   overflow: hidden;
+  color: 20;
+  border: 100;
   max-height: 6.25rem; }
 
 .display-25.max-lines-1 {
   overflow: hidden;
+  color: 20;
+  border: 20;
   max-height: 1.25rem; }
 
 .display-25.max-lines-2 {
   overflow: hidden;
+  color: 20;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-25.max-lines-3 {
   overflow: hidden;
+  color: 20;
+  border: 60;
   max-height: 3.75rem; }
 
 .display-25.max-lines-4 {
   overflow: hidden;
+  color: 20;
+  border: 80;
   max-height: 5rem; }
 
 .display-25.max-lines-5 {
   overflow: hidden;
+  color: 20;
+  border: 100;
   max-height: 6.25rem; }
 
 .display-26.max-lines-1 {
   overflow: hidden;
+  color: 14;
+  border: 14;
   max-height: 0.875rem; }
 
 .display-26.max-lines-2 {
   overflow: hidden;
+  color: 14;
+  border: 28;
   max-height: 1.75rem; }
 
 .display-26.max-lines-3 {
   overflow: hidden;
+  color: 14;
+  border: 42;
   max-height: 2.625rem; }
 
 .display-26.max-lines-4 {
   overflow: hidden;
+  color: 14;
+  border: 56;
   max-height: 3.5rem; }
 
 .display-26.max-lines-5 {
   overflow: hidden;
+  color: 14;
+  border: 70;
   max-height: 4.375rem; }
 
 .display-27.max-lines-1 {
   overflow: hidden;
+  color: 16;
+  border: 16;
   max-height: 1rem; }
 
 .display-27.max-lines-2 {
   overflow: hidden;
+  color: 16;
+  border: 32;
   max-height: 2rem; }
 
 .display-27.max-lines-3 {
   overflow: hidden;
+  color: 16;
+  border: 48;
   max-height: 3rem; }
 
 .display-27.max-lines-4 {
   overflow: hidden;
+  color: 16;
+  border: 64;
   max-height: 4rem; }
 
 .display-27.max-lines-5 {
   overflow: hidden;
+  color: 16;
+  border: 80;
   max-height: 5rem; }
 
 .display-28.max-lines-1 {
   overflow: hidden;
+  color: 40;
+  border: 40;
   max-height: 2.5rem; }
 
 .display-28.max-lines-2 {
   overflow: hidden;
+  color: 40;
+  border: 80;
   max-height: 5rem; }
 
 .display-28.max-lines-3 {
   overflow: hidden;
+  color: 40;
+  border: 120;
   max-height: 7.5rem; }
 
 .display-28.max-lines-4 {
   overflow: hidden;
+  color: 40;
+  border: 160;
   max-height: 10rem; }
 
 .display-28.max-lines-5 {
   overflow: hidden;
+  color: 40;
+  border: 200;
   max-height: 12.5rem; }
 
 @media (min-width: 992px) {
   .display-28.max-lines-lg-1 {
     overflow: hidden;
+    color: 32;
+    border: 32;
     max-height: 2rem; } }
 
 @media (min-width: 992px) {
   .display-28.max-lines-lg-2 {
     overflow: hidden;
+    color: 32;
+    border: 64;
     max-height: 4rem; } }
 
 @media (min-width: 992px) {
   .display-28.max-lines-lg-3 {
     overflow: hidden;
+    color: 32;
+    border: 96;
     max-height: 6rem; } }
 
 @media (min-width: 992px) {
   .display-28.max-lines-lg-4 {
     overflow: hidden;
+    color: 32;
+    border: 128;
     max-height: 8rem; } }
 
 @media (min-width: 992px) {
   .display-28.max-lines-lg-5 {
     overflow: hidden;
+    color: 32;
+    border: 160;
     max-height: 10rem; } }
+
+.btn, .btn-nav-primary-mobile a, .btn-nav-secondary-mobile a, .btn-nav-thirdly-mobile a {
+  min-width: 10rem;
+  max-width: 100%;
+  display: block; }
+  @media (min-width: 768px) {
+    .btn, .btn-nav-primary-mobile a, .btn-nav-secondary-mobile a, .btn-nav-thirdly-mobile a {
+      display: inline-block; } }
 
 .btn-xl {
   padding: 0.4375rem 0.9375rem;
