@@ -9413,6 +9413,20 @@ header .language-selector .language {
   .cart-items .next-to-cart-image {
     width: calc(100% - 128px - 1rem); } }
 
+.scrollable-cart-button {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden; }
+  .scrollable-cart-button.scrolling {
+    visibility: visible; }
+
+.scrollable-cart-content-wrapper .scrollable-cart-content.scrolling {
+  position: fixed; }
+
+.scrollable-cart-content-wrapper .scrollable-cart-content.stop {
+  position: absolute; }
+
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
 
