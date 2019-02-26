@@ -9421,6 +9421,14 @@ header .language-selector .language {
   .scrollable-cart-button.scrolling {
     visibility: visible; }
 
+.scrollable-total {
+  bottom: 4.5rem;
+  left: 0;
+  right: 0;
+  visibility: hidden; }
+  .scrollable-total.scrolling {
+    visibility: visible; }
+
 .scrollable-cart-content-wrapper .scrollable-cart-content.scrolling {
   position: fixed; }
 
