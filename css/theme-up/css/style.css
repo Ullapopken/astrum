@@ -9227,6 +9227,7 @@ body.moveRight {
 
 @media (min-width: 992px) {
   .herobanner picture {
+    text-align: right;
     height: 23.9375rem;
     width: 37.5rem; } }
 
