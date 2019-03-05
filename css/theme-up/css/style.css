@@ -10372,6 +10372,13 @@ display-8 = sm-display-5 --> md-display-4
     float: none;
     margin-right: 0.5rem; }
 
+.text-link {
+  color: #191919;
+  text-decoration: underline; }
+  .text-link:hover, .text-link.disabled, .text-link:disabled, .text-link:not(:disabled):not(.disabled):active, .text-link:not(:disabled):not(.disabled).active {
+    text-decoration: none;
+    color: #191919; }
+
 .btn:not(.btn-block), .btn-nav-primary-mobile a:not(.btn-block), .btn-nav-secondary-mobile a:not(.btn-block), .btn-nav-thirdly-mobile a:not(.btn-block) {
   min-width: 10rem;
   max-width: 100%; }
