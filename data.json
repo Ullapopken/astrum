@@ -117,6 +117,11 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "gray-surface",
+                    "title": "btn-gray-surface"
+                },
+                {
+                    "group": "buttons",
                     "name": "yellow-sunshine",
                     "title": "btn-yellow-sunshine"
                 },
