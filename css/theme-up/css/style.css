@@ -9507,16 +9507,8 @@ body.moveRight {
   overflow-x: auto;
   overflow-y: hidden; }
   .category-bar-component .link-wrapper .category-btn {
-    height: 72px;
-    line-height: 31px;
+    max-height: 4.5rem;
     white-space: pre-wrap; }
-    @media (max-width: 991.98px) {
-      .category-bar-component .link-wrapper .category-btn {
-        min-width: 173px; } }
-    .category-bar-component .link-wrapper .category-btn:hover, .category-bar-component .link-wrapper .category-btn:active {
-      background-color: #000;
-      border-color: #FFF;
-      color: #FFF; }
 
 .bannerComponent {
   background-color: #FE8273; }
