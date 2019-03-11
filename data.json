@@ -102,6 +102,11 @@
             "components": [
                 {
                     "group": "buttons",
+                    "name": "buttons-overview",
+                    "title": "Theme Übersicht"
+                },
+                {
+                    "group": "buttons",
                     "name": "primary",
                     "title": "btn-primary"
                 },
@@ -132,13 +137,23 @@
                 },
                 {
                     "group": "buttons",
-                    "name": "button-icons",
-                    "title": "Button Icons"
+                    "name": "button-svg",
+                    "title": "Button SVG Icons"
                 },
                 {
                     "group": "buttons",
-                    "name": "buttons",
-                    "title": "Buttons"
+                    "name": "buttons-icons-no",
+                    "title": "Buttons - No Icons"
+                },
+                {
+                    "group": "buttons",
+                    "name": "buttons-icons-block",
+                    "title": "Buttons - Icons fix"
+                },
+                {
+                    "group": "buttons",
+                    "name": "buttons-icons-inline",
+                    "title": "Buttons - Icons inline"
                 }
             ]
         },

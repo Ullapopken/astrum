@@ -10825,18 +10825,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn, .btn-nav-primary-mobile a, .btn-nav-secondary-mobile a, .btn-nav-thirdly-mobile a {
       display: inline-block; } }
 
-.btn-xl {
-  padding: 0.4375rem 0.9375rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.3rem; }
-  @media (min-width: 992px) {
-    .btn-xl {
-      padding: 1.9375rem 0.9375rem;
-      font-size: 1rem;
-      line-height: 1.5;
-      border-radius: 0.3rem; } }
-
 .btn.icon-svg::before, .btn-nav-primary-mobile a.icon-svg::before, .btn-nav-secondary-mobile a.icon-svg::before, .btn-nav-thirdly-mobile a.icon-svg::before {
   content: '';
   position: relative;
