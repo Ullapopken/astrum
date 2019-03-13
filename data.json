@@ -97,6 +97,17 @@
             ]
         },
         {
+            "name": "icons",
+            "title": "Icons",
+            "components": [
+                {
+                    "group": "icons",
+                    "name": "icon-overview",
+                    "title": "Übersicht"
+                }
+            ]
+        },
+        {
             "name": "buttons",
             "title": "Buttons",
             "components": [
