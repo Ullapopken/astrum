@@ -9572,6 +9572,14 @@ a.text-white:hover, a.text-white:focus {
   .overflow-lg-visible {
     overflow: visible !important; } }
 
+.mobile-full-width {
+  margin-right: -15px;
+  margin-left: -15px; }
+  @media (min-width: 768px) {
+    .mobile-full-width {
+      margin-right: 0;
+      margin-left: 0; } }
+
 footer a {
   color: #000; }
   footer a:hover {
