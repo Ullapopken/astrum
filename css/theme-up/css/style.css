@@ -11036,12 +11036,11 @@ display-8 = sm-display-5 --> md-display-4
   border: 160;
   max-height: 10rem; }
 
-.btn {
+.btn:not(.btn-block) {
   min-width: 10rem;
-  max-width: 100%;
-  display: block; }
+  max-width: 100%; }
   @media (min-width: 768px) {
-    .btn {
+    .btn:not(.btn-block) {
       display: inline-block; } }
 
 .btn.icon-svg::before {
@@ -11076,10 +11075,6 @@ display-8 = sm-display-5 --> md-display-4
   .text-link:hover, .text-link.disabled, .text-link:disabled, .text-link:not(:disabled):not(.disabled):active, .text-link:not(:disabled):not(.disabled).active {
     text-decoration: none;
     color: #191919; }
-
-.btn:not(.btn-block) {
-  min-width: 10rem;
-  max-width: 100%; }
 
 .btn-link.icon-svg {
   color: #191919;
