@@ -10171,6 +10171,12 @@ display-8 = sm-display-5 --> md-display-4
       font-size: 2rem;
       line-height: 2.5rem; } }
 
+/* Open Sans Regular, 16/24px */
+.display-9 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400; }
+
 /* Open Sans Regular, 16/26px */
 .display-21 {
   font-size: 1rem;
@@ -10629,6 +10635,36 @@ display-8 = sm-display-5 --> md-display-4
     color: 40;
     border: 200;
     max-height: 12.5rem; } }
+
+.display-9.max-lines-1 {
+  overflow: hidden;
+  color: 24;
+  border: 24;
+  max-height: 1.5rem; }
+
+.display-9.max-lines-2 {
+  overflow: hidden;
+  color: 24;
+  border: 48;
+  max-height: 3rem; }
+
+.display-9.max-lines-3 {
+  overflow: hidden;
+  color: 24;
+  border: 72;
+  max-height: 4.5rem; }
+
+.display-9.max-lines-4 {
+  overflow: hidden;
+  color: 24;
+  border: 96;
+  max-height: 6rem; }
+
+.display-9.max-lines-5 {
+  overflow: hidden;
+  color: 24;
+  border: 120;
+  max-height: 7.5rem; }
 
 .display-21.max-lines-1 {
   overflow: hidden;
