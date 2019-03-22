@@ -169,6 +169,62 @@
             ]
         },
         {
+            "name": "forms",
+            "title": "Formulare",
+            "components": [
+                {
+                    "group": "forms",
+                    "name": "input-type-text",
+                    "title": "Input Type Text"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-text-error",
+                    "title": "Input Type Text Error"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-text-disabled",
+                    "title": "Input Type Text Disabled"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-password",
+                    "title": "Input Type Password"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-password-readable",
+                    "title": "Input Type Password Readable"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-select",
+                    "title": "Input Type Select"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-checkbox",
+                    "title": "Input Type Checkbox"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-checkbox-disabled",
+                    "title": "Input Type Checkbox Disabled"
+                },
+                {
+                    "group": "forms",
+                    "name": "input-type-custom-checkbox",
+                    "title": "Input Type Custom Checkbox"
+                },
+                {
+                    "group": "forms",
+                    "name": "example-form",
+                    "title": "Example Form"
+                }
+            ]
+        },
+        {
             "name": "komponenten",
             "title": "Komponenten",
             "components": [
