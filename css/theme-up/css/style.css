@@ -9532,6 +9532,16 @@ a.text-white:hover, a.text-white:focus {
 .teaserCategoryLabel {
   letter-spacing: 2px; }
 
+.black-links a {
+  color: #000; }
+  .black-links a:hover {
+    color: #000; }
+
+.white-links a {
+  color: #FFF; }
+  .white-links a:hover {
+    color: #FFF; }
+
 .z-index-modal-1 {
   z-index: 900; }
 
@@ -9580,14 +9590,6 @@ a.text-white:hover, a.text-white:focus {
       margin-right: 0;
       margin-left: 0; } }
 
-footer a {
-  color: #000; }
-  footer a:hover {
-    color: #000; }
-
-footer .footer-endList-nodeLinks a {
-  color: #FFF; }
-
 .btn-collapsible.btn.icon-svg.icon-right {
   text-indent: 0; }
 
@@ -9599,11 +9601,6 @@ footer .footer-endList-nodeLinks a {
 
 .btn-collapsible.collapsed::before {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M19 12H12V5' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M5 12H12V19' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
-
-header a {
-  color: #000; }
-  header a:hover {
-    color: #000; }
 
 .header-icon .icon .icon-overlay {
   position: absolute;
