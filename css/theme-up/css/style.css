@@ -11587,9 +11587,12 @@ display-8 = sm-display-5 --> md-display-4
   height: auto; }
   .custom-select::-ms-expand {
     display: none; }
-  .custom-select.is-invalid {
-    background-position: calc(100% - 0.7rem) 50%;
-    background-size: 1.5625rem 1.5625rem; }
+
+.is-invalid .form-control {
+  border-color: #eb5050; }
+
+.is-invalid .invalid-feedback {
+  display: block; }
 
 .custom-checkbox .custom-control-input ~ .custom-control-label::before {
   top: 0.25rem; }
