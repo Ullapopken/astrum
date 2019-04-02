@@ -9532,15 +9532,15 @@ a.text-white:hover, a.text-white:focus {
 .teaserCategoryLabel {
   letter-spacing: 2px; }
 
-.black-links a {
-  color: #000; }
-  .black-links a:hover {
-    color: #000; }
-
 .white-links a {
   color: #FFF; }
   .white-links a:hover {
     color: #FFF; }
+
+.black-links a:not(.btn) {
+  color: #000; }
+  .black-links a:not(.btn):hover {
+    color: #000; }
 
 .z-index-modal-1 {
   z-index: 900; }
