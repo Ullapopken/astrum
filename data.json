@@ -219,8 +219,18 @@
                 },
                 {
                     "group": "forms",
+                    "name": "input-type-custom-radio",
+                    "title": "Input Type Custom Radio"
+                },
+                {
+                    "group": "forms",
                     "name": "example-form",
                     "title": "Example Form"
+                },
+                {
+                    "group": "forms",
+                    "name": "example-radio-form",
+                    "title": "Example Radio Form"
                 }
             ]
         },
