@@ -1923,7 +1923,7 @@ textarea.form-control {
   border: 1px solid transparent;
   padding: 0.4375rem 0.9375rem;
   font-size: 0.875rem;
-  line-height: 1.5rem;
+  line-height: 1.7;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -9850,6 +9850,7 @@ body.moveRight {
     background-color: #FFF;
     transition: 0.5s; }
     .mobile-side-menu .sideMenuOverlay.active {
+      z-index: 1;
       visibility: visible;
       left: 0; }
     .mobile-side-menu .sideMenuOverlay .scrollable {
