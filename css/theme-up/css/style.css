@@ -10039,10 +10039,6 @@ body.moveRight {
   top: 0.5rem;
   right: 0.75rem;
   line-height: 1.5rem; }
-  .icon-password-show .icon-show {
-    display: flex; }
-  .icon-password-show .icon-hide {
-    display: none; }
 
 .password-icon-eye {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M22 12C19.6 8.29787 16 6 12 6C8 6 4.4 8.29787 2 12C4.4 15.7021 8 18 12 18C16 18 19.6 15.7021 22 12Z' stroke='%23828282' stroke-miterlimit='10'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12ZM12 9.5C12 8.67157 11.3284 8 10.5 8C9.67157 8 9 8.67157 9 9.5C9 10.3284 9.67157 11 10.5 11C11.3284 11 12 10.3284 12 9.5Z' fill='%23828282'/%3E%3C/svg%3E");
