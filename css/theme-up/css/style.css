@@ -6598,7 +6598,7 @@ button.bg-white:focus {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
-.shadow-lg {
+.shadow-lg, .sticky-shadow.sticky-container-active {
   box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-none {
@@ -10637,8 +10637,8 @@ display-8 = sm-display-5 --> md-display-4
     display: block; }
 
 /*
-  Open Sans Regular, 14/40px
-  Open Sans Regular, 14/32px
+  Open Sans Regular, 14/40px red
+  Open Sans Regular, 14/32px red / lg
 */
 .display-28 {
   font-size: 0.875rem;
@@ -10659,6 +10659,12 @@ display-8 = sm-display-5 --> md-display-4
 .display-30 {
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 400; }
+
+/* Open Sans Regular, 14/40px */
+.display-31 {
+  font-size: 0.875rem;
+  line-height: 2.5rem;
   font-weight: 400; }
 
 .display-1.max-lines-1 {
@@ -11475,6 +11481,36 @@ display-8 = sm-display-5 --> md-display-4
   color: 32;
   border: 160;
   max-height: 10rem; }
+
+.display-31.max-lines-1 {
+  overflow: hidden;
+  color: 40;
+  border: 40;
+  max-height: 2.5rem; }
+
+.display-31.max-lines-2 {
+  overflow: hidden;
+  color: 40;
+  border: 80;
+  max-height: 5rem; }
+
+.display-31.max-lines-3 {
+  overflow: hidden;
+  color: 40;
+  border: 120;
+  max-height: 7.5rem; }
+
+.display-31.max-lines-4 {
+  overflow: hidden;
+  color: 40;
+  border: 160;
+  max-height: 10rem; }
+
+.display-31.max-lines-5 {
+  overflow: hidden;
+  color: 40;
+  border: 200;
+  max-height: 12.5rem; }
 
 .btn:not(.btn-block) {
   min-width: 10rem;
