@@ -9884,9 +9884,9 @@ a.text-white:hover, a.text-white:focus {
     color: #FFF; }
 
 .black-links a:not(.btn) {
-  color: #000; }
+  color: #191919; }
   .black-links a:not(.btn):hover {
-    color: #000; }
+    color: #191919; }
 
 .z-index-modal-1 {
   z-index: 900; }
