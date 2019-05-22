@@ -10481,9 +10481,6 @@ ff-record-list ff-record {
       top: -0.25rem;
       left: -0.25rem; }
 
-.stretch-fullheight {
-  height: 100vh; }
-
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
 
