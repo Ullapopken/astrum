@@ -148,6 +148,16 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "white",
+                    "title": "btn-white"
+                },
+                {
+                    "group": "buttons",
+                    "name": "white-alt",
+                    "title": "btn-white-alt"
+                },
+                {
+                    "group": "buttons",
                     "name": "button-svg",
                     "title": "Button SVG Icons"
                 },
