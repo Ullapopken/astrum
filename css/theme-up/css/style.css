@@ -10806,53 +10806,50 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile:first-chil
   .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot {
     min-height: 0; }
 
-ff-asn ff-asn-group .btn-collapsible, ff-asn ff-asn-group-slider .btn-collapsible {
-  margin-top: -1px; }
-  ff-asn ff-asn-group .btn-collapsible::before, ff-asn ff-asn-group-slider .btn-collapsible::before {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M19 12H12V5' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M5 12H12V19' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
-
-ff-asn ff-asn-group[opened] .btn-collapsible::before, ff-asn ff-asn-group-slider[opened] .btn-collapsible::before {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cline x1='5' y1='12' x2='19' y2='12' stroke='%23191919'/%3E%3C/svg%3E"); }
-
-ff-asn ff-asn-group .filtervalue, ff-asn ff-asn-group-slider .filtervalue {
-  cursor: pointer; }
-
-ff-asn ff-asn-group .filtercolortilewrapper, ff-asn ff-asn-group-slider .filtercolortilewrapper {
-  height: 3rem;
-  width: 3rem; }
-  ff-asn ff-asn-group .filtercolortilewrapper:before, ff-asn ff-asn-group-slider .filtercolortilewrapper:before {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20.68 7L10.14 17.53C10.096 17.5694 10.039 17.5911 9.98 17.5911C9.92097 17.5911 9.864 17.5694 9.82 17.53L4 11.67' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/svg%3E");
-    width: 2rem;
-    height: 2rem;
-    content: '';
-    float: left;
-    position: relative;
-    top: 0.5rem;
-    left: 0.4375rem;
-    z-index: 1; }
-  ff-asn ff-asn-group .filtercolortilewrapper.dark:before, ff-asn ff-asn-group-slider .filtercolortilewrapper.dark:before {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20.68 7L10.14 17.53C10.096 17.5694 10.039 17.5911 9.98 17.5911C9.92097 17.5911 9.864 17.5694 9.82 17.53L4 11.67' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
-    width: 2rem;
-    height: 2rem; }
-  ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
-    content: '';
-    position: relative;
-    border: 1px solid #191919;
-    display: block;
+ff-asn ff-asn-group, ff-asn ff-asn-group-slider {
+  max-width: none; }
+  ff-asn ff-asn-group .btn-collapsible, ff-asn ff-asn-group-slider .btn-collapsible {
+    margin-top: -1px; }
+    ff-asn ff-asn-group .btn-collapsible::before, ff-asn ff-asn-group-slider .btn-collapsible::before {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M19 12H12V5' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M5 12H12V19' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
+  ff-asn ff-asn-group[opened] .btn-collapsible::before, ff-asn ff-asn-group-slider[opened] .btn-collapsible::before {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cline x1='5' y1='12' x2='19' y2='12' stroke='%23191919'/%3E%3C/svg%3E"); }
+  ff-asn ff-asn-group .filtervalue, ff-asn ff-asn-group-slider .filtervalue {
+    cursor: pointer; }
+  ff-asn ff-asn-group .filtercolortilewrapper, ff-asn ff-asn-group-slider .filtercolortilewrapper {
     height: 3rem;
-    width: 3rem;
-    top: -2.375rem; }
-
-ff-asn ff-asn-group .filtercolortile, ff-asn ff-asn-group-slider .filtercolortile {
-  height: 3rem;
-  width: 3rem; }
-  ff-asn ff-asn-group .filtercolortile.selected, ff-asn ff-asn-group-slider .filtercolortile.selected {
-    height: 2.375rem;
-    width: 2.375rem;
-    top: 0.3125rem; }
-
-ff-asn ff-asn-group .resetFilter, ff-asn ff-asn-group-slider .resetFilter {
-  cursor: pointer; }
+    width: 3rem; }
+    ff-asn ff-asn-group .filtercolortilewrapper:before, ff-asn ff-asn-group-slider .filtercolortilewrapper:before {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20.68 7L10.14 17.53C10.096 17.5694 10.039 17.5911 9.98 17.5911C9.92097 17.5911 9.864 17.5694 9.82 17.53L4 11.67' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/svg%3E");
+      width: 2rem;
+      height: 2rem;
+      content: '';
+      float: left;
+      position: relative;
+      top: 0.5rem;
+      left: 0.4375rem;
+      z-index: 1; }
+    ff-asn ff-asn-group .filtercolortilewrapper.dark:before, ff-asn ff-asn-group-slider .filtercolortilewrapper.dark:before {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20.68 7L10.14 17.53C10.096 17.5694 10.039 17.5911 9.98 17.5911C9.92097 17.5911 9.864 17.5694 9.82 17.53L4 11.67' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
+      width: 2rem;
+      height: 2rem; }
+    ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
+      content: '';
+      position: relative;
+      border: 1px solid #191919;
+      display: block;
+      height: 3rem;
+      width: 3rem;
+      top: -2.375rem; }
+  ff-asn ff-asn-group .filtercolortile, ff-asn ff-asn-group-slider .filtercolortile {
+    height: 3rem;
+    width: 3rem; }
+    ff-asn ff-asn-group .filtercolortile.selected, ff-asn ff-asn-group-slider .filtercolortile.selected {
+      height: 2.375rem;
+      width: 2.375rem;
+      top: 0.3125rem; }
+  ff-asn ff-asn-group .resetFilter, ff-asn ff-asn-group-slider .resetFilter {
+    cursor: pointer; }
 
 ff-asn ff-asn-group-slider .ffw-wrapper .removeFilter {
   cursor: pointer; }
