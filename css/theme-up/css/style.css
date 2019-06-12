@@ -12622,6 +12622,7 @@ display-8 = sm-display-5 --> md-display-4
       opacity: 1; }
     @media (min-width: 768px) and (max-width: 991.98px) {
       .custom-search .search-input {
+        padding-left: 0.5rem;
         position: absolute;
         right: 0rem;
         left: auto; }
