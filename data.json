@@ -158,6 +158,16 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "white-outline",
+                    "title": "btn-white-outline"
+                },
+                {
+                    "group": "buttons",
+                    "name": "white-invisible",
+                    "title": "btn-white-invisible"
+                },
+                {
+                    "group": "buttons",
                     "name": "button-svg",
                     "title": "Button SVG Icons"
                 },
