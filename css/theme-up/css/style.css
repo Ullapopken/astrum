@@ -10891,6 +10891,12 @@ ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
       .size-selector.sidebar.sidebar-right.active {
         right: 0; } }
 
+.color-tile {
+  width: 1.5rem;
+  height: 1.5rem; }
+  .color-tile.selected {
+    padding: 0.1875rem; }
+
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
 
