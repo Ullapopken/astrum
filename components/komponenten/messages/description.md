@@ -1,0 +1,1 @@
+angepasste "Alert"-Komponente aus Bootstrap

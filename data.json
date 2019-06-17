@@ -277,6 +277,11 @@
                     "group": "komponenten",
                     "name": "category-bar",
                     "title": "Kategorie-Bar"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "messages",
+                    "title": "Message Komponent"
                 }
             ]
         }
