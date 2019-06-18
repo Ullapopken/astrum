@@ -8109,6 +8109,16 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .teaserCategoryLabel {
   letter-spacing: 2px; }
 
+.secondary-links a {
+  color: #828282; }
+  .secondary-links a:hover {
+    color: #828282; }
+
+.text-links a {
+  text-decoration: underline; }
+  .text-links a:hover {
+    text-decoration: none; }
+
 .white-links a {
   color: #FFF; }
   .white-links a:hover {
