@@ -11038,6 +11038,11 @@ ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
       .size-selector.sidebar.sidebar-right.active {
         right: 0; } }
 
+.product-tab-link {
+  text-decoration: underline; }
+  .product-tab-link.active {
+    text-decoration: none; }
+
 .color-tile {
   width: 1.5rem;
   height: 1.5rem; }
@@ -11087,7 +11092,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 /* Open Sans SemiBold, 16/24px */
-.display-7 {
+.display-7, .product-tab-link.active {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600; }
@@ -11190,7 +11195,7 @@ display-8 = sm-display-5 --> md-display-4
       line-height: 2rem; } }
 
 /* Open Sans Regular, 12/24px */
-.display-29, .btn-small {
+.display-29, .product-tab-link, .btn-small {
   font-size: 0.75rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -11415,23 +11420,23 @@ display-8 = sm-display-5 --> md-display-4
   overflow: hidden;
   max-height: 8.75rem; }
 
-.display-7.max-lines-1 {
+.display-7.max-lines-1, .max-lines-1.product-tab-link.active {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-7.max-lines-2 {
+.display-7.max-lines-2, .max-lines-2.product-tab-link.active {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-7.max-lines-3 {
+.display-7.max-lines-3, .max-lines-3.product-tab-link.active {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-7.max-lines-4 {
+.display-7.max-lines-4, .max-lines-4.product-tab-link.active {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-7.max-lines-5 {
+.display-7.max-lines-5, .max-lines-5.product-tab-link.active {
   overflow: hidden;
   max-height: 7.5rem; }
 
@@ -11780,23 +11785,23 @@ display-8 = sm-display-5 --> md-display-4
     overflow: hidden;
     max-height: 10rem; } }
 
-.display-29.max-lines-1, .max-lines-1.btn-small {
+.display-29.max-lines-1, .max-lines-1.product-tab-link, .max-lines-1.btn-small {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-29.max-lines-2, .max-lines-2.btn-small {
+.display-29.max-lines-2, .max-lines-2.product-tab-link, .max-lines-2.btn-small {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-29.max-lines-3, .max-lines-3.btn-small {
+.display-29.max-lines-3, .max-lines-3.product-tab-link, .max-lines-3.btn-small {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-29.max-lines-4, .max-lines-4.btn-small {
+.display-29.max-lines-4, .max-lines-4.product-tab-link, .max-lines-4.btn-small {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-29.max-lines-5, .max-lines-5.btn-small {
+.display-29.max-lines-5, .max-lines-5.product-tab-link, .max-lines-5.btn-small {
   overflow: hidden;
   max-height: 7.5rem; }
 
