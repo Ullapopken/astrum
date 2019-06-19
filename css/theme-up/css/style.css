@@ -10663,7 +10663,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 @media (min-width: 992px) {
   .bigteaserbanner .textWrapper-inner {
-    max-width: 35.4375rem; } }
+    max-width: 35.4375rem;
+    padding-right: 2.5rem !important;
+    padding-left: 5.5rem !important; } }
 
 @media (min-width: 992px) {
   .bigteaserbanner picture {
