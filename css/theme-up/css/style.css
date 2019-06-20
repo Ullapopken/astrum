@@ -10512,7 +10512,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    z-index: 11; }
+    z-index: 11;
+    cursor: pointer; }
   .sidebar .sidebar-upper {
     min-height: 0; }
 
@@ -12537,6 +12538,7 @@ display-8 = sm-display-5 --> md-display-4
   .btn-white-invisible:hover {
     background-color: #F2F2F2; }
   .btn-white-invisible.disabled, .btn-white-invisible:disabled {
+    background-color: #FFF;
     color: #BDBDBD;
     font-weight: 400; }
   .btn-white-invisible:not(:disabled):not(.disabled):active, .btn-white-invisible:not(:disabled):not(.disabled).active {

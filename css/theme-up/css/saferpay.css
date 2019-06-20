@@ -9476,6 +9476,7 @@ display-8 = sm-display-5 --> md-display-4
   .btn-white-invisible:hover {
     background-color: #F2F2F2; }
   .btn-white-invisible.disabled, .btn-white-invisible:disabled {
+    background-color: #FFF;
     color: #BDBDBD;
     font-weight: 400; }
   .btn-white-invisible:not(:disabled):not(.disabled):active, .btn-white-invisible:not(:disabled):not(.disabled).active {
