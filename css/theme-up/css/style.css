@@ -11064,6 +11064,9 @@ ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
   .hiddenScrollbar::-webkit-scrollbar {
     width: 0; }
 
+.ffbreadcrumb {
+  margin-left: -0.375rem; }
+
 @media (min-width: 768px) {
   .canvas.moved-from-sidebar.right {
     left: -31.25rem; }
@@ -11190,7 +11193,7 @@ display-8 = sm-display-5 --> md-display-4
   font-weight: 400; }
 
 /* Open Sans Regular 600, 12/20px */
-.display-24, ff-breadcrumb-trail ff-breadcrumb-trail-item:last-child {
+.display-24, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item:last-child {
   font-size: 0.75rem;
   line-height: 1.25rem;
   font-weight: 600; }
@@ -11704,23 +11707,23 @@ display-8 = sm-display-5 --> md-display-4
   overflow: hidden;
   max-height: 7.5rem; }
 
-.display-24.max-lines-1, ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-1:last-child {
+.display-24.max-lines-1, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-1:last-child {
   overflow: hidden;
   max-height: 1.25rem; }
 
-.display-24.max-lines-2, ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-2:last-child {
+.display-24.max-lines-2, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-2:last-child {
   overflow: hidden;
   max-height: 2.5rem; }
 
-.display-24.max-lines-3, ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-3:last-child {
+.display-24.max-lines-3, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-3:last-child {
   overflow: hidden;
   max-height: 3.75rem; }
 
-.display-24.max-lines-4, ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-4:last-child {
+.display-24.max-lines-4, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-4:last-child {
   overflow: hidden;
   max-height: 5rem; }
 
-.display-24.max-lines-5, ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-5:last-child {
+.display-24.max-lines-5, .ffbreadcrumb ff-breadcrumb-trail ff-breadcrumb-trail-item.max-lines-5:last-child {
   overflow: hidden;
   max-height: 6.25rem; }
 
