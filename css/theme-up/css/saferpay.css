@@ -5678,7 +5678,7 @@ button.bg-white-alt:focus {
 .border-left {
   border-left: 1px solid #dee2e6 !important; }
 
-.border-0, .icon-questionMarkSmall-white-20, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint, .alert, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information {
+.border-0, .icon-questionMark-white-20, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint, .icon-exclamationMark-white-16, .alert, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information {
   border: 0 !important; }
 
 .border-top-0 {
@@ -7918,7 +7918,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-30 ss {
+.default-icon-30ss {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill='%23191919' d='M11 27h10v2H11zM11 30h10v2H11zM11.398 16.982v-.021c1.031-.291 1.547-.942 1.547-1.955 0-.537-.206-.979-.618-1.322-.411-.344-.959-.516-1.643-.516-.713 0-1.331.147-1.854.441v1.105c.455-.368.939-.553 1.455-.553.924 0 1.387.379 1.387 1.139 0 .824-.593 1.235-1.778 1.235h-.569v.999h.596c1.336 0 2.004.438 2.004 1.311 0 .397-.153.713-.459.945-.307.232-.716.35-1.228.35-.63 0-1.196-.199-1.697-.597v1.171c.455.275 1.063.414 1.826.414.849 0 1.532-.213 2.052-.637s.779-.982.779-1.674c0-.501-.162-.919-.484-1.254-.322-.333-.761-.528-1.316-.581zM17.028 13.168c-.884 0-1.561.35-2.029 1.048-.47.698-.704 1.728-.704 3.089 0 1.238.225 2.186.674 2.841s1.075.983 1.878.983c.859 0 1.527-.344 2.006-1.029.478-.686.717-1.68.717-2.983-.001-2.633-.847-3.949-2.542-3.949zm-.086 6.973c-.916 0-1.375-.964-1.375-2.891 0-2.059.468-3.088 1.402-3.088.885 0 1.326 1.014 1.326 3.04.001 1.958-.45 2.939-1.353 2.939zM22.128 13.189c-.416 0-.769.144-1.059.43-.29.287-.436.638-.436 1.053 0 .423.147.781.441 1.074.293.294.649.441 1.068.441.415 0 .77-.147 1.063-.441.294-.293.44-.651.44-1.074 0-.411-.147-.762-.443-1.049-.293-.289-.652-.434-1.074-.434zm.556 2.047c-.156.158-.34.236-.551.236-.215 0-.396-.078-.545-.234-.148-.154-.224-.342-.224-.561 0-.215.076-.397.229-.548s.336-.226.551-.226c.211 0 .393.074.545.223s.229.332.229.551c-.001.216-.079.401-.234.559z'/%3E%3Cpath fill='%23191919' d='M27.609 9.951c-.533-.106-.868-.417-1.256-.805C25.843 8.636 25.207 8 24 8s-1.843.636-2.354 1.146C21.17 9.623 20.793 10 20 10s-1.17-.377-1.646-.854C17.843 8.636 17.207 8 16 8s-1.843.636-2.354 1.146C13.17 9.623 12.793 10 12 10s-1.17-.377-1.646-.854C9.843 8.636 9.207 8 8 8s-1.843.636-2.354 1.146c-.387.388-.722.699-1.255.805L4 8H1l4 18h22l4-18h-3l-.391 1.951zM25 23H7L4.588 10.938c.836-.167 1.346-.665 1.766-1.085C6.83 9.377 7.207 9 8 9s1.17.377 1.646.854C10.157 10.364 10.793 11 12 11s1.843-.636 2.354-1.146C14.83 9.377 15.207 9 16 9s1.17.377 1.646.854C18.157 10.364 18.793 11 20 11s1.843-.636 2.354-1.146C22.83 9.377 23.207 9 24 9s1.17.377 1.646.854c.42.42.93.918 1.766 1.085L25 23z'/%3E%3C/svg%3E");
   width: 1.5rem;
   height: 1.5rem; }
@@ -7933,7 +7933,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-40 ss {
+.default-icon-40ss {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill='%23191919' d='M11 27h10v2H11zM11 30h10v2H11zM12.534 13.297h-1.332l-3.34 5.039v.805h3.502V21h1.17v-1.859h.962v-.939h-.962v-4.905zm-1.17 1.924v2.98H9.006l2.095-3.164c.133-.236.221-.411.264-.525h.021c-.015.26-.022.497-.022.709zM17.102 13.168c-.884 0-1.561.35-2.029 1.048-.47.698-.704 1.728-.704 3.089 0 1.238.225 2.186.674 2.841s1.075.983 1.878.983c.859 0 1.527-.344 2.006-1.029.478-.686.717-1.68.717-2.983-.001-2.633-.848-3.949-2.542-3.949zm-.086 6.973c-.916 0-1.375-.964-1.375-2.891 0-2.059.468-3.088 1.402-3.088.885 0 1.326 1.014 1.326 3.04 0 1.958-.451 2.939-1.353 2.939zM22.2 13.189c-.416 0-.769.144-1.059.43-.29.287-.436.638-.436 1.053 0 .423.147.781.441 1.074.293.294.649.441 1.068.441.415 0 .77-.147 1.063-.441.294-.293.44-.651.44-1.074 0-.411-.147-.762-.443-1.049-.293-.289-.652-.434-1.074-.434zm.556 2.047c-.156.158-.34.236-.551.236-.215 0-.396-.078-.545-.234-.148-.154-.224-.342-.224-.561 0-.215.076-.397.229-.548s.336-.226.551-.226c.211 0 .393.074.545.223s.229.332.229.551c-.001.216-.079.401-.234.559z'/%3E%3Cpath fill='%23191919' d='M27.609 9.951c-.533-.106-.868-.417-1.256-.805C25.843 8.636 25.207 8 24 8s-1.843.636-2.354 1.146C21.17 9.623 20.793 10 20 10s-1.17-.377-1.646-.854C17.843 8.636 17.207 8 16 8s-1.843.636-2.354 1.146C13.17 9.623 12.793 10 12 10s-1.17-.377-1.646-.854C9.843 8.636 9.207 8 8 8s-1.843.636-2.354 1.146c-.387.388-.722.699-1.255.805L4 8H1l4 18h22l4-18h-3l-.391 1.951zM25 23H7L4.588 10.938c.836-.167 1.346-.665 1.766-1.085C6.83 9.377 7.207 9 8 9s1.17.377 1.646.854C10.157 10.364 10.793 11 12 11s1.843-.636 2.354-1.146C14.83 9.377 15.207 9 16 9s1.17.377 1.646.854C18.157 10.364 18.793 11 20 11s1.843-.636 2.354-1.146C22.83 9.377 23.207 9 24 9s1.17.377 1.646.854c.42.42.93.918 1.766 1.085L25 23z'/%3E%3C/svg%3E");
   width: 1.5rem;
   height: 1.5rem; }
@@ -7978,17 +7978,17 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-1 p {
+.default-icon-1p {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill='%23191919' d='M29 26l-4-15s0-2-3-2H6l1 2s12 1 14 1 2 2 2 2l.333 2H12c-8 0-9 10-9 10h26zM5.451 24c.715-2.434 2.459-6 6.549-6h11.667l1 6H5.451z'/%3E%3Ccircle fill='%23191919' cx='16' cy='21' r='2'/%3E%3C/svg%3E");
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-2 p {
+.default-icon-2p {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill='%23191919' d='M29 26l-4-15s0-2-3-2H6l1 2s12 1 14 1 2 2 2 2l.333 2H12c-8 0-9 10-9 10h26zM5.451 24c.715-2.434 2.459-6 6.549-6h11.667l1 6H5.451z'/%3E%3Ccircle fill='%23191919' cx='19' cy='21' r='2'/%3E%3Ccircle fill='%23191919' cx='14' cy='21' r='2'/%3E%3C/svg%3E");
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-3 p {
+.default-icon-3p {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill='%23191919' d='M29 26l-4-15s0-2-3-2H6l1 2s12 1 14 1 2 2 2 2l.333 2H12c-8 0-9 10-9 10h26zM5.451 24c.715-2.434 2.459-6 6.549-6h11.667l1 6H5.451z'/%3E%3Ccircle fill='%23191919' cx='21' cy='21' r='2'/%3E%3Ccircle fill='%23191919' cx='16' cy='21' r='2'/%3E%3Ccircle fill='%23191919' cx='11' cy='21' r='2'/%3E%3C/svg%3E");
   width: 1.5rem;
   height: 1.5rem; }
@@ -8058,6 +8058,11 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
+.icon-chevronDownSmall-white-12 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 4.5L6.1 7.4C6.05 7.45 5.95 7.45 5.9 7.4L3 4.5' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  width: 0.75rem;
+  height: 0.75rem; }
+
 .icon-chevronLeftSmall-secondary-20 {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9.91667 12L6.05 8.13333C5.98333 8.06667 5.98333 7.93333 6.05 7.86667L9.91667 4' stroke='%23828282' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
   width: 1.25rem;
@@ -8068,12 +8073,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 2.25rem;
   height: 2.25rem; }
 
-.icon-chevronDownSmall-white-12 {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 4.5L6.1 7.4C6.05 7.45 5.95 7.45 5.9 7.4L3 4.5' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
-  width: 0.75rem;
-  height: 0.75rem; }
-
-.icon-questionMarkSmall-white-20, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
+.icon-questionMark-white-20, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
   width: 1.25rem;
   height: 1.25rem;
   position: relative;
@@ -8081,12 +8081,31 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   font-size: 0;
   vertical-align: middle;
   text-align: center; }
-  .icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint::before {
-    content: '?';
+  .icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint::before {
+    content: "?";
     color: #FFF;
     width: 1.25rem;
     height: 1.25rem;
     line-height: 1.25rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
+
+.icon-exclamationMark-white-16 {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .icon-exclamationMark-white-16::before {
+    content: "!";
+    color: #FFF;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -8309,7 +8328,7 @@ display-8 = sm-display-5 --> md-display-4
   font-weight: 600; }
 
 /* Open Sans Regular, 14/24px */
-.display-23, .icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label {
+.display-23, .icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.icon.icon-hint::before, .icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label {
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -8630,23 +8649,23 @@ display-8 = sm-display-5 --> md-display-4
   overflow: hidden;
   max-height: 7.5rem; }
 
-.display-23.max-lines-1, .max-lines-1.icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-1.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-1.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-1 {
+.display-23.max-lines-1, .max-lines-1.icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-1.icon.icon-hint::before, .max-lines-1.icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-1.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-1 {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-23.max-lines-2, .max-lines-2.icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-2.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-2.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-2 {
+.display-23.max-lines-2, .max-lines-2.icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-2.icon.icon-hint::before, .max-lines-2.icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-2.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-2 {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-23.max-lines-3, .max-lines-3.icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-3.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-3.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-3 {
+.display-23.max-lines-3, .max-lines-3.icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-3.icon.icon-hint::before, .max-lines-3.icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-3.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-3 {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-23.max-lines-4, .max-lines-4.icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-4.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-4.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-4 {
+.display-23.max-lines-4, .max-lines-4.icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-4.icon.icon-hint::before, .max-lines-4.icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-4.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-4 {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-23.max-lines-5, .max-lines-5.icon-questionMarkSmall-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-5.icon.icon-hint::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-5.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-5 {
+.display-23.max-lines-5, .max-lines-5.icon-questionMark-white-20::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-input > .details-summary-widget > span.max-lines-5.icon.icon-hint::before, .max-lines-5.icon-exclamationMark-white-16::before, html.saferpay-paymentpage body > div.box.box-content > form.page.page-dcc > main > .box.box-information > .max-lines-5.text.text-information, html.saferpay-paymentpage body > div.box.box-content > form.page.page-card.page-hosted > main > fieldset > div.form-container > div.form-group > div.form-label > label.max-lines-5 {
   overflow: hidden;
   max-height: 7.5rem; }
 
