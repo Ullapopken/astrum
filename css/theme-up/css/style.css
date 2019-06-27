@@ -10015,6 +10015,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .popover {
   z-index: 1; }
 
+.rounded, .rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
+  background-clip: padding-box; }
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -10744,6 +10747,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .w-min-200 {
   min-width: 12.5rem; }
+
+.pointer {
+  cursor: pointer; }
 
 .btn-collapsible.btn.icon-svg.icon-right {
   text-indent: 0; }

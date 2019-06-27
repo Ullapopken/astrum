@@ -7819,6 +7819,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .popover {
   z-index: 1; }
 
+.rounded, .rounded-circle, .saferpay-paymentpage form.page.page-dcc main > .box.box-information > .icon.icon-information, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
+  background-clip: padding-box; }
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -8533,6 +8536,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .w-min-200 {
   min-width: 12.5rem; }
+
+.pointer {
+  cursor: pointer; }
 
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
