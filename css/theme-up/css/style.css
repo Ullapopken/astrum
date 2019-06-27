@@ -11419,11 +11419,13 @@ ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
 
 .product-carousel-prev {
   left: 0;
-  top: calc(50% - 12px); }
+  top: calc(50% - 20px);
+  opacity: 0.7; }
 
 .product-carousel-next {
   right: 0;
-  top: calc(50% - 12px); }
+  top: calc(50% - 20px);
+  opacity: 0.7; }
 
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
