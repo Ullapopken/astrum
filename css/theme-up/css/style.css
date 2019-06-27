@@ -10794,7 +10794,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .canvas {
   transition: 0.5s;
   position: relative;
-  left: 0; }
+  left: 0;
+  right: 0; }
   .canvas.moved-from-sidebar {
     width: 100%; }
     .canvas.moved-from-sidebar.left {
