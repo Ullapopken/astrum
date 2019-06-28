@@ -11103,6 +11103,24 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     overflow: hidden;
     max-height: 460px; } }
 
+.category-bar {
+  min-height: 4.5rem; }
+  .category-bar .last-category:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1rem;
+    right: -1rem;
+    top: 0;
+    height: 0.0625rem; }
+    @media (min-width: 768px) {
+      .category-bar .last-category:after {
+        width: 2rem;
+        right: -2rem; } }
+    @media (min-width: 992px) {
+      .category-bar .last-category:after {
+        display: none; } }
+
 .language-selector .language {
   outline: none;
   background: none;
