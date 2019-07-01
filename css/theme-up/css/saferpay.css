@@ -9847,6 +9847,24 @@ display-8 = sm-display-5 --> md-display-4
   .btn-white-invisible:not(:disabled):not(.disabled):active, .btn-white-invisible:not(:disabled):not(.disabled).active {
     background-color: #F2F2F2; }
 
+.btn-collapsible.btn.icon-svg.icon-right, .saferpay-paymentpage form.page.page-dcc main > .btn-collapsible.btn.icon-right.box.box-information, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn-collapsible.icon-svg.icon-right.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn-collapsible.icon-svg.icon-right.btn.btn-next::before {
+  text-indent: 0; }
+
+.btn-collapsible:focus {
+  box-shadow: none; }
+
+.btn-collapsible::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cline x1='5' y1='12' x2='19' y2='12' stroke='%23191919'/%3E%3C/svg%3E"); }
+
+.btn-collapsible.collapsed::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M19 12H12V5' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M5 12H12V19' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
+
+.btn-collapsible.btn-light:hover {
+  background-color: #F2F2F2; }
+
+.btn-collapsible.btn-light:not(:disabled):not(.disabled):active, .btn-collapsible.btn-light:not(:disabled):not(.disabled).active {
+  background-color: #F2F2F2; }
+
 .form-control, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select {
   height: auto; }
 
