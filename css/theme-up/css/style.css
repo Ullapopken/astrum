@@ -10818,11 +10818,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   .sidebar .sidebar-slot {
     min-height: 0; }
   .sidebar .sidebar-closer {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    z-index: 11;
-    cursor: pointer; }
+    right: 0;
+    top: 0; }
   .sidebar .sidebar-upper {
     min-height: 0; }
 
