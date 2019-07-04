@@ -11449,7 +11449,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .display-1 {
     font-size: 4rem;
-    line-height: 4rem; } }
+    line-height: 4.5rem; } }
 
 /* GT Super Display Bold, 56/56px */
 @media (min-width: 768px) {
@@ -11632,27 +11632,27 @@ display-8 = sm-display-5 --> md-display-4
 @media (min-width: 768px) {
   .display-1.max-lines-md-1 {
     overflow: hidden;
-    max-height: 4rem; } }
+    max-height: 4.5rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-2 {
     overflow: hidden;
-    max-height: 8rem; } }
+    max-height: 9rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-3 {
     overflow: hidden;
-    max-height: 12rem; } }
+    max-height: 13.5rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-4 {
     overflow: hidden;
-    max-height: 16rem; } }
+    max-height: 18rem; } }
 
 @media (min-width: 768px) {
   .display-1.max-lines-md-5 {
     overflow: hidden;
-    max-height: 20rem; } }
+    max-height: 22.5rem; } }
 
 .display-2.max-lines-1 {
   overflow: hidden;
