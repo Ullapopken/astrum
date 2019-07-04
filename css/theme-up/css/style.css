@@ -10751,6 +10751,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .pointer {
   cursor: pointer; }
 
+.word-break-all {
+  word-break: break-all; }
+
 .header-icon .icon .icon-overlay {
   position: absolute;
   width: 1rem;

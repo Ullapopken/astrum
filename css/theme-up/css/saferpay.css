@@ -8540,6 +8540,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .pointer {
   cursor: pointer; }
 
+.word-break-all {
+  word-break: break-all; }
+
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
 
