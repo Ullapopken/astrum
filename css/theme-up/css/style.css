@@ -10884,32 +10884,23 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   overflow-y: auto; }
 
 .navigation-flyout {
-  position: absolute;
-  width: 100%;
-  height: 34.25rem;
-  border-top: 1px solid #E7E7E7;
-  border-bottom-color: #FE8273; }
+  height: 34.25rem; }
   .navigation-flyout .navigation-flyout-closer {
-    cursor: pointer;
-    position: absolute;
     top: 0;
     right: 0; }
   .navigation-flyout .navigation-list {
-    margin-right: -0.75rem;
-    margin-left: -0.75rem;
-    overflow: hidden; }
-    .navigation-flyout .navigation-list .navigation-headline-wrapper {
+    margin-right: -15px;
+    margin-left: -15px; }
+    .navigation-flyout .navigation-list .navigation-headline {
       height: 0;
       position: relative;
       top: -3rem; }
-    .navigation-flyout .navigation-list .navigation-headline, .navigation-flyout .navigation-list .navigation-link {
-      margin-right: 0.75rem;
-      margin-left: 0.75rem; }
+    .navigation-flyout .navigation-list .navigation-element {
+      padding-right: 15px;
+      padding-left: 15px; }
     .navigation-flyout .navigation-list .navigation-linebreak {
       width: 0;
       height: 101%; }
-    .navigation-flyout .navigation-list .navigation-link .navigation-image-text {
-      height: 2.5rem; }
 
 .bannerComponent {
   background-color: #FE8273; }
