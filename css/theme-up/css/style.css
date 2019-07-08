@@ -11424,6 +11424,19 @@ ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
   top: calc(50% - 20px);
   opacity: 0.7; }
 
+.cookie-notification {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+  @media (min-width: 768px) {
+    .cookie-notification {
+      width: 20rem; } }
+  .cookie-notification .cookie-notification-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent; }
+
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-8 {
   font-family: "GT Super Display Bold", serif; }
 
