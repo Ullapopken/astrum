@@ -10782,11 +10782,17 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 32px; }
 
 .siteLogo-component img {
-  max-width: 230px; }
+  width: 8.875rem;
+  height: 2.375rem; }
+  @media (min-width: 768px) {
+    .siteLogo-component img {
+      width: 14.5rem;
+      height: 3.875rem; } }
 
-@media (max-width: 767.98px) {
-  .siteLogo-component img {
-    max-width: 141px; } }
+.siteLogo-component-checkout img,
+.siteLogo-component-orderConfirmation img {
+  width: 7.5rem;
+  height: 2rem; }
 
 .canvas {
   transition: 0.5s;
