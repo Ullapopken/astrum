@@ -284,7 +284,29 @@
                     "title": "Message Komponent"
                 }
             ]
+        },
+        {
+            "name": "contentpflege",
+            "title": "Contentpflege",
+            "components": [
+                {
+                    "group": "contentpflege",
+                    "name": "text-snippets",
+                    "title": "Textschnipsel"
+                },
+                {
+                    "group": "contentpflege",
+                    "name": "full-width",
+                    "title": "Content über die volle Breite"
+                },
+                {
+                    "group": "contentpflege",
+                    "name": "container-width",
+                    "title": "Content innerhalb des Containers"
+                }
+            ]
         }
+
     ],
     "version": "1.9.5"
 }

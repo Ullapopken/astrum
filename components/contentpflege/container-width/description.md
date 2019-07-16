@@ -1,0 +1,1 @@
+Template für Inhalte mit grauem Rahmen, bündig zum Header.

@@ -1,0 +1,1 @@
+Textschnipsel für die Verwendung in den Templates

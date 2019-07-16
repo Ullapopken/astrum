@@ -1,0 +1,1 @@
+Template für Inhalte über die gesamte Breite, ohne Rahmen.
