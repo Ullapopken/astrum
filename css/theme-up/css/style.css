@@ -6249,7 +6249,7 @@ button.bg-white-alt:focus {
   clear: both;
   content: ""; }
 
-.d-none, ff-asn ff-asn-group-slider ff-slider {
+.d-none {
   display: none !important; }
 
 .d-inline {
@@ -11437,11 +11437,20 @@ ff-asn ff-asn-group, ff-asn ff-asn-group-slider {
     cursor: pointer; }
 
 ff-asn ff-asn-group-slider .ffw-wrapper .removeFilter {
-  cursor: pointer; }
+  cursor: pointer;
+  width: 84%; }
 
 ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
-  height: 2.5rem;
   width: 6.25rem; }
+
+ff-asn ff-asn-group-slider ff-slider {
+  width: 84%;
+  height: 0.25rem; }
+  ff-asn ff-asn-group-slider ff-slider .sliderBtn {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    bottom: 0.625rem; }
 
 .deleteAllFilters {
   cursor: pointer; }

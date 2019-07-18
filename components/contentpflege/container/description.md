@@ -1,0 +1,1 @@
+Template für Inhalte mit beschränkter Breite (bündig zum Header).

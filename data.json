@@ -306,8 +306,13 @@
                 },
                 {
                     "group": "contentpflege",
-                    "name": "container-width",
-                    "title": "Content innerhalb des Containers"
+                    "name": "container",
+                    "title": "Content innerhalb des Containers ohne Hintergrund"
+                },
+                {
+                    "group": "contentpflege",
+                    "name": "container-gray-background",
+                    "title": "Content innerhalb des Containers mit grauem Hintergrund"
                 }
             ]
         }
