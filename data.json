@@ -74,8 +74,13 @@
             "components": [
                 {
                     "group": "typografie",
-                    "name": "ueberschriften",
-                    "title": "Überschriften"
+                    "name": "ueberschriften-gross",
+                    "title": "Überschriften Groß"
+                },
+                {
+                    "group": "typografie",
+                    "name": "ueberschriften-klein",
+                    "title": "Überschriften Klein"
                 },
                 {
                     "group": "typografie",
