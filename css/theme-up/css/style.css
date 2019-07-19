@@ -11534,6 +11534,9 @@ ff-asn ff-asn-group-slider ff-slider {
     right: 0;
     background-color: transparent; }
 
+[class^="display-"] {
+  font-family: "Open Sans", Arial, sans-serif; }
+
 .display-1, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4, .display-5, h6, .h6, .display-8, h5, .h5 {
   font-family: "GT Super Display Bold", serif; }
 
@@ -11610,7 +11613,7 @@ display-8 = sm-display-5 --> md-display-4
   font-weight: 400; }
 
 /* Open Sans Regular, 16/26px */
-.display-21, p {
+.display-21 {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 400; }
@@ -12032,48 +12035,48 @@ display-8 = sm-display-5 --> md-display-4
     overflow: hidden;
     max-height: 12.5rem; } }
 
-.display-21.max-lines-1, p.max-lines-1 {
+.display-21.max-lines-1 {
   overflow: hidden;
   max-height: 1.625rem; }
 
-.display-21.max-lines-2, p.max-lines-2 {
+.display-21.max-lines-2 {
   overflow: hidden;
   max-height: 3.25rem; }
 
-.display-21.max-lines-3, p.max-lines-3 {
+.display-21.max-lines-3 {
   overflow: hidden;
   max-height: 4.875rem; }
 
-.display-21.max-lines-4, p.max-lines-4 {
+.display-21.max-lines-4 {
   overflow: hidden;
   max-height: 6.5rem; }
 
-.display-21.max-lines-5, p.max-lines-5 {
+.display-21.max-lines-5 {
   overflow: hidden;
   max-height: 8.125rem; }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-1, p.max-lines-lg-1 {
+  .display-21.max-lines-lg-1 {
     overflow: hidden;
     max-height: 1.625rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-2, p.max-lines-lg-2 {
+  .display-21.max-lines-lg-2 {
     overflow: hidden;
     max-height: 3.25rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-3, p.max-lines-lg-3 {
+  .display-21.max-lines-lg-3 {
     overflow: hidden;
     max-height: 4.875rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-4, p.max-lines-lg-4 {
+  .display-21.max-lines-lg-4 {
     overflow: hidden;
     max-height: 6.5rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-5, p.max-lines-lg-5 {
+  .display-21.max-lines-lg-5 {
     overflow: hidden;
     max-height: 8.125rem; } }
 
