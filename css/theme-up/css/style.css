@@ -6126,7 +6126,7 @@ button.bg-white-alt:focus {
 .border-left {
   border-left: 1px solid #dee2e6 !important; }
 
-.border-0, .icon-questionMark-white-20, .icon-exclamationMark-white-16, .alert {
+.border-0, .icon-questionMark-white-20, .icon-questionMark-white, .icon-exclamationMark-white-16, .icon-exclamationMark-white, .alert {
   border: 0 !important; }
 
 .border-top-0 {
@@ -9999,8 +9999,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
-    padding-left: 32px;
-    padding-right: 32px; } }
+    padding-left: 2rem;
+    padding-right: 2rem; } }
 
 .modal-open {
   padding-right: 0px !important;
@@ -10017,6 +10017,13 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .rounded, .rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
   background-clip: padding-box; }
+
+.close {
+  float: none;
+  opacity: 1; }
+
+.alert-dismissible .close {
+  padding: 0.5rem; }
 
 /* Slider */
 .slick-slider {
@@ -10625,12 +10632,6 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.25rem;
   height: 1.25rem; }
 
-.icon-checkmark-white-36 {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  width: 2.25rem;
-  height: 2.25rem; }
-
 .icon-questionMark-white-20 {
   width: 1.25rem;
   height: 1.25rem;
@@ -10645,6 +10646,25 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     width: 1.25rem;
     height: 1.25rem;
     line-height: 1.25rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
+
+.icon-questionMark-white {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .icon-questionMark-white::before {
+    content: "?";
+    color: #FFF;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -10669,6 +10689,31 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     top: 0;
     display: inline-block; }
 
+.icon-exclamationMark-white {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .icon-exclamationMark-white::before {
+    content: "!";
+    color: #FFF;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
+
+.icon-checkmark-white-36 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 2.25rem;
+  height: 2.25rem; }
+
 .icon-checkmark-white {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -10677,6 +10722,24 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .icon-close-white {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-danger {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23eb5050' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23eb5050' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-success {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%235AC372' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%235AC372' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-warning {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
   height: 1.5rem; }
@@ -11528,11 +11591,6 @@ ff-asn ff-asn-group-slider ff-slider {
   @media (min-width: 768px) {
     .cookie-notification {
       width: 20rem; } }
-  .cookie-notification .cookie-notification-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: transparent; }
 
 [class^="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
@@ -11613,7 +11671,7 @@ display-8 = sm-display-5 --> md-display-4
   font-weight: 400; }
 
 /* Open Sans Regular, 16/26px */
-.display-21 {
+.display-21, .icon-questionMark-white::before, .icon-exclamationMark-white::before {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 400; }
@@ -12035,48 +12093,48 @@ display-8 = sm-display-5 --> md-display-4
     overflow: hidden;
     max-height: 12.5rem; } }
 
-.display-21.max-lines-1 {
+.display-21.max-lines-1, .max-lines-1.icon-questionMark-white::before, .max-lines-1.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 1.625rem; }
 
-.display-21.max-lines-2 {
+.display-21.max-lines-2, .max-lines-2.icon-questionMark-white::before, .max-lines-2.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 3.25rem; }
 
-.display-21.max-lines-3 {
+.display-21.max-lines-3, .max-lines-3.icon-questionMark-white::before, .max-lines-3.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 4.875rem; }
 
-.display-21.max-lines-4 {
+.display-21.max-lines-4, .max-lines-4.icon-questionMark-white::before, .max-lines-4.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 6.5rem; }
 
-.display-21.max-lines-5 {
+.display-21.max-lines-5, .max-lines-5.icon-questionMark-white::before, .max-lines-5.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 8.125rem; }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-1 {
+  .display-21.max-lines-lg-1, .max-lines-lg-1.icon-questionMark-white::before, .max-lines-lg-1.icon-exclamationMark-white::before {
     overflow: hidden;
     max-height: 1.625rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-2 {
+  .display-21.max-lines-lg-2, .max-lines-lg-2.icon-questionMark-white::before, .max-lines-lg-2.icon-exclamationMark-white::before {
     overflow: hidden;
     max-height: 3.25rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-3 {
+  .display-21.max-lines-lg-3, .max-lines-lg-3.icon-questionMark-white::before, .max-lines-lg-3.icon-exclamationMark-white::before {
     overflow: hidden;
     max-height: 4.875rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-4 {
+  .display-21.max-lines-lg-4, .max-lines-lg-4.icon-questionMark-white::before, .max-lines-lg-4.icon-exclamationMark-white::before {
     overflow: hidden;
     max-height: 6.5rem; } }
 
 @media (min-width: 992px) {
-  .display-21.max-lines-lg-5 {
+  .display-21.max-lines-lg-5, .max-lines-lg-5.icon-questionMark-white::before, .max-lines-lg-5.icon-exclamationMark-white::before {
     overflow: hidden;
     max-height: 8.125rem; } }
 

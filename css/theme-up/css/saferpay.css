@@ -5767,7 +5767,7 @@ button.bg-white-alt:focus {
 .border-left {
   border-left: 1px solid #dee2e6 !important; }
 
-.border-0, .icon-questionMark-white-20, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint, .icon-exclamationMark-white-16, .alert, .saferpay-paymentpage form.page.page-dcc main > .box.box-information {
+.border-0, .icon-questionMark-white-20, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint, .icon-questionMark-white, .icon-exclamationMark-white-16, .icon-exclamationMark-white, .alert, .saferpay-paymentpage form.page.page-dcc main > .box.box-information {
   border: 0 !important; }
 
 .border-top-0 {
@@ -7803,8 +7803,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   max-width: none; }
 
 .container {
-  padding-left: 32px;
-  padding-right: 32px; }
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 .modal-open {
   padding-right: 0px !important;
@@ -7821,6 +7821,13 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .rounded, .rounded-circle, .saferpay-paymentpage form.page.page-dcc main > .box.box-information > .icon.icon-information, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
   background-clip: padding-box; }
+
+.close {
+  float: none;
+  opacity: 1; }
+
+.alert-dismissible .close {
+  padding: 0.5rem; }
 
 /* Slider */
 .slick-slider {
@@ -8429,12 +8436,6 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.25rem;
   height: 1.25rem; }
 
-.icon-checkmark-white-36 {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  width: 2.25rem;
-  height: 2.25rem; }
-
 .icon-questionMark-white-20, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
   width: 1.25rem;
   height: 1.25rem;
@@ -8449,6 +8450,25 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     width: 1.25rem;
     height: 1.25rem;
     line-height: 1.25rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
+
+.icon-questionMark-white {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .icon-questionMark-white::before {
+    content: "?";
+    color: #FFF;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -8473,6 +8493,31 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     top: 0;
     display: inline-block; }
 
+.icon-exclamationMark-white {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .icon-exclamationMark-white::before {
+    content: "!";
+    color: #FFF;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
+
+.icon-checkmark-white-36 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 2.25rem;
+  height: 2.25rem; }
+
 .icon-checkmark-white {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.51 8.25L10.605 16.1475C10.572 16.177 10.5293 16.1933 10.485 16.1933C10.4407 16.1933 10.398 16.177 10.365 16.1475L6 11.7525' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -8481,6 +8526,24 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .icon-close-white {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-danger {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23eb5050' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23eb5050' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-success {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%235AC372' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%235AC372' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.icon-close-warning {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
   height: 1.5rem; }
@@ -8682,7 +8745,7 @@ display-8 = sm-display-5 --> md-display-4
   line-height: 2.5rem; }
 
 /* Open Sans Regular, 16/26px */
-.display-21, .saferpay-paymentpage form.page.page-dcc main > p, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span {
+.display-21, .icon-questionMark-white::before, .icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 400; }
@@ -8975,23 +9038,23 @@ display-8 = sm-display-5 --> md-display-4
   overflow: hidden;
   max-height: 8.75rem; }
 
-.display-21.max-lines-1, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-1, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-1.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-1 {
+.display-21.max-lines-1, .max-lines-1.icon-questionMark-white::before, .max-lines-1.icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-1, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-1.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-1.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-1 {
   overflow: hidden;
   max-height: 1.625rem; }
 
-.display-21.max-lines-2, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-2, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-2.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-2 {
+.display-21.max-lines-2, .max-lines-2.icon-questionMark-white::before, .max-lines-2.icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-2, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-2.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-2.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-2 {
   overflow: hidden;
   max-height: 3.25rem; }
 
-.display-21.max-lines-3, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-3, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-3.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-3 {
+.display-21.max-lines-3, .max-lines-3.icon-questionMark-white::before, .max-lines-3.icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-3, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-3.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-3.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-3 {
   overflow: hidden;
   max-height: 4.875rem; }
 
-.display-21.max-lines-4, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-4, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-4.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-4 {
+.display-21.max-lines-4, .max-lines-4.icon-questionMark-white::before, .max-lines-4.icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-4, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-4.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-4.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-4 {
   overflow: hidden;
   max-height: 6.5rem; }
 
-.display-21.max-lines-5, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-5, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-5.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-5 {
+.display-21.max-lines-5, .max-lines-5.icon-questionMark-white::before, .max-lines-5.icon-exclamationMark-white::before, .saferpay-paymentpage form.page.page-dcc main > p.max-lines-5, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .max-lines-5.btn.btn-block.btn-toggle, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .max-lines-5.btn-block.btn-toggle.btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.max-lines-5 {
   overflow: hidden;
   max-height: 8.125rem; }
 

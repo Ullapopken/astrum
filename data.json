@@ -286,7 +286,12 @@
                 {
                     "group": "komponenten",
                     "name": "messages",
-                    "title": "Message Komponent"
+                    "title": "Messages (alert)"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "global-messages",
+                    "title": "Global Messages (alert-dismissible)"
                 }
             ]
         },

@@ -1,0 +1,1 @@
+angepasste "Alert-dismissible"-Komponente aus Bootstrap
