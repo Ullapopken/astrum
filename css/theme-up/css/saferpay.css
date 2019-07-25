@@ -8424,6 +8424,12 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
+.icon-chevronUp-white {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M6 14.875L11.8 9.075C11.9 8.975 12.1 8.975 12.2 9.075L18 14.875' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
 .icon-chevronDownSmall-white-12 {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 4.5L6.1 7.4C6.05 7.45 5.95 7.45 5.9 7.4L3 4.5' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
