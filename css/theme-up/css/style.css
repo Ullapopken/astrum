@@ -11632,7 +11632,7 @@ ff-asn ff-asn-group-slider ff-slider {
     .cookie-notification {
       width: 20rem; } }
 
-[class^="display-"] {
+[class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
 .display-1, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4, .display-5, h6, .h6, .display-8, h5, .h5 {
