@@ -11365,9 +11365,6 @@ header .language-selector .language {
     width: 2rem;
     height: 2rem; } }
 
-.cart-items .product-headline-link:hover, .add-to-cart-modal .product-headline-link:hover {
-  text-decoration: none; }
-
 .cart-items .product-amount, .add-to-cart-modal .product-amount {
   top: -0.75rem;
   left: -0.75rem; }
@@ -11531,6 +11528,8 @@ ff-asn ff-asn-group, ff-asn ff-asn-group-slider {
       top: 0.3125rem; }
   ff-asn ff-asn-group .resetFilter, ff-asn ff-asn-group-slider .resetFilter {
     cursor: pointer; }
+  ff-asn ff-asn-group .underline-on-hover:hover, ff-asn ff-asn-group-slider .underline-on-hover:hover {
+    text-decoration: underline; }
 
 ff-asn ff-asn-group-slider .ffw-wrapper .removeFilter {
   cursor: pointer;
