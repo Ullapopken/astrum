@@ -11459,8 +11459,6 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile:first-chil
     left: -0.25rem; }
 
 .paging-button {
-  /* TODO: CX-533 paging whitespaces entfernen
-  margin-right: -4px; */
   width: 2.5rem; }
 
 .paging-separator {
