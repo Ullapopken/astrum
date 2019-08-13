@@ -9296,6 +9296,9 @@ display-8 = sm-display-5 --> md-display-4
   max-width: 100%;
   display: inline-block; }
 
+.btn-small {
+  padding: 0.1875rem 0.9375rem; }
+
 .btn.icon-svg::before, .list-custom-checkmark > .btn::before, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next.list-custom-checkmark > .btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next.list-custom-checkmark > .btn.btn-next::before, .saferpay-paymentpage form.page.page-dcc main > .btn.box.box-information::before, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .icon-svg.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .icon-svg.btn.btn-next::before {
   content: '';
   position: relative;

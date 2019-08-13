@@ -1630,8 +1630,8 @@ select.form-control:focus::-ms-value {
   line-height: 1.5; }
 
 .col-form-label-sm {
-  padding-top: calc(0.1875rem + 1px);
-  padding-bottom: calc(0.1875rem + 1px);
+  padding-top: calc(0.282rem + 1px);
+  padding-bottom: calc(0.282rem + 1px);
   font-size: 0.875rem;
   line-height: 1.5; }
 
@@ -1651,8 +1651,8 @@ select.form-control:focus::-ms-value {
     padding-left: 0; }
 
 .form-control-sm {
-  height: calc(1.5em + 0.375rem + 2px);
-  padding: 0.1875rem 0.9375rem;
+  height: calc(1.5em + 0.564rem + 2px);
+  padding: 0.282rem 0.9375rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -2974,7 +2974,7 @@ fieldset:disabled a.btn {
   border-radius: 0.25rem; }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.1875rem 0.9375rem;
+  padding: 0.282rem 0.9375rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.25rem; }
@@ -3412,7 +3412,7 @@ input[type="button"].btn-block {
 
 .input-group-sm > .form-control:not(textarea),
 .input-group-sm > .custom-select {
-  height: calc(1.5em + 0.375rem + 2px); }
+  height: calc(1.5em + 0.564rem + 2px); }
 
 .input-group-sm > .form-control,
 .input-group-sm > .custom-select,
@@ -3420,7 +3420,7 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  padding: 0.1875rem 0.9375rem;
+  padding: 0.282rem 0.9375rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -3593,9 +3593,9 @@ input[type="button"].btn-block {
     display: none; }
 
 .custom-select-sm {
-  height: calc(1.5em + 0.375rem + 2px);
-  padding-top: 0.1875rem;
-  padding-bottom: 0.1875rem;
+  height: calc(1.5em + 0.564rem + 2px);
+  padding-top: 0.282rem;
+  padding-bottom: 0.282rem;
   padding-left: 0.9375rem;
   font-size: 0.875rem; }
 
@@ -12437,6 +12437,9 @@ display-8 = sm-display-5 --> md-display-4
   @media (min-width: 768px) {
     .btn:not(.btn-block) {
       display: inline-block; } }
+
+.btn-small {
+  padding: 0.1875rem 0.9375rem; }
 
 .btn.icon-svg::before, .list-custom-checkmark > .btn::before {
   content: '';
