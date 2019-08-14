@@ -10906,6 +10906,14 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .word-break-all {
   word-break: break-all; }
 
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto; }
+
 .list-custom-checkmark {
   list-style-type: none; }
   .list-custom-checkmark > *::before {

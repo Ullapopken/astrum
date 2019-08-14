@@ -86,6 +86,11 @@
                     "group": "typografie",
                     "name": "texte",
                     "title": "Texte"
+                },
+                {
+                  "group": "typografie",
+                  "name": "text-modifications",
+                  "title": "Text Modifkationen/Beschnitt"
                 }
             ]
         },
