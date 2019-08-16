@@ -10002,16 +10002,6 @@ a.text-white-alt:hover, a.text-white-alt:focus {
     padding-left: 2rem;
     padding-right: 2rem; } }
 
-.modal-open {
-  padding-right: 0px !important;
-  overflow: auto; }
-
-.modal {
-  overflow-y: auto; }
-
-.modal-open[style] {
-  padding-right: 0px !important; }
-
 .popover {
   z-index: 1; }
 
