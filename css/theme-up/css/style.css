@@ -11278,8 +11278,8 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   font-family: inherit;
   font-size: inherit; }
 
-.language-selector .language.selected:hover {
-  text-decoration: underline; }
+.language-selector .language.selected {
+  cursor: auto; }
 
 .language-selector button:hover {
   text-decoration: underline; }
