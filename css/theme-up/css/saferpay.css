@@ -8679,6 +8679,10 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .w-min-200 {
   min-width: 12.5rem; }
 
+@media (min-width: 591px) {
+  .w-min-framemd-200 {
+    min-width: 12.5rem; } }
+
 .pointer {
   cursor: pointer; }
 

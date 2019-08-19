@@ -10890,6 +10890,22 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .w-min-200 {
   min-width: 12.5rem; }
 
+@media (min-width: 576px) {
+  .w-min-sm-200 {
+    min-width: 12.5rem; } }
+
+@media (min-width: 768px) {
+  .w-min-md-200 {
+    min-width: 12.5rem; } }
+
+@media (min-width: 992px) {
+  .w-min-lg-200 {
+    min-width: 12.5rem; } }
+
+@media (min-width: 1200px) {
+  .w-min-xl-200 {
+    min-width: 12.5rem; } }
+
 .pointer {
   cursor: pointer; }
 
