@@ -11649,6 +11649,23 @@ ff-asn ff-asn-group-slider ff-slider {
     .cookie-notification {
       width: 20rem; } }
 
+[data-display-view],
+[data-edit-view] {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  transition: 0.4s ease; }
+
+[data-edit-view] {
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px); }
+
+.edit-active {
+  padding-left: 1px; }
+  .edit-active [data-edit-view],
+  .edit-active [data-display-view] {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
