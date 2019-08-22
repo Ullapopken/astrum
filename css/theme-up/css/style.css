@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-@font-face {
-  font-family: 'GT Super Display Bold';
-  src: url("../fonts/GT-Super-Display-Bold.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/GT-Super-Display-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GT-Super-Display-Bold.woff2") format("woff2"), url("../fonts/GT-Super-Display-Bold.woff") format("woff"), url("../fonts/GT-Super-Display-Bold.ttf") format("truetype"); }
-
 .border-big {
   border: 0.25rem solid; }
 
@@ -11669,42 +11663,39 @@ ff-asn ff-asn-group-slider ff-slider {
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
-.display-1, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4, .display-5, h6, .h6, .display-8, h5, .h5 {
-  font-family: "GT Super Display Bold", serif; }
-
-/* GT Super Display Bold, 32/40px */
+/* Open Sans SemiBold, 32/40px */
 .display-1, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4 {
   font-size: 2rem;
   line-height: 2.5rem;
-  font-weight: 400; }
+  font-weight: 600; }
 
-/* GT Super Display Bold, 64/64px */
+/* Open Sans SemiBold, 64/64px */
 @media (min-width: 768px) {
   .display-1, h1, .h1 {
     font-size: 4rem;
     line-height: 4.5rem; } }
 
-/* GT Super Display Bold, 56/56px */
+/* Open Sans SemiBold, 56/56px */
 @media (min-width: 768px) {
   .display-2, h2, .h2 {
     font-size: 3.5rem;
     line-height: 3.5rem; } }
 
-/* GT Super Display Bold, 48/48px */
+/* Open Sans SemiBold, 48/48px */
 @media (min-width: 768px) {
   .display-3, h3, .h3 {
     font-size: 3rem;
     line-height: 3rem; } }
 
-/* GT Super Display Bold, 24/32px */
+/* Open Sans SemiBold, 24/32px */
 .display-5, h6, .h6 {
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 400; }
+  font-weight: 600; }
 
 /*
-GT Super Display Bold, 24/32px
-GT Super Display Bold, 32/40px
+Open Sans SemiBold, 24/32px
+Open Sans SemiBold, 32/40px
 display-8 = sm-display-5 --> md-display-4
 */
 .display-8, h5, .h5 {
@@ -11721,8 +11712,6 @@ display-8 = sm-display-5 --> md-display-4
   font-weight: 600; }
   @media (min-width: 768px) {
     .display-10 {
-      font-family: "GT Super Display Bold", serif;
-      font-weight: 400;
       font-size: 2rem;
       line-height: 2.5rem; } }
 
