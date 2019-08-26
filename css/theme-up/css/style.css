@@ -11673,6 +11673,15 @@ ff-asn ff-asn-group-slider ff-slider {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%); }
 
+.order-history-entry .product-image img {
+  width: 120px; }
+
+.order-history-entry .slick-disabled {
+  opacity: 0; }
+
+.order-history-entry .slick-track {
+  margin-left: 0; }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
