@@ -8714,6 +8714,13 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   .list-custom-checkmark.display-21 > *::before, .list-custom-checkmark.icon-questionMark-white::before > *::before, .list-custom-checkmark.icon-exclamationMark-white::before > *::before, .list-custom-checkmark.display-21 > .list-custom-checkmark > *::before, .saferpay-paymentpage form.page.page-dcc main > p.list-custom-checkmark > *::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc .list-custom-checkmark.btn.btn-block.btn-toggle > *::before, .saferpay-paymentpage form.page.page-dcc > footer > ul main .box.box-dcc li.navitem.navitem-next > .list-custom-checkmark.btn-block.btn-toggle.btn.btn-next::before > *::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .list-custom-checkmark.btn-block.btn-toggle.btn.btn-next::before > *::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul form.page.page-dcc main .box.box-dcc li.navitem.navitem-next > .list-custom-checkmark.btn-block.btn-toggle.btn.btn-next::before > *::before, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span.list-custom-checkmark > *::before {
     top: 0.18751rem; }
 
+body.modal-open {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0; }
+
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
 
