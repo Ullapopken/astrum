@@ -1,0 +1,1 @@
+Akkordeon-Komponente
