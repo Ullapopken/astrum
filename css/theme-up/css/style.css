@@ -358,7 +358,7 @@ h6, .h6 {
   font-size: 1.25rem;
   font-weight: 300; }
 
-.display-1, h1, .h1 {
+.display-1, .pw-reset-warning::before, h1, .h1 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2; }
@@ -6119,7 +6119,7 @@ button.bg-white-alt:focus {
 .border-left {
   border-left: 1px solid #dee2e6 !important; }
 
-.border-0, .icon-questionMark-white-20, .icon-questionMark-white, .icon-exclamationMark-white-16, .icon-exclamationMark-white, .alert {
+.border-0, .icon-questionMark-white-20, .icon-questionMark-white, .icon-exclamationMark-white-16, .icon-exclamationMark-white, .alert, .pw-reset-warning {
   border: 0 !important; }
 
 .border-top-0 {
@@ -11278,10 +11278,23 @@ header .language-selector .language {
   height: 5.625rem; }
 
 .pw-reset-warning {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23D7A726' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: no-repeat;
   width: 5.625rem;
-  height: 5.625rem; }
+  height: 5.625rem;
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  text-align: center; }
+  .pw-reset-warning::before {
+    content: "!";
+    color: #D7A726;
+    width: 5.625rem;
+    height: 5.625rem;
+    line-height: 5.625rem !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block; }
 
 .pw-reset-next-arrow {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 6L14.8 11.8C14.9 11.9 14.9 12.1 14.8 12.1L9 18' stroke='%23828282' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
@@ -11623,14 +11636,14 @@ ff-asn ff-asn-group-slider ff-slider {
   font-family: "Open Sans", Arial, sans-serif; }
 
 /* Open Sans SemiBold, 32/40px */
-.display-1, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4 {
+.display-1, .pw-reset-warning::before, h1, .h1, .display-2, h2, .h2, .display-3, h3, .h3, .display-4, h4, .h4 {
   font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 600; }
 
 /* Open Sans SemiBold, 64/64px */
 @media (min-width: 768px) {
-  .display-1, h1, .h1 {
+  .display-1, .pw-reset-warning::before, h1, .h1 {
     font-size: 4rem;
     line-height: 5.5rem; } }
 
@@ -11790,48 +11803,48 @@ display-8 = sm-display-5 --> md-display-4
       font-size: 0.875rem;
       line-height: 1.5rem; } }
 
-.display-1.max-lines-1, h1.max-lines-1, .max-lines-1.h1 {
+.display-1.max-lines-1, .max-lines-1.pw-reset-warning::before, h1.max-lines-1, .max-lines-1.h1 {
   overflow: hidden;
   max-height: 2.5rem; }
 
-.display-1.max-lines-2, h1.max-lines-2, .max-lines-2.h1 {
+.display-1.max-lines-2, .max-lines-2.pw-reset-warning::before, h1.max-lines-2, .max-lines-2.h1 {
   overflow: hidden;
   max-height: 5rem; }
 
-.display-1.max-lines-3, h1.max-lines-3, .max-lines-3.h1 {
+.display-1.max-lines-3, .max-lines-3.pw-reset-warning::before, h1.max-lines-3, .max-lines-3.h1 {
   overflow: hidden;
   max-height: 7.5rem; }
 
-.display-1.max-lines-4, h1.max-lines-4, .max-lines-4.h1 {
+.display-1.max-lines-4, .max-lines-4.pw-reset-warning::before, h1.max-lines-4, .max-lines-4.h1 {
   overflow: hidden;
   max-height: 10rem; }
 
-.display-1.max-lines-5, h1.max-lines-5, .max-lines-5.h1 {
+.display-1.max-lines-5, .max-lines-5.pw-reset-warning::before, h1.max-lines-5, .max-lines-5.h1 {
   overflow: hidden;
   max-height: 12.5rem; }
 
 @media (min-width: 768px) {
-  .display-1.max-lines-md-1, h1.max-lines-md-1, .max-lines-md-1.h1 {
+  .display-1.max-lines-md-1, .max-lines-md-1.pw-reset-warning::before, h1.max-lines-md-1, .max-lines-md-1.h1 {
     overflow: hidden;
     max-height: 5.5rem; } }
 
 @media (min-width: 768px) {
-  .display-1.max-lines-md-2, h1.max-lines-md-2, .max-lines-md-2.h1 {
+  .display-1.max-lines-md-2, .max-lines-md-2.pw-reset-warning::before, h1.max-lines-md-2, .max-lines-md-2.h1 {
     overflow: hidden;
     max-height: 11rem; } }
 
 @media (min-width: 768px) {
-  .display-1.max-lines-md-3, h1.max-lines-md-3, .max-lines-md-3.h1 {
+  .display-1.max-lines-md-3, .max-lines-md-3.pw-reset-warning::before, h1.max-lines-md-3, .max-lines-md-3.h1 {
     overflow: hidden;
     max-height: 16.5rem; } }
 
 @media (min-width: 768px) {
-  .display-1.max-lines-md-4, h1.max-lines-md-4, .max-lines-md-4.h1 {
+  .display-1.max-lines-md-4, .max-lines-md-4.pw-reset-warning::before, h1.max-lines-md-4, .max-lines-md-4.h1 {
     overflow: hidden;
     max-height: 22rem; } }
 
 @media (min-width: 768px) {
-  .display-1.max-lines-md-5, h1.max-lines-md-5, .max-lines-md-5.h1 {
+  .display-1.max-lines-md-5, .max-lines-md-5.pw-reset-warning::before, h1.max-lines-md-5, .max-lines-md-5.h1 {
     overflow: hidden;
     max-height: 27.5rem; } }
 
