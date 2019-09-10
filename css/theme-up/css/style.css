@@ -11594,9 +11594,12 @@ ff-asn ff-asn-group-slider ff-slider {
 [data-edit-view] {
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  transition: 0.4s ease; }
+  transition: max-height 0.4s ease, -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease, max-height 0.4s ease;
+  transition: transform 0.4s ease, max-height 0.4s ease, -webkit-transform 0.4s ease; }
 
 [data-edit-view] {
+  overflow: hidden;
   -webkit-transform: translateX(30px);
           transform: translateX(30px); }
 
