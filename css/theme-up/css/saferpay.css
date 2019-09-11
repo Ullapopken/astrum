@@ -8427,6 +8427,12 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
+.icon-close-info {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 18L12 12L18 6' stroke='%232B94CF' stroke-miterlimit='10'/%3E%3Cpath d='M6 6L12 12L6 18' stroke='%232B94CF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
 .icon-i-white, .saferpay-paymentpage form.page.page-dcc main > .box.box-information > .icon.icon-information {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Ccircle cx='12' cy='6.5' r='1' transform='rotate(-180 12 6.5)' fill='%23FFF'/%3E%3Cpath d='M11.5 10H12.5L13 18H11L11.5 10Z' fill='%23FFF'/%3E%3C/svg%3E");
   background-repeat: no-repeat;

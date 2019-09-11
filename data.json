@@ -96,7 +96,7 @@
         },
         {
             "name": "borders",
-            "title": "Borders",
+            "title": "Schatten",
             "components": [
                 {
                     "group": "borders",
@@ -268,26 +268,6 @@
             "name": "komponenten",
             "title": "Komponenten",
             "components": [
-                {
-                    "group": "komponenten",
-                    "name": "usp-bar",
-                    "title": "USP-Bar"
-                },
-                {
-                    "group": "komponenten",
-                    "name": "collapsible-components-wrapper",
-                    "title": "Collapsible Component Wrapper"
-                },
-                {
-                    "group": "komponenten",
-                    "name": "collapsible-linklist",
-                    "title": "Collapsible Linklist"
-                },
-                {
-                    "group": "komponenten",
-                    "name": "category-bar",
-                    "title": "Kategorie-Bar"
-                },
                 {
                     "group": "komponenten",
                     "name": "messages",
