@@ -13300,6 +13300,13 @@ ff-asn ff-asn-group-slider ff-slider {
 .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label:hover {
   cursor: pointer; }
 
+.custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::before, .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::after,
+.custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::before,
+.custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::after {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
 .custom-checkbox.custom-checkbox--round .custom-control-input:focus ~ .custom-control-label::before,
 .custom-radio.custom-radio--round .custom-control-input:focus ~ .custom-control-label::before {
   border-color: #E7E7E7; }
