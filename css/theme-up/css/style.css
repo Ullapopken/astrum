@@ -11536,6 +11536,12 @@ ff-asn ff-asn-group-slider ff-slider {
 .ffbreadcrumb {
   margin-left: -0.375rem; }
 
+.ff-navigation .filterbuttons .filterbutton {
+  min-width: 0; }
+  @media (max-width: 1199.98px) {
+    .ff-navigation .filterbuttons .filterbutton {
+      text-indent: 0 !important; } }
+
 .move-up-button {
   display: none;
   position: fixed;
@@ -11637,6 +11643,9 @@ ff-asn ff-asn-group-slider ff-slider {
 
 .order-history-entry .slick-track {
   margin-left: 0; }
+
+.paymenticon {
+  height: 2.5rem; }
 
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
