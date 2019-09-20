@@ -10814,6 +10814,9 @@ body.modal-open {
   right: 0;
   top: 0; }
 
+.webkitOverflowTouch {
+  -webkit-overflow-scrolling: touch; }
+
 .header-icon .icon .icon-overlay {
   position: absolute;
   width: 1rem;

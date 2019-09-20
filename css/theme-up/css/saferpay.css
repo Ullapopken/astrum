@@ -8598,6 +8598,9 @@ body.modal-open {
   right: 0;
   top: 0; }
 
+.webkitOverflowTouch {
+  -webkit-overflow-scrolling: touch; }
+
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
 
