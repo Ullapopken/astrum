@@ -9962,7 +9962,7 @@ display-8 = sm-display-5 --> md-display-4
   .custom-search .search-button {
     height: 2.5rem; }
     .custom-search .search-button:hover {
-      background-color: #F2F2F2 !important; }
+      background-color: transparent !important; }
     .custom-search .search-button::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M 13.7 13.7 L 20 20' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M 9.7 15.4 C 12.848 15.4 15.4 12.848 15.4 9.7 C 15.4 6.55198 12.848 4 9.7 4 C 6.55198 4 4 6.55198 4 9.7 C 4 12.848 6.55198 15.4 9.7 15.4 Z' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
       background-repeat: no-repeat;
@@ -9973,7 +9973,10 @@ display-8 = sm-display-5 --> md-display-4
       display: inline-block; }
     .custom-search .search-button:focus {
       outline: none;
-      background-color: #F2F2F2 !important; }
+      background-color: transparent !important; }
+  .custom-search .search-button-absolute {
+    top: 0;
+    right: 0; }
   .custom-search .search-input {
     transition: width 0.5s;
     padding-left: 0.5rem;
@@ -9995,6 +9998,8 @@ display-8 = sm-display-5 --> md-display-4
     .custom-search .search-input:focus {
       padding-left: 1rem !important;
       width: 15.625rem; }
+  .custom-search .search-input-absolute {
+    padding-right: 2.5rem; }
 
 .invalid-feedback {
   position: relative; }
@@ -10081,6 +10086,10 @@ display-8 = sm-display-5 --> md-display-4
   background-size: contain;
   width: 1.5rem;
   height: 1.5rem; }
+
+.has-warning:not(.is-invalid) .form-control, .has-warning:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning:not(.is-invalid) .form-group > div.form-input > input, .has-warning:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning:not(.is-invalid) .form-group > div.form-input > select {
+  border-color: #D7A726;
+  background-color: #f7edd4; }
 
 iframe {
   border: none;
