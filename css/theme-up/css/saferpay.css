@@ -8303,6 +8303,30 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.25rem;
   height: 1.25rem; }
 
+.icon-chevronLeft-dark-30 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M14.875 18L9.075 12.2C8.975 12.1 8.975 11.9 9.075 11.8L14.875 6' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.875rem;
+  height: 1.875rem; }
+
+.icon-chevronLeft-dark-48 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M14.875 18L9.075 12.2C8.975 12.1 8.975 11.9 9.075 11.8L14.875 6' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem; }
+
+.icon-chevronRight-dark-30 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 6L14.8 11.8C14.9 11.9 14.9 12.1 14.8 12.1L9 18' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.875rem;
+  height: 1.875rem; }
+
+.icon-chevronRight-dark-48 {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 6L14.8 11.8C14.9 11.9 14.9 12.1 14.8 12.1L9 18' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem; }
+
 .icon-questionMark-white-20, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
   width: 1.25rem;
   height: 1.25rem;
@@ -8598,8 +8622,9 @@ body.modal-open {
   right: 0;
   top: 0; }
 
-.webkitOverflowTouch {
-  -webkit-overflow-scrolling: touch; }
+@supports (-webkit-overflow-scrolling: touch) {
+  * {
+    -webkit-overflow-scrolling: touch; } }
 
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
@@ -10161,11 +10186,19 @@ iframe {
   .saferpay-paymentpage[lang='de'] form.page.page-dcc .btn-next::before {
     content: "Bestätigen" !important; }
   .saferpay-paymentpage[lang='en-GB'] form.page.page-dcc .btn-next::before {
-    content: "Confirm" !important; }
+    content: "Apply card" !important; }
+  .saferpay-paymentpage[lang='nl'] form.page.page-dcc .btn-next::before {
+    content: "Vervang kaart" !important; }
+  .saferpay-paymentpage[lang='fr'] form.page.page-dcc .btn-next::before {
+    content: "Utiliser une autre carte" !important; }
   .saferpay-paymentpage[lang='de'] form.page.page-card.page-hosted .btn-next::before {
     content: "Karte übernehmen" !important; }
   .saferpay-paymentpage[lang='en-GB'] form.page.page-card.page-hosted .btn-next::before {
-    content: "accept credit card" !important; }
+    content: "Replace card" !important; }
+  .saferpay-paymentpage[lang='nl'] form.page.page-card.page-hosted .btn-next::before {
+    content: "Accepteer kaart" !important; }
+  .saferpay-paymentpage[lang='fr'] form.page.page-card.page-hosted .btn-next::before {
+    content: "Utiliser cette carte" !important; }
 
 .dcc-radio.hidden {
   position: static;
