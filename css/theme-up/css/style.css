@@ -11372,25 +11372,25 @@ header .language-selector .language {
     width: 2rem;
     height: 2rem; } }
 
-.cart-items .product-amount, .order-items .product-amount, .add-to-cart-modal .product-amount {
+.cart-items .product-amount, .order-items .product-amount, .add-to-cart-modal .product-amount, .quick-order-item .product-amount {
   top: -0.75rem;
   left: -0.75rem; }
-  .cart-items .product-amount .product-amount-number, .order-items .product-amount .product-amount-number, .add-to-cart-modal .product-amount .product-amount-number {
+  .cart-items .product-amount .product-amount-number, .order-items .product-amount .product-amount-number, .add-to-cart-modal .product-amount .product-amount-number, .quick-order-item .product-amount .product-amount-number {
     top: 0;
     left: 0; }
 
-.cart-items .product-image, .order-items .product-image, .add-to-cart-modal .product-image {
+.cart-items .product-image, .order-items .product-image, .add-to-cart-modal .product-image, .quick-order-item .product-image {
   width: 94px; }
-  .cart-items .product-image img, .order-items .product-image img, .add-to-cart-modal .product-image img {
+  .cart-items .product-image img, .order-items .product-image img, .add-to-cart-modal .product-image img, .quick-order-item .product-image img {
     width: 100%; }
 
-.cart-items .next-to-product-image, .order-items .next-to-product-image, .add-to-cart-modal .next-to-product-image {
+.cart-items .next-to-product-image, .order-items .next-to-product-image, .add-to-cart-modal .next-to-product-image, .quick-order-item .next-to-product-image {
   width: calc(100% - 94px - 1rem); }
 
 @media (min-width: 768px) {
-  .cart-items .product-image, .order-items .product-image, .add-to-cart-modal .product-image {
+  .cart-items .product-image, .order-items .product-image, .add-to-cart-modal .product-image, .quick-order-item .product-image {
     width: 128px; }
-  .cart-items .next-to-product-image, .order-items .next-to-product-image, .add-to-cart-modal .next-to-product-image {
+  .cart-items .next-to-product-image, .order-items .next-to-product-image, .add-to-cart-modal .next-to-product-image, .quick-order-item .next-to-product-image {
     width: calc(100% - 128px - 1rem); } }
 
 .add-address-btn {
@@ -11677,6 +11677,14 @@ ff-asn ff-asn-group-slider ff-slider {
 
 .order-history-entry .slick-track {
   margin-left: 0; }
+
+.remove-article-btn {
+  top: 0.25rem;
+  right: 0.25rem; }
+
+.remove-article-icon {
+  top: 0;
+  right: 0; }
 
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
