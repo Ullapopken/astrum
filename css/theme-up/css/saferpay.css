@@ -329,7 +329,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1rem;
-  font-family: "GT Super Display Bold", serif;
+  font-family: "Open Sans SemiBold", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #191919; }
