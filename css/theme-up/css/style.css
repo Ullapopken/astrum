@@ -10839,8 +10839,10 @@ body.modal-open {
   top: 0; }
 
 @supports (-webkit-overflow-scrolling: touch) {
-  * {
-    -webkit-overflow-scrolling: touch; } }
+  .overflow-scrolling-touch {
+    -webkit-overflow-scrolling: touch; }
+    .overflow-scrolling-touch .scrolling-touch-overlay {
+      -webkit-transform: translate3d(0, 0, 0); } }
 
 .header-icon .icon .icon-overlay {
   position: absolute;
