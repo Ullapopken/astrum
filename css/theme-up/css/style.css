@@ -11114,6 +11114,67 @@ body.modal-open {
       border-bottom-left-radius: 0.25rem;
       border-bottom-right-radius: 0.25rem; } }
 
+.promobanner.bannerComponent.textColorMode-dark .labelWrapper,
+.promobanner.bannerComponent.textColorMode-dark .headlineWrapper,
+.promobanner.bannerComponent.textColorMode-dark .textWrapper,
+.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary,
+.promobanner.bannerComponent.textColorMode-dark .teaserWrapper {
+  color: #191919; }
+
+.promobanner.bannerComponent.textColorMode-dark .labelWrapper:after {
+  background-color: #191919; }
+
+.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary {
+  border: 1px solid #191919; }
+
+.promobanner.bannerComponent.textColorMode-dark .btn-primary {
+  background-color: #191919;
+  border: 1px solid #191919; }
+
+.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary:hover {
+  background-color: #191919; }
+
+.promobanner.bannerComponent.textColorMode-light .labelWrapper,
+.promobanner.bannerComponent.textColorMode-light .headlineWrapper,
+.promobanner.bannerComponent.textColorMode-light .textWrapper,
+.promobanner.bannerComponent.textColorMode-light .btn-outline-primary,
+.promobanner.bannerComponent.textColorMode-light .teaserWrapper {
+  color: #FFF; }
+
+.promobanner.bannerComponent.textColorMode-light .labelWrapper:after {
+  background-color: #FFF; }
+
+.promobanner.bannerComponent.textColorMode-light .btn-outline-primary {
+  border: 1px solid #FFF; }
+
+.promobanner.bannerComponent.textColorMode-light .btn-primary {
+  background-color: #FFF;
+  border: 1px solid #FFF; }
+
+.promobanner.bannerComponent.textColorMode-light .btn-outline-primary:hover {
+  background-color: #FFF; }
+
+@media (max-width: 767.98px) {
+  .promobanner {
+    background-color: transparent !important; }
+    .promobanner .textWrapper-outer {
+      background-color: transparent !important; } }
+
+@media (min-width: 768px) {
+  .promobanner .teaserWrapper .altTextWrapper {
+    width: 15rem;
+    min-height: 19.3125rem; } }
+
+.promobanner picture {
+  width: 15rem;
+  height: 19.3125rem; }
+  .promobanner picture img {
+    width: 15rem;
+    height: 19.3125rem; }
+
+.promobanner .textWrapper-inner .btn {
+  display: block !important; }
+
 @-webkit-keyframes spinner {
   0% {
     -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg);
