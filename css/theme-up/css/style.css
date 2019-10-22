@@ -11906,7 +11906,7 @@ ff-asn ff-asn-group-slider ff-slider {
       line-height: 2rem; } }
 
 /* Open Sans Regular, 12/24px */
-.display-29, .product-tab-link, .btn-small {
+.display-29, .product-tab-link, .btn-small, .custom-select.select-small {
   font-size: 0.75rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -12443,23 +12443,23 @@ ff-asn ff-asn-group-slider ff-slider {
     overflow: hidden;
     max-height: 10rem; } }
 
-.display-29.max-lines-1, .max-lines-1.product-tab-link, .max-lines-1.btn-small {
+.display-29.max-lines-1, .max-lines-1.product-tab-link, .max-lines-1.btn-small, .max-lines-1.custom-select.select-small {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-29.max-lines-2, .max-lines-2.product-tab-link, .max-lines-2.btn-small {
+.display-29.max-lines-2, .max-lines-2.product-tab-link, .max-lines-2.btn-small, .max-lines-2.custom-select.select-small {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-29.max-lines-3, .max-lines-3.product-tab-link, .max-lines-3.btn-small {
+.display-29.max-lines-3, .max-lines-3.product-tab-link, .max-lines-3.btn-small, .max-lines-3.custom-select.select-small {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-29.max-lines-4, .max-lines-4.product-tab-link, .max-lines-4.btn-small {
+.display-29.max-lines-4, .max-lines-4.product-tab-link, .max-lines-4.btn-small, .max-lines-4.custom-select.select-small {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-29.max-lines-5, .max-lines-5.product-tab-link, .max-lines-5.btn-small {
+.display-29.max-lines-5, .max-lines-5.product-tab-link, .max-lines-5.btn-small, .max-lines-5.custom-select.select-small {
   overflow: hidden;
   max-height: 7.5rem; }
 
@@ -13346,6 +13346,8 @@ ff-asn ff-asn-group-slider ff-slider {
   background-position: calc(100% - 0.7rem) 50%;
   width: 100%;
   height: auto; }
+  .custom-select.select-small {
+    padding: 0.1875rem 0.9375rem; }
   .custom-select::-ms-expand {
     display: none; }
 

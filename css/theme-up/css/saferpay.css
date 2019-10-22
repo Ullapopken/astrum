@@ -8765,7 +8765,7 @@ display-8 = sm-display-5 --> md-display-4
   line-height: 2rem; }
 
 /* Open Sans Regular, 12/24px */
-.display-29, .btn-small {
+.display-29, .btn-small, .custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.select-small {
   font-size: 0.75rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -9153,23 +9153,23 @@ display-8 = sm-display-5 --> md-display-4
   overflow: hidden;
   max-height: 12.5rem; }
 
-.display-29.max-lines-1, .max-lines-1.btn-small {
+.display-29.max-lines-1, .max-lines-1.btn-small, .max-lines-1.custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.max-lines-1.select-small {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-29.max-lines-2, .max-lines-2.btn-small {
+.display-29.max-lines-2, .max-lines-2.btn-small, .max-lines-2.custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.max-lines-2.select-small {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-29.max-lines-3, .max-lines-3.btn-small {
+.display-29.max-lines-3, .max-lines-3.btn-small, .max-lines-3.custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.max-lines-3.select-small {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-29.max-lines-4, .max-lines-4.btn-small {
+.display-29.max-lines-4, .max-lines-4.btn-small, .max-lines-4.custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.max-lines-4.select-small {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-29.max-lines-5, .max-lines-5.btn-small {
+.display-29.max-lines-5, .max-lines-5.btn-small, .max-lines-5.custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.max-lines-5.select-small {
   overflow: hidden;
   max-height: 7.5rem; }
 
@@ -10009,6 +10009,8 @@ display-8 = sm-display-5 --> md-display-4
   background-position: calc(100% - 0.7rem) 50%;
   width: 100%;
   height: auto; }
+  .custom-select.select-small, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.select-small {
+    padding: 0.1875rem 0.9375rem; }
   .custom-select::-ms-expand, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select::-ms-expand {
     display: none; }
 
