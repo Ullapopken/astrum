@@ -11453,8 +11453,12 @@ header .language-selector .language {
   width: 128px; }
   .multiple-add-to-cart-modal .product-image img {
     width: 100%; }
-  .multiple-add-to-cart-modal .product-image .product-quantity-overlay {
-    opacity: 0.5; }
+  .multiple-add-to-cart-modal .product-image .product-fade {
+    opacity: .5;
+    top: -0.75rem;
+    left: -0.75rem;
+    height: calc(100% + 0.75rem);
+    width: calc(100% + 0.75rem); }
 
 .cart-items .sold .product-image, .cart-items .sold .product-name, .cart-items .sold .product-variants, .cart-items .sold .product-price, .order-items .sold .product-image, .order-items .sold .product-name, .order-items .sold .product-variants, .order-items .sold .product-price, .add-to-cart-modal .sold .product-image, .add-to-cart-modal .sold .product-name, .add-to-cart-modal .sold .product-variants, .add-to-cart-modal .sold .product-price, .quick-order-item .sold .product-image, .quick-order-item .sold .product-name, .quick-order-item .sold .product-variants, .quick-order-item .sold .product-price, .multiple-add-to-cart-modal .sold .product-image, .multiple-add-to-cart-modal .sold .product-name, .multiple-add-to-cart-modal .sold .product-variants, .multiple-add-to-cart-modal .sold .product-price {
   opacity: .5; }
