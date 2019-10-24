@@ -11275,6 +11275,10 @@ body.modal-open {
 .userFormLogin-mobile .btn-login {
   max-width: 17.5rem; }
 
+.flyout-link a {
+  display: block;
+  padding: 0.25rem 0; }
+
 .seotext {
   -webkit-column-count: 2;
           column-count: 2; }
