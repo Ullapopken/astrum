@@ -308,6 +308,11 @@
                     "group": "contentpflege",
                     "name": "container-gray-background",
                     "title": "Content innerhalb des Containers mit grauem Hintergrund"
+                },
+                {
+                    "group": "contentpflege",
+                    "name": "text-asterisk",
+                    "title": "Sternchen Text"
                 }
             ]
         }
