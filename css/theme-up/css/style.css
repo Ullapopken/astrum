@@ -11196,25 +11196,25 @@ body.modal-open {
   .spinner::before {
     -webkit-animation: 2s linear infinite spinner;
             animation: 2s linear infinite spinner;
-    border: solid 4px #F2F2F2;
+    border: solid 0.25rem #F2F2F2;
     border-bottom-color: #FE8273;
     border-radius: 50%;
     content: "";
-    height: 100px;
-    left: 50%;
-    opacity: 3;
     position: absolute;
+    left: 50%;
     top: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
     -webkit-transform: translate3d(-50%, -50%, 0);
             transform: translate3d(-50%, -50%, 0);
     -webkit-transform-origin: center;
             transform-origin: center;
-    width: 100px;
-    will-change: transform; }
+    will-change: transform;
+    opacity: 3; }
 
-.spinnerButton {
+.spinner-small {
   position: relative; }
-  .spinnerButton::before {
+  .spinner-small::before {
     -webkit-animation: 2s linear infinite spinner;
             animation: 2s linear infinite spinner;
     border: solid 0.125rem #F2F2F2;
@@ -11224,8 +11224,8 @@ body.modal-open {
     position: absolute;
     left: 50%;
     top: 50%;
-    height: 2.5rem;
     width: 2.5rem;
+    height: 2.5rem;
     -webkit-transform: translate3d(-50%, -50%, 0);
             transform: translate3d(-50%, -50%, 0);
     -webkit-transform-origin: center;
@@ -11761,6 +11761,12 @@ ff-asn ff-asn-group-slider ff-slider {
 
 .bg-quickorder-warning {
   background-color: #f7edd4; }
+
+.quick-order-spinner {
+  height: 15.625rem; }
+  @media (min-width: 768px) {
+    .quick-order-spinner {
+      height: 11.25rem; } }
 
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
