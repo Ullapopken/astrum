@@ -10226,7 +10226,7 @@ iframe {
   .saferpay-paymentpage[lang='de'] form.page.page-card.page-hosted .btn-next::before {
     content: "Karte übernehmen" !important; }
   .saferpay-paymentpage[lang='en-GB'] form.page.page-card.page-hosted .btn-next::before {
-    content: "Replace card" !important; }
+    content: "Save card" !important; }
   .saferpay-paymentpage[lang='nl'] form.page.page-card.page-hosted .btn-next::before {
     content: "Accepteer kaart" !important; }
   .saferpay-paymentpage[lang='fr'] form.page.page-card.page-hosted .btn-next::before {
