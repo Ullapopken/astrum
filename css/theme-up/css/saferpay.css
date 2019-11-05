@@ -10034,29 +10034,18 @@ display-8 = sm-display-5 --> md-display-4
   .custom-search .search-button-absolute {
     top: 0;
     right: 0; }
-  .custom-search .search-input {
-    transition: width 0.5s;
-    padding-left: 0.5rem;
-    position: absolute;
-    right: 0rem;
-    left: auto; }
-    .custom-search .search-input::-webkit-input-placeholder {
-      color: #191919;
-      opacity: 1; }
-    .custom-search .search-input:-ms-input-placeholder {
-      color: #191919;
-      opacity: 1; }
-    .custom-search .search-input::-ms-input-placeholder {
-      color: #191919;
-      opacity: 1; }
-    .custom-search .search-input::placeholder {
-      color: #191919;
-      opacity: 1; }
-    .custom-search .search-input:focus {
-      padding-left: 1rem !important;
-      width: 15.625rem; }
-  .custom-search .search-input-absolute {
-    padding-right: 2.5rem; }
+  .custom-search .search-input::-webkit-input-placeholder {
+    color: #191919;
+    opacity: 1; }
+  .custom-search .search-input:-ms-input-placeholder {
+    color: #191919;
+    opacity: 1; }
+  .custom-search .search-input::-ms-input-placeholder {
+    color: #191919;
+    opacity: 1; }
+  .custom-search .search-input::placeholder {
+    color: #191919;
+    opacity: 1; }
 
 .invalid-feedback {
   position: relative; }
