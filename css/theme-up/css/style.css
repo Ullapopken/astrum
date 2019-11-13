@@ -11795,6 +11795,18 @@ header .custom-search .search-input-absolute {
     .quick-order-spinner {
       height: 11.25rem; } }
 
+@media (max-width: 575.98px) {
+  .product-tiles .product-tile:nth-child(even) {
+    padding-left: 0.5rem; }
+  .product-tiles .product-tile:nth-child(odd) {
+    padding-right: 0.5rem; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .product-tiles .product-tile:nth-child(even) {
+    padding-left: 0.5rem; }
+  .product-tiles .product-tile:nth-child(odd) {
+    padding-right: 0.5rem; } }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
