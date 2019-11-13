@@ -10844,6 +10844,10 @@ body.modal-open {
     .overflow-scrolling-touch .scrolling-touch-overlay {
       -webkit-transform: translate3d(0, 0, 0); } }
 
+.svg-image-big {
+  width: 100%;
+  max-width: 25rem; }
+
 .header-icon .icon .icon-overlay {
   position: absolute;
   width: 1rem;
