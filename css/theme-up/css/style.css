@@ -11762,10 +11762,11 @@ header .custom-search .search-input-absolute {
 .cookie-notification {
   position: fixed;
   bottom: 0;
-  right: 0; }
+  right: 0;
+  opacity: 0.9; }
   @media (min-width: 768px) {
-    .cookie-notification {
-      width: 20rem; } }
+    .cookie-notification .cookie-accept {
+      width: 10rem; } }
 
 [data-display-view],
 [data-edit-view] {
