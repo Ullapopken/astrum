@@ -11818,6 +11818,9 @@ header .custom-search .search-input-absolute {
   .product-tiles .product-tile:nth-child(odd) {
     padding-right: 0.5rem; } }
 
+.bg-favorite-message {
+  background-color: #d5eaf5; }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
