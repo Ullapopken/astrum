@@ -11818,6 +11818,10 @@ header .custom-search .search-input-absolute {
   .product-tiles .product-tile:nth-child(odd) {
     padding-right: 0.5rem; } }
 
+.checkout-arrow {
+  bottom: -1.75rem;
+  right: calc(50% - 28px); }
+
 .bg-favorite-message {
   background-color: #d5eaf5; }
 
