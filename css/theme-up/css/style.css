@@ -11825,6 +11825,9 @@ header .custom-search .search-input-absolute {
 .bg-favorite-message {
   background-color: #d5eaf5; }
 
+.store-finder-spinner {
+  height: 10rem; }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
