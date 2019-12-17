@@ -11815,6 +11815,13 @@ header .custom-search .search-input-absolute {
 .store-finder-spinner {
   height: 10rem; }
 
+.map-image-container {
+  max-width: 6.875rem;
+  max-height: 8.5rem; }
+
+.map-image-summary-step {
+  max-width: 19.5rem; }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
