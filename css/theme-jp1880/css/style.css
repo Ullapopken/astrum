@@ -11112,11 +11112,16 @@ body.modal-open {
 .promobanner.bannerComponent.textColorMode-dark .labelWrapper:after {
   background-color: #191919; }
 
-.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary {
-  border: 1px solid #191919; }
-
 .promobanner.bannerComponent.textColorMode-dark .btn-primary {
   background-color: #191919;
+  border: 1px solid #191919; }
+
+.promobanner.bannerComponent.textColorMode-dark .btn-primary:hover {
+  background-color: transparent !important;
+  border: 1px solid #191919 !important;
+  color: #191919 !important; }
+
+.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary {
   border: 1px solid #191919; }
 
 .promobanner.bannerComponent.textColorMode-dark .btn-outline-primary:hover {
@@ -11132,11 +11137,16 @@ body.modal-open {
 .promobanner.bannerComponent.textColorMode-light .labelWrapper:after {
   background-color: #FFF; }
 
-.promobanner.bannerComponent.textColorMode-light .btn-outline-primary {
-  border: 1px solid #FFF; }
-
 .promobanner.bannerComponent.textColorMode-light .btn-primary {
   background-color: #FFF;
+  border: 1px solid #FFF; }
+
+.promobanner.bannerComponent.textColorMode-light .btn-primary:hover {
+  background-color: transparent !important;
+  border: 1px solid #FFF !important;
+  color: #FFF !important; }
+
+.promobanner.bannerComponent.textColorMode-light .btn-outline-primary {
   border: 1px solid #FFF; }
 
 .promobanner.bannerComponent.textColorMode-light .btn-outline-primary:hover {
@@ -11150,8 +11160,16 @@ body.modal-open {
 
 @media (min-width: 768px) {
   .promobanner .teaserWrapper .altTextWrapper {
-    width: 15rem;
-    min-height: 19.3125rem; } }
+    font-size: 2rem;
+    line-height: 2.5rem;
+    min-height: 19.3125rem;
+    width: 15rem; }
+  .promobanner .textWrapper-inner [role="button"] .btn {
+    display: block !important; }
+  .promobanner .textWrapper-inner [role="button"]:only-child .btn {
+    display: inline-block !important; }
+  .promobanner .textWrapper {
+    -webkit-line-clamp: 2; } }
 
 .promobanner picture {
   width: 15rem;
@@ -11159,9 +11177,6 @@ body.modal-open {
   .promobanner picture img {
     width: 15rem;
     height: 19.3125rem; }
-
-.promobanner .textWrapper-inner .btn {
-  display: block !important; }
 
 @-webkit-keyframes spinner {
   0% {
