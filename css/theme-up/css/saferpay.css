@@ -10114,10 +10114,6 @@ display-8 = sm-display-5 --> md-display-4
   width: 1.5rem;
   height: 1.5rem; }
 
-.custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label:hover,
-.custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label:hover {
-  cursor: pointer; }
-
 .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::before, .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::after,
 .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::before,
 .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::after {
@@ -10145,6 +10141,10 @@ display-8 = sm-display-5 --> md-display-4
   background-size: contain;
   width: 1.5rem;
   height: 1.5rem; }
+
+.custom-checkbox.custom-checkbox--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover,
+.custom-radio.custom-radio--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover {
+  cursor: pointer; }
 
 .has-warning:not(.is-invalid) .form-control, .has-warning:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning:not(.is-invalid) .form-group > div.form-input > input, .has-warning:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning:not(.is-invalid) .form-group > div.form-input > select {
   border-color: #D7A726;

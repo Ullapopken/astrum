@@ -11837,6 +11837,12 @@ header .custom-search .search-input-absolute {
 .map-image-summary-step {
   max-width: 19.5rem; }
 
+.delivery-type-popover {
+  right: 1rem;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 

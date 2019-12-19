@@ -11837,6 +11837,12 @@ header .custom-search .search-input-absolute {
 .map-image-summary-step {
   max-width: 19.5rem; }
 
+.delivery-type-popover {
+  right: 1rem;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
@@ -13560,10 +13566,6 @@ header .custom-search .search-input-absolute {
   width: 1.5rem;
   height: 1.5rem; }
 
-.custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label:hover,
-.custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label:hover {
-  cursor: pointer; }
-
 .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::before, .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::after,
 .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::before,
 .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::after {
@@ -13591,6 +13593,10 @@ header .custom-search .search-input-absolute {
   background-size: contain;
   width: 1.5rem;
   height: 1.5rem; }
+
+.custom-checkbox.custom-checkbox--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover,
+.custom-radio.custom-radio--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover {
+  cursor: pointer; }
 
 .has-warning:not(.is-invalid) .form-control {
   border-color: #D7A726;
