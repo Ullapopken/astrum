@@ -11791,8 +11791,6 @@ body.modal-open {
 
 @media (min-width: 768px) {
   .promobanner .teaserWrapper .altTextWrapper {
-    font-size: 2rem;
-    line-height: 2.5rem;
     min-height: 19.3125rem;
     width: 15rem; }
   .promobanner .textWrapper-inner [role="button"] .btn {
