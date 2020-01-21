@@ -7520,7 +7520,7 @@ button.bg-white-alt:focus {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(25, 25, 25, 0.15) !important; }
 
-.shadow-lg, .alert, .sticky-shadow.sticky-container-active {
+.shadow-lg, .sticky-shadow.sticky-container-active {
   box-shadow: 0 0.625rem 1.25rem rgba(25, 25, 25, 0.15) !important; }
 
 .shadow-none {
@@ -10929,6 +10929,12 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 
 .default-icon-bagFill, .header-icon .default-icon-bag:hover {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21.3812 9H2.59942C2.19981 9 2 9.3 2 9.7L3.59845 18.1C3.89816 19.8 5.29681 21 6.89526 21H17.0854C18.6838 21 20.0825 19.8 20.3822 18.1L21.9806 9.7C22.0805 9.3 21.7808 9 21.3812 9Z' fill='%23191919' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M6.99516 7.8C6.99516 5.1 9.19303 3 11.9903 3C14.7876 3 16.9855 5.1 16.9855 7.8' stroke='%23191919' stroke-miterlimit='10'/%3E%3Ccircle cx='6.99564' cy='10.5' r='0.5' fill='white'/%3E%3Ccircle cx='16.986' cy='10.5' r='0.5' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.default-icon-gps {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19Z' fill='%23191919'/%3E%3Ccircle cx='12' cy='12' r='4' fill='%23191919'/%3E%3Crect x='11.5' y='2' width='1' height='3' fill='%23191919'/%3E%3Crect x='11.5' y='19' width='1' height='3' fill='%23191919'/%3E%3Crect x='22' y='11.5' width='1' height='3' transform='rotate(90 22 11.5)' fill='%23191919'/%3E%3Crect x='5' y='11.5' width='1' height='3' transform='rotate(90 5 11.5)' fill='%23191919'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
   height: 1.5rem; }
