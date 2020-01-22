@@ -11760,8 +11760,7 @@ body.modal-open {
 .promobanner.bannerComponent.textColorMode-dark .labelWrapper,
 .promobanner.bannerComponent.textColorMode-dark .headlineWrapper,
 .promobanner.bannerComponent.textColorMode-dark .textWrapper,
-.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary,
-.promobanner.bannerComponent.textColorMode-dark .teaserWrapper {
+.promobanner.bannerComponent.textColorMode-dark .btn-outline-primary {
   color: #191919; }
 
 .promobanner.bannerComponent.textColorMode-dark .labelWrapper:after {
@@ -11782,11 +11781,13 @@ body.modal-open {
 .promobanner.bannerComponent.textColorMode-dark .btn-outline-primary:hover {
   background-color: #191919; }
 
+.promobanner .teaserTextColorMode-dark {
+  color: #191919; }
+
 .promobanner.bannerComponent.textColorMode-light .labelWrapper,
 .promobanner.bannerComponent.textColorMode-light .headlineWrapper,
 .promobanner.bannerComponent.textColorMode-light .textWrapper,
-.promobanner.bannerComponent.textColorMode-light .btn-outline-primary,
-.promobanner.bannerComponent.textColorMode-light .teaserWrapper {
+.promobanner.bannerComponent.textColorMode-light .btn-outline-primary {
   color: #FFF; }
 
 .promobanner.bannerComponent.textColorMode-light .labelWrapper:after {
@@ -11806,6 +11807,9 @@ body.modal-open {
 
 .promobanner.bannerComponent.textColorMode-light .btn-outline-primary:hover {
   background-color: #FFF; }
+
+.promobanner .teaserTextColorMode-light {
+  color: #FFF; }
 
 @media (max-width: 767.98px) {
   .promobanner {
