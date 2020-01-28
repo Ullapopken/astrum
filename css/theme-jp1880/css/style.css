@@ -12012,6 +12012,15 @@ header .language-selector .language {
 #sideMenu .language-selector .languageprefix {
   display: inline; }
 
+.payment-spinner {
+  height: 15.625rem; }
+
+.number-of-rates-button {
+  height: 2.5rem;
+  width: 2.5rem; }
+  .number-of-rates-button .btn {
+    padding: 0.4375rem; }
+
 .close-modal {
   cursor: pointer;
   position: absolute;
@@ -14235,8 +14244,8 @@ header .custom-search .search-input-absolute {
 
 .custom-checkbox.custom-checkbox--round .custom-control-input:checked ~ .custom-control-label::before,
 .custom-radio.custom-radio--round .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #FE8273;
-  border-color: #FE8273;
+  background-color: #6C9431;
+  border-color: #6C9431;
   border-radius: 50%; }
 
 .custom-checkbox.custom-checkbox--round .custom-control-input:checked ~ .custom-control-label::after,
