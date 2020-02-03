@@ -12443,27 +12443,6 @@ header .custom-search .search-input-absolute {
     .cookie-notification .cookie-accept {
       width: 10rem; } }
 
-[data-display-view],
-[data-edit-view] {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: max-height 0.4s ease, -webkit-transform 0.4s ease;
-  transition: max-height 0.4s ease, -webkit-transform 0.4s ease;
-  transition: transform 0.4s ease, max-height 0.4s ease;
-  transition: transform 0.4s ease, max-height 0.4s ease, -webkit-transform 0.4s ease; }
-
-[data-edit-view] {
-  overflow: hidden;
-  -webkit-transform: translateX(30px);
-          transform: translateX(30px); }
-
-.edit-active {
-  padding-left: 1px; }
-  .edit-active [data-edit-view],
-  .edit-active [data-display-view] {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%); }
-
 .order-history-entry .product-image img {
   width: 120px; }
 
