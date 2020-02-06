@@ -12059,9 +12059,6 @@ body.modal-open {
   right: 0.5rem; }
 
 .icon-password-show {
-  cursor: pointer;
-  z-index: 2;
-  position: absolute;
   top: 0.5rem;
   right: 0.75rem;
   line-height: 1.5rem; }
