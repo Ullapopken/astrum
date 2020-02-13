@@ -11641,6 +11641,11 @@ body.modal-open {
   width: 1.5rem;
   height: 1.5rem; }
 
+.custom-checkbox.custom-checkbox--round .custom-control-input:disabled ~ .custom-control-label::before,
+.custom-radio.custom-radio--round .custom-control-input:disabled ~ .custom-control-label::before {
+  background-color: #FFF;
+  border-color: #E7E7E7; }
+
 .custom-checkbox.custom-checkbox--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover,
 .custom-radio.custom-radio--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover {
   cursor: pointer; }
