@@ -11711,6 +11711,7 @@ body.modal-open {
   .sidebar .sidebar-slot {
     min-height: 0; }
   .sidebar .sidebar-closer {
+    position: absolute;
     right: 0;
     top: 0; }
   .sidebar .sidebar-upper {

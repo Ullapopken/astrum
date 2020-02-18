@@ -11823,6 +11823,7 @@ body.modal-open {
   .sidebar .sidebar-slot {
     min-height: 0; }
   .sidebar .sidebar-closer {
+    position: absolute;
     right: 0;
     top: 0; }
   .sidebar .sidebar-upper {
@@ -14445,5 +14446,12 @@ iframe {
 .siteLogo-component-orderConfirmation img {
   width: 7.5rem;
   height: 2rem; }
+
+.sidebar .sidebar-closer {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
