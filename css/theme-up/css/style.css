@@ -11795,6 +11795,10 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .pointer {
   cursor: pointer; }
 
+.cursor-zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in; }
+
 .word-break-all {
   word-break: break-all; }
 

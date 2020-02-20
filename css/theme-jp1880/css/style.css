@@ -11907,6 +11907,10 @@ a.text-white-80:hover, a.text-white-80:focus {
 .pointer {
   cursor: pointer; }
 
+.cursor-zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in; }
+
 .word-break-all {
   word-break: break-all; }
 
