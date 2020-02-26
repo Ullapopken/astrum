@@ -11238,7 +11238,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-heartLargeFill {
+.default-icon-heartLargeFill, .header-icon .default-icon-heartLarge:hover {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M11.7999 20.9248C11.9003 21.0251 12.1009 21.0251 12.2013 20.9248L20.4286 12.2024C21.3316 11.3001 21.8333 10.1973 21.9336 9.09445C22.6359 4.58288 17.6193 1.4749 13.9069 3.78082L12.2013 4.88365C12.1009 4.98391 12.0006 4.98391 11.9003 4.88365L10.0943 3.78082C6.28159 1.4749 1.36525 4.68313 2.06758 9.09445C2.26825 10.1973 2.76992 11.3001 3.57258 12.2024L11.7999 20.9248Z' fill='%23191919' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
