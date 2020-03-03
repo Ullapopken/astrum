@@ -12971,6 +12971,26 @@ header .custom-search .search-input {
 header .custom-search .search-input-absolute {
   padding-right: 2.5rem; }
 
+@media (min-width: 992px) {
+  .ff-suggest-wrapper {
+    margin-left: 0.75rem !important; } }
+
+.ff-suggest-wrapper .ffw-suggestContainerWrapper {
+  width: 100%; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .ff-suggest-wrapper .ffw-suggestContainerWrapper.suggest-focus {
+      width: 17.1875rem;
+      position: absolute;
+      right: 0rem;
+      left: auto; } }
+
+.ff-suggest-wrapper .suggest-line {
+  height: 0;
+  border: 0.0625rem solid #E7E7E7; }
+
+.ff-suggest-wrapper ff-suggest-item.ffw-highlight-suggest-item {
+  background-color: #F2F2F2; }
+
 .ff-navigation .filterbuttons .filterbutton {
   min-width: 0; }
   @media (max-width: 1199.98px) {
@@ -13235,7 +13255,7 @@ header .custom-search .search-input-absolute {
   font-weight: 400; }
 
 /* Open Sans SemiBold, 14/24px */
-.display-22 {
+.display-22, .ff-suggest-wrapper ff-suggest-item .ffw-query {
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 600; }
@@ -13665,23 +13685,23 @@ header .custom-search .search-input-absolute {
   overflow: hidden;
   max-height: 8.125rem; }
 
-.display-22.max-lines-1 {
+.display-22.max-lines-1, .ff-suggest-wrapper ff-suggest-item .max-lines-1.ffw-query {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-22.max-lines-2 {
+.display-22.max-lines-2, .ff-suggest-wrapper ff-suggest-item .max-lines-2.ffw-query {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-22.max-lines-3 {
+.display-22.max-lines-3, .ff-suggest-wrapper ff-suggest-item .max-lines-3.ffw-query {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-22.max-lines-4 {
+.display-22.max-lines-4, .ff-suggest-wrapper ff-suggest-item .max-lines-4.ffw-query {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-22.max-lines-5 {
+.display-22.max-lines-5, .ff-suggest-wrapper ff-suggest-item .max-lines-5.ffw-query {
   overflow: hidden;
   max-height: 7.5rem; }
 
