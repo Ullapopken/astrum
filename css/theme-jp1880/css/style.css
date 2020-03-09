@@ -13162,6 +13162,38 @@ header .custom-search .search-input-absolute {
     background-size: auto;
     background-position: 0; }
 
+.herobanner-textbox-component .image-container {
+  max-width: 100rem; }
+
+.herobanner-textbox-component .teaser-box {
+  background-color: rgba(231, 231, 231, 0.8); }
+  @media (min-width: 992px) {
+    .herobanner-textbox-component .teaser-box {
+      max-height: 17.1875rem;
+      max-width: 26.5625rem;
+      position: absolute;
+      top: 50%;
+      right: 10%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+      .herobanner-textbox-component .teaser-box-left {
+        left: 10%; } }
+
+.herobanner-textbox-component .teaser-text {
+  color: #000; }
+
+.herobanner-textbox-component .headline {
+  line-height: 2.5rem; }
+
+.contentbox-image-component {
+  max-width: 100rem; }
+  @media (min-width: 768px) {
+    .contentbox-image-component .headline {
+      border-top: 0.3125rem black solid; } }
+  @media (min-width: 768px) {
+    .contentbox-image-component .headline-text {
+      line-height: 3rem; } }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
