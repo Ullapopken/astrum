@@ -10207,7 +10207,9 @@ display-8 = sm-display-5 --> md-display-4
   max-height: 12.5rem; }
 
 .btn, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn.btn-next::before {
-  border-radius: 0% !important; }
+  border-radius: 0 !important; }
+  .btn.disabled, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .disabled.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .disabled.btn.btn-next::before, .btn:disabled, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn.btn-next:disabled::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn.btn-next:disabled::before {
+    cursor: default; }
 
 .btn:not(.btn-block), .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn.btn-next:not(.btn-block)::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn.btn-next:not(.btn-block)::before {
   min-width: 10rem;
@@ -10290,7 +10292,6 @@ display-8 = sm-display-5 --> md-display-4
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M11.5333 17.9499C11.6002 18.0167 11.7339 18.0167 11.8008 17.9499L17.2857 12.135C17.8877 11.5334 18.2222 10.7982 18.2891 10.063C18.7573 7.05525 15.4128 4.98327 12.9379 6.52055L11.8008 7.25577C11.7339 7.3226 11.6671 7.3226 11.6002 7.25577L10.3962 6.52055C7.85439 4.98327 4.57683 7.12209 5.04506 10.063C5.17883 10.7982 5.51328 11.5334 6.04839 12.135L11.5333 17.9499Z' fill='%23eb5050' stroke='%23eb5050' stroke-miterlimit='10'/%3E%3C/svg%3E"); }
 
 .btn-link.icon-svg.disabled, .list-custom-checkmark > .btn-link.disabled::before, .saferpay-paymentpage form.page.page-dcc main > .btn-link.disabled.box.box-information, .btn-link.icon-svg:disabled, .list-custom-checkmark > .btn-link:disabled::before, .saferpay-paymentpage form.page.page-dcc main > .btn-link.box.box-information:disabled {
-  cursor: default;
   text-decoration: none;
   color: #BDBDBD; }
   .btn-link.icon-svg.disabled.icon-chevronRight::before, .list-custom-checkmark > .btn-link.disabled.icon-chevronRight::before, .saferpay-paymentpage form.page.page-dcc main > .btn-link.disabled.icon-chevronRight.box.box-information::before, .btn-link.icon-svg:disabled.icon-chevronRight::before, .list-custom-checkmark > .btn-link:disabled.icon-chevronRight::before, .saferpay-paymentpage form.page.page-dcc main > .btn-link.box.box-information:disabled.icon-chevronRight::before {
@@ -10347,7 +10348,6 @@ display-8 = sm-display-5 --> md-display-4
     background-color: #6C9431;
     border-color: #6C9431; }
   .btn-dark.disabled, .btn-dark:disabled {
-    cursor: default;
     background-color: #191919;
     border-color: #191919;
     color: #E7E7E7; }
@@ -10455,7 +10455,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn-primary:hover.icon-questionMark::before, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn-next.btn:hover.icon-questionMark::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn-next.btn:hover.icon-questionMark::before, .btn-primary:focus.icon-questionMark::before, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn-next.btn:focus.icon-questionMark::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn-next.btn:focus.icon-questionMark::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-primary.disabled, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .disabled.btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .disabled.btn.btn-next::before, .btn-primary:disabled, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next > .btn.btn-next:disabled::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next > .btn.btn-next:disabled::before {
-    cursor: default;
     color: #FFF;
     background-color: #6C9431;
     border-color: #6C9431;
@@ -10538,7 +10537,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn-light:hover.icon-questionMark::before, .btn-light:focus.icon-questionMark::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-light.disabled, .btn-light:disabled {
-    cursor: default;
     color: #191919;
     background-color: #F2F2F2;
     border-color: #F2F2F2; }
@@ -10642,7 +10640,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn-yellow-sunshine:hover.icon-questionMark::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-yellow-sunshine.disabled, .btn-yellow-sunshine:disabled {
-    cursor: default;
     color: #191919;
     background-color: #E1C989;
     border-color: #E1C989; }
@@ -10724,7 +10721,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn-gray-surface:hover.icon-questionMark::before, .btn-gray-surface:focus.icon-questionMark::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-gray-surface.disabled, .btn-gray-surface:disabled {
-    cursor: default;
     color: #191919;
     background-color: #F8F8F8;
     border-color: #F8F8F8; }
@@ -10859,7 +10855,6 @@ display-8 = sm-display-5 --> md-display-4
     .btn-white-alt:hover.icon-questionMark::before, .btn-white-alt:focus.icon-questionMark::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23FFF' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-white-alt.disabled, .btn-white-alt:disabled {
-    cursor: default;
     color: #191919;
     background-color: #F8F8F8;
     border-color: #F8F8F8; }
@@ -10970,7 +10965,6 @@ display-8 = sm-display-5 --> md-display-4
   .btn-white-outline:hover, .btn-white-outline:focus {
     border-color: #828282; }
   .btn-white-outline.disabled, .btn-white-outline:disabled {
-    cursor: default;
     color: #BDBDBD;
     border-color: #F2F2F2; }
   .btn-white-outline:not(:disabled):not(.disabled):active, .btn-white-outline:not(:disabled):not(.disabled).active {
@@ -11004,7 +10998,6 @@ display-8 = sm-display-5 --> md-display-4
   .btn-white-invisible:hover {
     background-color: #F2F2F2; }
   .btn-white-invisible.disabled, .btn-white-invisible:disabled {
-    cursor: default;
     background-color: #FFF;
     color: #BDBDBD;
     font-weight: 400; }
@@ -11036,7 +11029,6 @@ display-8 = sm-display-5 --> md-display-4
   .btn-transparent.icon-questionMark::before {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M10.1982 16.0031V14.7031C10.1982 13.9031 10.1982 11.6031 13.3969 10.4031C14.4964 10.0031 15.1961 8.90314 14.9962 7.70314C14.6964 6.60314 13.7967 5.80314 12.4973 5.60314C10.5981 5.30314 8.99874 6.60314 8.99874 8.10314H6C6 5.20314 8.69887 2.90314 12.0974 3.00314C15.1961 3.00314 17.7951 5.20314 17.995 7.80314C18.0949 10.0031 16.6955 11.9031 14.5964 12.7031C13.6968 13.1031 13.197 13.8031 13.197 14.6031V16.0031H10.1982Z' stroke='%23191919' stroke-miterlimit='10'/%3E%3Cpath d='M11.6976 21.0031C12.6913 21.0031 13.4968 20.242 13.4968 19.3031C13.4968 18.3642 12.6913 17.6031 11.6976 17.6031C10.7039 17.6031 9.89835 18.3642 9.89835 19.3031C9.89835 20.242 10.7039 21.0031 11.6976 21.0031Z' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
   .btn-transparent.disabled, .btn-transparent:disabled {
-    cursor: default;
     color: #BDBDBD;
     font-weight: 400; }
 
