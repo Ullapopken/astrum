@@ -12834,11 +12834,16 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile:first-chil
     left: -0.25rem; }
 
 .paging-button {
-  width: 2.5rem; }
+  width: 2.5rem;
+  height: 2.5rem; }
 
 .paging-separator {
   height: 2.5rem;
   line-height: 2.5rem !important; }
+
+ff-paging-select > select.custom-select {
+  -moz-text-align-last: center;
+       text-align-last: center; }
 
 @media (min-width: 768px) {
   .canvas.moved-from-sidebar.right {
