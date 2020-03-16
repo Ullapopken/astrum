@@ -12006,6 +12006,12 @@ body.modal-open {
 .has-warning-border:not(.is-invalid) .form-control {
   border-color: #D7A726; }
 
+.payment-radio-buttons::before {
+  top: 1.5rem; }
+
+.payment-radio-buttons::after {
+  top: 1.5rem; }
+
 .header-icon .icon .icon-overlay {
   position: absolute;
   width: 1rem;
