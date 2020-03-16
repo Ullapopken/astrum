@@ -11770,6 +11770,9 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .rounded-xl-0 {
   border-radius: 0 !important; }
 
+.border-color-red {
+  border-color: #eb5050; }
+
 .shadow-lg-n {
   box-shadow: 0 -0.625rem 1.25rem rgba(25, 25, 25, 0.15) !important; }
 
