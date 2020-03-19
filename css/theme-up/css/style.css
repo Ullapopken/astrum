@@ -12783,10 +12783,6 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile:first-chil
   height: 2.5rem;
   line-height: 2.5rem !important; }
 
-ff-paging-select > select.custom-select {
-  -moz-text-align-last: center;
-       text-align-last: center; }
-
 @media (min-width: 768px) {
   .canvas.moved-from-sidebar.right {
     left: -31.25rem; }
