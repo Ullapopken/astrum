@@ -6742,7 +6742,7 @@ button.bg-white-alt:focus {
 .rounded-lg {
   border-radius: 0.3rem !important; }
 
-.rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
+.rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
   border-radius: 50% !important; }
 
 .rounded-pill {
@@ -10625,7 +10625,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .popover {
   z-index: 1; }
 
-.rounded, .rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
+.rounded, .rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
   background-clip: padding-box; }
 
 .close {
@@ -12746,9 +12746,6 @@ header .language-selector .language {
   ff-record-list ff-record:nth-child(odd) {
     padding-right: 0.5rem; } }
 
-ff-record-list ff-record .producttile {
-  cursor: pointer; }
-
 ff-record-list ff-record .thumb {
   background-size: cover;
   padding-bottom: 150%; }
@@ -12761,11 +12758,12 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile {
   height: 1.125rem;
   border: 1px solid #E7E7E7; }
 
-ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child {
+ff-record-list ff-record .colortiles .colortiles-container .colortile.selected {
   width: 0.75rem;
   height: 0.75rem;
-  margin-left: 0.0625rem !important; }
-  ff-record-list ff-record .colortiles .colortiles-container .colortile:first-child:after {
+  margin-left: 0.1875rem !important;
+  margin-right: 1.1875rem !important; }
+  ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:after {
     content: '';
     position: relative;
     border: 1px solid #191919;
@@ -12774,6 +12772,12 @@ ff-record-list ff-record .colortiles .colortiles-container .colortile:first-chil
     width: 1.125rem;
     top: -0.25rem;
     left: -0.25rem; }
+
+ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:first-child {
+  margin-left: 0.0625rem !important; }
+
+ff-record-list ff-record .colortiles .colortiles-container .colortile:not(.selected):first-child {
+  margin-left: -0.125rem !important; }
 
 .paging-button {
   width: 2.5rem;
@@ -13154,9 +13158,6 @@ header .custom-search .search-input-absolute {
   @media (min-width: 768px) {
     .contentbox-image-component .headline {
       border-top: 0.3125rem black solid; } }
-  @media (min-width: 768px) {
-    .contentbox-image-component .headline-text {
-      line-height: 3rem; } }
 
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
