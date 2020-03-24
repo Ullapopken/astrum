@@ -13040,13 +13040,16 @@ header .custom-search .search-input-absolute {
       width: 10rem; } }
 
 .order-history-entry .product-image img {
-  width: 120px; }
+  width: 80px; }
 
 .order-history-entry .slick-disabled {
   opacity: 0; }
 
 .order-history-entry .slick-track {
   margin-left: 0; }
+
+.order-history-entry .slick-slide {
+  width: 96px; }
 
 .bg-quickorder-warning {
   background-color: #f7edd4; }

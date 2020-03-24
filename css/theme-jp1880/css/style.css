@@ -13153,13 +13153,16 @@ header .custom-search .search-input-absolute {
       width: 10rem; } }
 
 .order-history-entry .product-image img {
-  width: 120px; }
+  width: 80px; }
 
 .order-history-entry .slick-disabled {
   opacity: 0; }
 
 .order-history-entry .slick-track {
   margin-left: 0; }
+
+.order-history-entry .slick-slide {
+  width: 96px; }
 
 .bg-quickorder-warning {
   background-color: #f7edd4; }
@@ -14952,12 +14955,5 @@ iframe {
 .siteLogo-component-orderConfirmation img {
   width: 7.5rem;
   height: 2rem; }
-
-.sidebar .sidebar-closer {
-  position: relative;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: end;
-          justify-content: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
