@@ -13162,6 +13162,13 @@ header .custom-search .search-input-absolute {
     .contentbox-image-component .headline {
       border-top: 0.3125rem black solid; } }
 
+.triple-teaser-category-component {
+  max-width: 81.25rem; }
+  .triple-teaser-category-component .bottom-10 {
+    bottom: 10%; }
+  .triple-teaser-category-component .bottom-20 {
+    bottom: 20%; }
+
 [class*="display-"] {
   font-family: "Open Sans", Arial, sans-serif; }
 
