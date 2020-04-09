@@ -12052,13 +12052,13 @@ body.modal-open {
   .canvas.moved-from-sidebar {
     width: 100%; }
     .canvas.moved-from-sidebar.left {
-      left: 88vw; }
+      left: 91vw; }
     .canvas.moved-from-sidebar.right {
-      left: -88vw; }
+      left: -91vw; }
 
 .sidebar {
   visibility: hidden;
-  width: 88vw;
+  width: 91vw;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12066,11 +12066,11 @@ body.modal-open {
   transition: 0.5s;
   touch-action: manipulation; }
   .sidebar.sidebar-left {
-    left: -88vw; }
+    left: -91vw; }
     .sidebar.sidebar-left.active {
       left: 0; }
   .sidebar.sidebar-right {
-    right: -88vw; }
+    right: -91vw; }
     .sidebar.sidebar-right.active {
       right: 0; }
   .sidebar.active {
@@ -12079,7 +12079,7 @@ body.modal-open {
     min-height: 0; }
   .sidebar .sidebar-closer {
     position: absolute;
-    right: 0;
+    right: -2.25rem;
     top: 0; }
   .sidebar .sidebar-upper {
     min-height: 0; }
