@@ -12866,31 +12866,27 @@ ff-record-list ff-record .thumb {
 ff-record-list ff-record .details .name:hover, ff-record-list ff-record .details .name:focus, ff-record-list ff-record .details .name:active {
   text-decoration: none; }
 
+ff-record-list ff-record .colortiles .colortiles-container .colortile-click {
+  width: 2.5rem;
+  height: 2.5rem; }
+
 ff-record-list ff-record .colortiles .colortiles-container .colortile {
-  width: 1.125rem;
-  height: 1.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border: 1px solid #E7E7E7; }
 
 ff-record-list ff-record .colortiles .colortiles-container .colortile.selected {
-  width: 0.75rem;
-  height: 0.75rem;
-  margin-left: 0.1875rem !important;
-  margin-right: 1.1875rem !important; }
+  width: 1.125rem;
+  height: 1.125rem; }
   ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:after {
     content: '';
     position: relative;
-    border: 1px solid #191919;
+    border: 2px solid #191919;
     display: block;
-    height: 1.125rem;
-    width: 1.125rem;
+    height: 1.5rem;
+    width: 1.5rem;
     top: -0.25rem;
     left: -0.25rem; }
-
-ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:first-child {
-  margin-left: 0.0625rem !important; }
-
-ff-record-list ff-record .colortiles .colortiles-container .colortile:not(.selected):first-child {
-  margin-left: -0.125rem !important; }
 
 .paging-button {
   width: 2.5rem;
