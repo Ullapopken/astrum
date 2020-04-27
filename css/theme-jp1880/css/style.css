@@ -12242,6 +12242,12 @@ body.modal-open {
   .mobile-side-menu .sideMenuOverlay .sideMenuOverlayHeadline {
     bottom: -1px; }
 
+.mobile-side-menu .btn-collapsible.collapse-sidemenu::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M6 14.875L11.8 9.075C11.9 8.975 12.1 8.975 12.2 9.075L18 14.875' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
+
+.mobile-side-menu .btn-collapsible.collapsed.collapse-sidemenu::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 9L12.2 14.8C12.1 14.9 11.9 14.9 11.8 14.8L6 9' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
+
 .first-level-nav a:hover, .second-level-nav a:hover {
   text-decoration: none; }
 
@@ -12255,6 +12261,8 @@ body.modal-open {
 
 .second-level-nav-mobile {
   overflow-y: auto; }
+  .second-level-nav-mobile .collapse-sidemenu.active {
+    background-color: #F2F2F2; }
 
 .navigation-flyout {
   height: 34.25rem; }
@@ -13364,6 +13372,12 @@ header .custom-search .search-input-absolute {
   line-height: 1.5rem;
   font-weight: 400; }
 
+/* Open Sans SemiBold, 18/26px */
+.display-11 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 600; }
+
 /* Open Sans Regular, 16/26px */
 .display-21, .icon-questionMark-white::before, .icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > * {
   font-size: 1rem;
@@ -13780,6 +13794,26 @@ header .custom-search .search-input-absolute {
   .display-10.max-lines-md-5 {
     overflow: hidden;
     max-height: 12.5rem; } }
+
+.display-11.max-lines-1 {
+  overflow: hidden;
+  max-height: 1.625rem; }
+
+.display-11.max-lines-2 {
+  overflow: hidden;
+  max-height: 3.25rem; }
+
+.display-11.max-lines-3 {
+  overflow: hidden;
+  max-height: 4.875rem; }
+
+.display-11.max-lines-4 {
+  overflow: hidden;
+  max-height: 6.5rem; }
+
+.display-11.max-lines-5 {
+  overflow: hidden;
+  max-height: 8.125rem; }
 
 .display-21.max-lines-1, .max-lines-1.icon-questionMark-white::before, .max-lines-1.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-1 {
   overflow: hidden;
