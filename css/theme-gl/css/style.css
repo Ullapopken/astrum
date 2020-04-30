@@ -13052,6 +13052,9 @@ header .custom-search .search-input-absolute {
   height: 0;
   border: 0.0625rem solid #E7E7E7; }
 
+.ff-suggest-wrapper ff-suggest-item:hover {
+  text-decoration: none; }
+
 .ff-suggest-wrapper ff-suggest-item.ffw-highlight-suggest-item {
   background-color: #F2F2F2; }
 
