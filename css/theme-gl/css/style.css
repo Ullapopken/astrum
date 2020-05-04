@@ -5146,7 +5146,7 @@ input[type="button"].btn-block {
 
 .alert {
   position: relative;
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
@@ -5158,12 +5158,12 @@ input[type="button"].btn-block {
   font-weight: 600; }
 
 .alert-dismissible {
-  padding-right: 4rem; }
+  padding-right: 3.5rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0.75rem 1.25rem;
+    padding: 1rem 1rem;
     color: inherit; }
 
 .alert-primary {
@@ -12838,6 +12838,10 @@ header .language-selector .language {
 
 .category-slider .slick-arrow.slick-disabled {
   visibility: hidden; }
+
+@media (max-width: 767.98px) {
+  .global-message-btn {
+    width: 100%; } }
 
 .checkout-chevron {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M9 6L14.8 11.8C14.9 11.9 14.9 12.1 14.8 12.1L9 18' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E");

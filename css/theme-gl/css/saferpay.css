@@ -4640,7 +4640,7 @@ input[type="button"].btn-block {
 
 .alert, .saferpay-paymentpage form.page.page-dcc main > .box.box-information {
   position: relative;
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
@@ -4652,12 +4652,12 @@ input[type="button"].btn-block {
   font-weight: 600; }
 
 .alert-dismissible {
-  padding-right: 4rem; }
+  padding-right: 3.5rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0.75rem 1.25rem;
+    padding: 1rem 1rem;
     color: inherit; }
 
 .alert-primary {
