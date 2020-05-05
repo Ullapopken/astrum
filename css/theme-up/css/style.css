@@ -12052,13 +12052,13 @@ body.modal-open {
   .canvas.moved-from-sidebar {
     width: 100%; }
     .canvas.moved-from-sidebar.left {
-      left: 91vw; }
+      left: calc(100vw - 32px); }
     .canvas.moved-from-sidebar.right {
-      left: -91vw; }
+      left: -calc(100vw - 32px); }
 
 .sidebar {
   visibility: hidden;
-  width: 91vw;
+  width: calc(100vw - 32px);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12066,11 +12066,11 @@ body.modal-open {
   transition: 0.5s;
   touch-action: manipulation; }
   .sidebar.sidebar-left {
-    left: -91vw; }
+    left: -100%; }
     .sidebar.sidebar-left.active {
       left: 0; }
   .sidebar.sidebar-right {
-    right: -91vw; }
+    right: -calc(100vw - 32px); }
     .sidebar.sidebar-right.active {
       right: 0; }
   .sidebar.active {
@@ -12112,11 +12112,11 @@ body.modal-open {
 
 .mobile-side-menu .sideMenuOverlay {
   visibility: hidden;
-  width: calc(88vw - 0.25rem);
+  width: calc(100vw - 36px);
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -88vw;
+  left: -100%;
   background-color: #FFF;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
