@@ -138,6 +138,11 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "dark-alt",
+                    "title": "btn-dark-alt"
+                },
+                {
+                    "group": "buttons",
                     "name": "light",
                     "title": "btn-light"
                 },
