@@ -12392,7 +12392,7 @@ body.modal-open {
 
 @supports (-webkit-overflow-scrolling: touch) {
   .header-icons-mobile {
-    padding-bottom: 3rem; } }
+    padding-bottom: 2rem; } }
 
 .first-level-nav a:hover, .second-level-nav a:hover {
   text-decoration: none; }
