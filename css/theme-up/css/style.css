@@ -6884,7 +6884,7 @@ button.bg-white-alt:focus {
 .d-inline {
   display: inline !important; }
 
-.d-inline-block {
+.d-inline-block, .header-icons-wrapper .bg-login-icon-mobile {
   display: inline-block !important; }
 
 .d-block {
@@ -6899,7 +6899,7 @@ button.bg-white-alt:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, ff-asn ff-asn-group-slider .ffw-wrapper {
+.d-flex, .sidebar .bg-login-icon-mobile, ff-asn ff-asn-group-slider .ffw-wrapper {
   display: -webkit-box !important;
   display: flex !important; }
 
@@ -7962,7 +7962,8 @@ button.bg-white-alt:focus {
   padding: 0.25rem !important; }
 
 .pt-1,
-.py-1 {
+.py-1,
+.sidebar .login-icon-mobile-text {
   padding-top: 0.25rem !important; }
 
 .pr-1,
@@ -7970,7 +7971,8 @@ button.bg-white-alt:focus {
   padding-right: 0.25rem !important; }
 
 .pb-1,
-.py-1 {
+.py-1,
+.sidebar .login-icon-mobile-text {
   padding-bottom: 0.25rem !important; }
 
 .pl-1,
@@ -10429,13 +10431,13 @@ button.bg-white-alt:focus {
 .text-justify {
   text-align: justify !important; }
 
-.text-wrap {
+.text-wrap, .sidebar .login-icon-mobile-text {
   white-space: normal !important; }
 
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-truncate {
+.text-truncate, .sidebar .login-icon-mobile-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -11790,7 +11792,7 @@ a.text-white-alt:hover, a.text-white-alt:focus {
 .text-14 {
   font-size: 0.875rem; }
 
-.text-12 {
+.text-12, .sidebar .login-icon-mobile-text {
   font-size: 0.75rem; }
 
 .text-10 {
@@ -12173,7 +12175,7 @@ body.modal-open {
 .header-icon a:hover {
   text-decoration: none; }
 
-.bg-icon-mobile {
+.bg-icon-mobile, .sidebar .bg-login-icon-mobile {
   width: 2.5rem;
   height: 2.5rem; }
 
@@ -13455,7 +13457,7 @@ header .custom-search .search-input-absolute {
   font-weight: 400; }
 
 /* Open Sans Regular, 10/14px */
-.display-26 {
+.display-26, .header-icons-wrapper .login-icon-mobile-text {
   font-size: 0.625rem;
   line-height: 0.875rem;
   font-weight: 400; }
@@ -13961,23 +13963,23 @@ header .custom-search .search-input-absolute {
   overflow: hidden;
   max-height: 6.25rem; }
 
-.display-26.max-lines-1 {
+.display-26.max-lines-1, .header-icons-wrapper .max-lines-1.login-icon-mobile-text {
   overflow: hidden;
   max-height: 0.875rem; }
 
-.display-26.max-lines-2 {
+.display-26.max-lines-2, .header-icons-wrapper .max-lines-2.login-icon-mobile-text {
   overflow: hidden;
   max-height: 1.75rem; }
 
-.display-26.max-lines-3 {
+.display-26.max-lines-3, .header-icons-wrapper .max-lines-3.login-icon-mobile-text {
   overflow: hidden;
   max-height: 2.625rem; }
 
-.display-26.max-lines-4 {
+.display-26.max-lines-4, .header-icons-wrapper .max-lines-4.login-icon-mobile-text {
   overflow: hidden;
   max-height: 3.5rem; }
 
-.display-26.max-lines-5 {
+.display-26.max-lines-5, .header-icons-wrapper .max-lines-5.login-icon-mobile-text {
   overflow: hidden;
   max-height: 4.375rem; }
 
@@ -15093,11 +15095,11 @@ iframe {
 
 .siteLogo-component img {
   width: 8.875rem;
-  height: 2.375rem; }
+  max-width: 100%;
+  height: auto; }
   @media (min-width: 768px) {
     .siteLogo-component img {
-      width: 14.5rem;
-      height: 3.875rem; } }
+      width: 14.5rem; } }
 
 .siteLogo-component-checkout img,
 .siteLogo-component-orderConfirmation img {
