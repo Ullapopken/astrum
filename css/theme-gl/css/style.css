@@ -12394,6 +12394,9 @@ body.modal-open {
 .mobile-side-menu .btn-collapsible.collapsed.collapse-sidemenu::before {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 9L12.2 14.8C12.1 14.9 11.9 14.9 11.8 14.8L6 9' stroke='%23191919' stroke-miterlimit='10'/%3E%3C/g%3E%3C/svg%3E"); }
 
+.sideMenuOpener {
+  width: 2.5rem; }
+
 @supports (-webkit-overflow-scrolling: touch) {
   .header-icons-mobile {
     padding-bottom: 2rem; } }
