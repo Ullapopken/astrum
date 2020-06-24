@@ -12230,6 +12230,9 @@ body.modal-open {
       .sidebar .hide-on-scroll {
         -webkit-overflow-scrolling: auto; } }
 
+.min-vh-105 {
+  min-height: 105vh; }
+
 @media (min-width: 768px) {
   .canvas.moved-from.left {
     left: 675.84px; }
