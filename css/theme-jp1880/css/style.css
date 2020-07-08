@@ -13332,18 +13332,18 @@ header .custom-search .search-input-absolute {
 .double-teaser-category-component {
   max-width: 81.25rem; }
   .double-teaser-category-component .outer-col-left {
-    padding-right: 0.625rem; }
+    margin-right: 0.625rem; }
   .double-teaser-category-component .outer-col-right {
-    padding-left: 0.625rem; }
+    margin-left: 0.625rem; }
   .double-teaser-category-component .bottom-10 {
     bottom: 10%; }
   .double-teaser-category-component .bottom-20 {
     bottom: 20%; }
   @media (min-width: 768px) {
-    .double-teaser-category-component .h-600 {
+    .double-teaser-category-component .image-container {
       max-height: 55vh; } }
   @media (min-width: 992px) {
-    .double-teaser-category-component .h-600 {
+    .double-teaser-category-component .image-container {
       max-height: 37.5rem; } }
 
 .category-slider .category-button {
