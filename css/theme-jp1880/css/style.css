@@ -12021,6 +12021,8 @@ body.modal-open {
 
 .custom-search {
   height: auto; }
+  .custom-search ::-ms-clear {
+    display: none; }
   .custom-search .search-button {
     height: 2.5rem; }
     .custom-search .search-button:hover {
