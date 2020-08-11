@@ -8914,6 +8914,18 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
+.default-icon-pin {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18 7.94595C18 10.921 15.3138 16.935 12.7807 20.8533C12.4101 21.4265 11.5892 21.4272 11.2139 20.8571C8.68232 17.0121 6 11.3715 6 7.94595C6 4.66209 8.68629 2 12 2C15.3137 2 18 4.66209 18 7.94595Z' stroke='%23191919'/%3E%3Ccircle cx='12' cy='8' r='2.5' fill='none' stroke='%23191919'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.default-icon-pinFill {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18 7.94595C18 10.921 15.3138 16.935 12.7807 20.8533C12.4101 21.4265 11.5892 21.4272 11.2139 20.8571C8.68232 17.0121 6 11.3715 6 7.94595C6 4.66209 8.68629 2 12 2C15.3137 2 18 4.66209 18 7.94595Z' fill='%23191919'/%3E%3Ccircle cx='12' cy='8' r='2.5' fill='white' stroke='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
 .default-icon-gps {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19Z' fill='%23191919'/%3E%3Ccircle cx='12' cy='12' r='4' fill='%23191919'/%3E%3Crect x='11.5' y='2' width='1' height='3' fill='%23191919'/%3E%3Crect x='11.5' y='19' width='1' height='3' fill='%23191919'/%3E%3Crect x='22' y='11.5' width='1' height='3' transform='rotate(90 22 11.5)' fill='%23191919'/%3E%3Crect x='5' y='11.5' width='1' height='3' transform='rotate(90 5 11.5)' fill='%23191919'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
