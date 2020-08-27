@@ -12406,6 +12406,25 @@ body.modal-open {
 .payment-radio-buttons::after {
   top: 1.5rem; }
 
+.bg-transparent {
+  background-color: transparent !important; }
+
+@media (min-width: 576px) {
+  .bg-sm-transparent {
+    background-color: transparent !important; } }
+
+@media (min-width: 768px) {
+  .bg-md-transparent {
+    background-color: transparent !important; } }
+
+@media (min-width: 992px) {
+  .bg-lg-transparent {
+    background-color: transparent !important; } }
+
+@media (min-width: 1200px) {
+  .bg-xl-transparent {
+    background-color: transparent !important; } }
+
 .header-icon .icon .icon-overlay {
   position: absolute;
   width: 1rem;

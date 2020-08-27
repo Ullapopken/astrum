@@ -9662,6 +9662,13 @@ body.modal-open {
 .payment-radio-buttons::after {
   top: 1.5rem; }
 
+.bg-transparent {
+  background-color: transparent !important; }
+
+@media (min-width: 591px) {
+  .bg-framemd-transparent {
+    background-color: transparent !important; } }
+
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
 
