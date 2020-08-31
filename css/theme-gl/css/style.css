@@ -12849,8 +12849,7 @@ body.modal-open {
 .headerLogin-button {
   cursor: pointer; }
   .headerLogin-button.active {
-    border-bottom: 0.0625rem solid #6093AA;
-    margin: -1px 0; }
+    border-bottom: 0.0625rem solid #6093AA; }
 
 .flyout-close {
   cursor: pointer;
