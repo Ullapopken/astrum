@@ -13632,19 +13632,19 @@ header .custom-search .search-input-absolute {
   font-weight: 600; }
 
 /* Open Sans SemiBold, 16/24px */
-.display-7, .product-tab-link.active {
+.display-7, .seotext h3, .seotext .h3, .product-tab-link.active {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600; }
 
 /* Open Sans Regular, 16/24px */
-.display-9, .btn-large {
+.display-9, .seotext h4, .seotext .h4, .btn-large {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400; }
 
 /* Open Sans SemiBold, 18/26px */
-.display-11 {
+.display-11, .seotext h2, .seotext .h2 {
   font-size: 1.125rem;
   line-height: 1.625rem;
   font-weight: 600; }
@@ -13936,23 +13936,23 @@ header .custom-search .search-input-absolute {
   overflow: hidden;
   max-height: 8.75rem; }
 
-.display-7.max-lines-1, .max-lines-1.product-tab-link.active {
+.display-7.max-lines-1, .seotext h3.max-lines-1, .seotext .max-lines-1.h3, .max-lines-1.product-tab-link.active {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-7.max-lines-2, .max-lines-2.product-tab-link.active {
+.display-7.max-lines-2, .seotext h3.max-lines-2, .seotext .max-lines-2.h3, .max-lines-2.product-tab-link.active {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-7.max-lines-3, .max-lines-3.product-tab-link.active {
+.display-7.max-lines-3, .seotext h3.max-lines-3, .seotext .max-lines-3.h3, .max-lines-3.product-tab-link.active {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-7.max-lines-4, .max-lines-4.product-tab-link.active {
+.display-7.max-lines-4, .seotext h3.max-lines-4, .seotext .max-lines-4.h3, .max-lines-4.product-tab-link.active {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-7.max-lines-5, .max-lines-5.product-tab-link.active {
+.display-7.max-lines-5, .seotext h3.max-lines-5, .seotext .max-lines-5.h3, .max-lines-5.product-tab-link.active {
   overflow: hidden;
   max-height: 7.5rem; }
 
@@ -14001,23 +14001,23 @@ header .custom-search .search-input-absolute {
     overflow: hidden;
     max-height: 12.5rem; } }
 
-.display-9.max-lines-1, .max-lines-1.btn-large {
+.display-9.max-lines-1, .seotext h4.max-lines-1, .seotext .max-lines-1.h4, .max-lines-1.btn-large {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-9.max-lines-2, .max-lines-2.btn-large {
+.display-9.max-lines-2, .seotext h4.max-lines-2, .seotext .max-lines-2.h4, .max-lines-2.btn-large {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-9.max-lines-3, .max-lines-3.btn-large {
+.display-9.max-lines-3, .seotext h4.max-lines-3, .seotext .max-lines-3.h4, .max-lines-3.btn-large {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-9.max-lines-4, .max-lines-4.btn-large {
+.display-9.max-lines-4, .seotext h4.max-lines-4, .seotext .max-lines-4.h4, .max-lines-4.btn-large {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-9.max-lines-5, .max-lines-5.btn-large {
+.display-9.max-lines-5, .seotext h4.max-lines-5, .seotext .max-lines-5.h4, .max-lines-5.btn-large {
   overflow: hidden;
   max-height: 7.5rem; }
 
@@ -14066,23 +14066,23 @@ header .custom-search .search-input-absolute {
     overflow: hidden;
     max-height: 12.5rem; } }
 
-.display-11.max-lines-1 {
+.display-11.max-lines-1, .seotext h2.max-lines-1, .seotext .max-lines-1.h2 {
   overflow: hidden;
   max-height: 1.625rem; }
 
-.display-11.max-lines-2 {
+.display-11.max-lines-2, .seotext h2.max-lines-2, .seotext .max-lines-2.h2 {
   overflow: hidden;
   max-height: 3.25rem; }
 
-.display-11.max-lines-3 {
+.display-11.max-lines-3, .seotext h2.max-lines-3, .seotext .max-lines-3.h2 {
   overflow: hidden;
   max-height: 4.875rem; }
 
-.display-11.max-lines-4 {
+.display-11.max-lines-4, .seotext h2.max-lines-4, .seotext .max-lines-4.h2 {
   overflow: hidden;
   max-height: 6.5rem; }
 
-.display-11.max-lines-5 {
+.display-11.max-lines-5, .seotext h2.max-lines-5, .seotext .max-lines-5.h2 {
   overflow: hidden;
   max-height: 8.125rem; }
 
