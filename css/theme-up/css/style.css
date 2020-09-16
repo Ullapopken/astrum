@@ -12669,10 +12669,8 @@ body.modal-open {
 
 .flyout-login {
   z-index: 100;
-  right: 0.9375rem;
   margin-top: 0.0625rem;
-  position: absolute;
-  display: none; }
+  width: 25rem; }
 
 .headerLogin-button {
   cursor: pointer; }
