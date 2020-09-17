@@ -13422,6 +13422,11 @@ header .custom-search .search-input-absolute {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
+.location-is-used-chip {
+  left: 0.5rem;
+  top: 0.25rem;
+  bottom: 0.25rem; }
+
 .image-viewer {
   min-width: 12.5rem;
   min-height: 18.75rem; }
