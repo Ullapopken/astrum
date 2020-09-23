@@ -9708,11 +9708,12 @@ body.modal-open {
 .has-warning-border:not(.is-invalid) .form-control, .has-warning-border:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning-border:not(.is-invalid) .form-group > div.form-input > input, .has-warning-border:not(.is-invalid) .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .has-warning-border:not(.is-invalid) .form-group > div.form-input > select {
   border-color: #D7A726; }
 
-.payment-radio-buttons::before {
-  top: 1.5rem; }
-
-.payment-radio-buttons::after {
-  top: 1.5rem; }
+.payment-radio-buttons {
+  min-height: 4.5rem; }
+  .payment-radio-buttons::before {
+    top: 1.5rem; }
+  .payment-radio-buttons::after {
+    top: 1.5rem; }
 
 .bg-transparent {
   background-color: transparent !important; }

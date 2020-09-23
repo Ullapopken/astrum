@@ -12228,11 +12228,12 @@ body.modal-open {
 .has-warning-border:not(.is-invalid) .form-control {
   border-color: #D7A726; }
 
-.payment-radio-buttons::before {
-  top: 1.5rem; }
-
-.payment-radio-buttons::after {
-  top: 1.5rem; }
+.payment-radio-buttons {
+  min-height: 4.5rem; }
+  .payment-radio-buttons::before {
+    top: 1.5rem; }
+  .payment-radio-buttons::after {
+    top: 1.5rem; }
 
 .bg-transparent {
   background-color: transparent !important; }
@@ -12789,6 +12790,10 @@ header .language-selector .language {
   width: 2.5rem; }
   .number-of-rates-button .btn {
     padding: 0.4375rem; }
+
+.payment-description-icon {
+  top: 1.5rem;
+  right: 1rem; }
 
 .close-modal {
   cursor: pointer;
