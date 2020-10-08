@@ -60,7 +60,7 @@
   --white-alt: #FFF;
   --white-80: rgba(255, 255, 255, 0.8);
   --breakpoint-xs: 0;
-  --breakpoint-framemd: 591px;
+  --breakpoint-framemd: 550px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
@@ -692,7 +692,7 @@ pre {
   -webkit-box-ordinal-group: 13;
           order: 12; }
 
-.offset-1, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:nth-child(2), .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
+.offset-1, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:nth-child(2) {
   margin-left: 8.33333%; }
 
 .offset-2 {
@@ -725,7 +725,7 @@ pre {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .col-framemd {
     flex-basis: 0;
     -webkit-box-flex: 1;
@@ -853,7 +853,7 @@ pre {
   .order-framemd-12 {
     -webkit-box-ordinal-group: 13;
             order: 12; }
-  .offset-framemd-0, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
+  .offset-framemd-0 {
     margin-left: 0; }
   .offset-framemd-1 {
     margin-left: 8.33333%; }
@@ -1363,7 +1363,7 @@ pre {
     color: #FFF;
     background-color: rgba(255, 255, 255, 0.075); }
 
-@media (max-width: 590.98px) {
+@media (max-width: 549.98px) {
   .table-responsive-framemd {
     display: block;
     width: 100%;
@@ -1568,24 +1568,13 @@ textarea.form-control {
   display: block; }
 
 .was-validated .form-control:valid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input:valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > input:valid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:valid, .form-control.is-valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-valid {
-  border-color: #5AC372;
-  padding-right: calc(1.7143em + 0.875rem);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%235AC372' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right calc(0.42857em + 0.21875rem) center;
-  background-size: calc(0.85715em + 0.4375rem) calc(0.85715em + 0.4375rem); }
+  border-color: #5AC372; }
   .was-validated .form-control:valid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input:valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > input:valid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:valid:focus, .form-control.is-valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-valid:focus {
     border-color: #5AC372;
     box-shadow: 0 0 0 0 rgba(90, 195, 114, 0.25); }
 
-.was-validated textarea.form-control:valid, textarea.form-control.is-valid {
-  padding-right: calc(1.7143em + 0.875rem);
-  background-position: top calc(0.42857em + 0.21875rem) right calc(0.42857em + 0.21875rem); }
-
 .was-validated .custom-select:valid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:valid, .custom-select.is-valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-valid {
-  border-color: #5AC372;
-  padding-right: calc(0.75em + 2.59375rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.9375rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%235AC372' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #FFF no-repeat center right 1.9375rem/calc(0.85715em + 0.4375rem) calc(0.85715em + 0.4375rem); }
+  border-color: #5AC372; }
   .was-validated .custom-select:valid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:valid:focus, .custom-select.is-valid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-valid:focus {
     border-color: #5AC372;
     box-shadow: 0 0 0 0 rgba(90, 195, 114, 0.25); }
@@ -1648,24 +1637,13 @@ textarea.form-control {
   display: block; }
 
 .was-validated .form-control:invalid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input:invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > input:invalid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:invalid, .form-control.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid {
-  border-color: #eb5050;
-  padding-right: calc(1.7143em + 0.875rem);
-  background-image: "";
-  background-repeat: no-repeat;
-  background-position: right calc(0.42857em + 0.21875rem) center;
-  background-size: calc(0.85715em + 0.4375rem) calc(0.85715em + 0.4375rem); }
+  border-color: #eb5050; }
   .was-validated .form-control:invalid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input:invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > input:invalid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:invalid:focus, .form-control.is-invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid:focus {
     border-color: #eb5050;
     box-shadow: 0 0 0 0 rgba(235, 80, 80, 0.25); }
 
-.was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
-  padding-right: calc(1.7143em + 0.875rem);
-  background-position: top calc(0.42857em + 0.21875rem) right calc(0.42857em + 0.21875rem); }
-
 .was-validated .custom-select:invalid, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:invalid, .custom-select.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid {
-  border-color: #eb5050;
-  padding-right: calc(0.75em + 2.59375rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.9375rem center/8px 10px, "" #FFF no-repeat center right 1.9375rem/calc(0.85715em + 0.4375rem) calc(0.85715em + 0.4375rem); }
+  border-color: #eb5050; }
   .was-validated .custom-select:invalid:focus, .was-validated .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select:invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .was-validated .form-group > div.form-input > select:invalid:focus, .custom-select.is-invalid:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid:focus {
     border-color: #eb5050;
     box-shadow: 0 0 0 0 rgba(235, 80, 80, 0.25); }
@@ -3043,7 +3021,7 @@ input[type="button"].btn-block {
   right: 0;
   left: auto; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .dropdown-menu-framemd-left {
     right: auto;
     left: 0; }
@@ -4029,13 +4007,13 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 590.98px) {
+@media (max-width: 549.98px) {
   .navbar-expand-framemd > .container,
   .navbar-expand-framemd > .container-fluid, .navbar-expand-framemd > .container-sm, .navbar-expand-framemd > .container-md, .navbar-expand-framemd > .container-lg, .navbar-expand-framemd > .container-xl {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .navbar-expand-framemd {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5082,7 +5060,7 @@ input[type="button"].btn-block {
       margin-left: -1px;
       border-left-width: 1px; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .list-group-horizontal-framemd {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -6306,7 +6284,7 @@ button.bg-white-80:focus {
 .border-warning {
   border-color: #D7A726 !important; }
 
-.border-danger, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.input-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input input.input-validation-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input select.input-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input select.input-validation-error {
+.border-danger, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .form-control.is-invalid.is-touched, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-invalid.is-touched, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid.is-touched {
   border-color: #eb5050 !important; }
 
 .border-light {
@@ -6315,7 +6293,7 @@ button.bg-white-80:focus {
 .border-dark {
   border-color: #191919 !important; }
 
-.border-gray, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.text.text-hint {
+.border-gray, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.text.text-hint, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .form-control.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .form-control.is-valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-valid, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-valid {
   border-color: #E7E7E7 !important; }
 
 .border-gray-light {
@@ -6434,7 +6412,7 @@ button.bg-white-80:focus {
   display: -webkit-inline-box !important;
   display: inline-flex !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .d-framemd-none {
     display: none !important; }
   .d-framemd-inline {
@@ -6535,7 +6513,7 @@ button.bg-white-80:focus {
 .flex-wrap {
   flex-wrap: wrap !important; }
 
-.flex-nowrap, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group:nth-child(4) {
+.flex-nowrap, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group:nth-child(4) .form-input {
   flex-wrap: nowrap !important; }
 
 .flex-wrap-reverse {
@@ -6634,7 +6612,7 @@ button.bg-white-80:focus {
 .align-self-stretch {
   align-self: stretch !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .flex-framemd-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -6733,7 +6711,7 @@ button.bg-white-80:focus {
 .float-none {
   float: none !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .float-framemd-left {
     float: left !important; }
   .float-framemd-right {
@@ -6824,7 +6802,7 @@ button.bg-white-80:focus {
 .w-75 {
   width: 75% !important; }
 
-.w-100 {
+.w-100, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .cardnumber, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .holdername {
   width: 100% !important; }
 
 .w-auto {
@@ -7170,7 +7148,7 @@ button.bg-white-80:focus {
 .py-3 {
   padding-top: 1rem !important; }
 
-.pr-3,
+.pr-3, .saferpay-paymentpage div.box.box-content,
 .px-3 {
   padding-right: 1rem !important; }
 
@@ -7208,7 +7186,7 @@ button.bg-white-80:focus {
 .py-5 {
   padding-top: 2rem !important; }
 
-.pr-5,
+.pr-5, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group:nth-child(1) .input-cardnumber,
 .px-5 {
   padding-right: 2rem !important; }
 
@@ -7562,7 +7540,7 @@ button.bg-white-80:focus {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .m-framemd-0 {
     margin: 0 !important; }
   .mt-framemd-0,
@@ -7731,7 +7709,7 @@ button.bg-white-80:focus {
   .ml-framemd-11,
   .mx-framemd-11 {
     margin-left: 0.9375rem !important; }
-  .p-framemd-0, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
+  .p-framemd-0 {
     padding: 0 !important; }
   .pt-framemd-0,
   .py-framemd-0 {
@@ -8094,7 +8072,7 @@ button.bg-white-80:focus {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .text-framemd-left {
     text-align: left !important; }
   .text-framemd-right, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
@@ -8162,7 +8140,7 @@ a.text-info:hover, a.text-info:focus {
 a.text-warning:hover, .saferpay-paymentpage form.page.page-dcc main > a.box.box-information:hover, .saferpay-paymentpage form.page.page-dcc main > .box.box-information > a.text.text-information:hover, a.text-warning:focus, .saferpay-paymentpage form.page.page-dcc main > a.box.box-information:focus, .saferpay-paymentpage form.page.page-dcc main > .box.box-information > a.text.text-information:focus {
   color: #96751b !important; }
 
-.text-danger, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.input-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input input.input-validation-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input select.input-error, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input select.input-validation-error {
+.text-danger {
   color: #eb5050 !important; }
 
 a.text-danger:hover, a.text-danger:focus {
@@ -8174,10 +8152,10 @@ a.text-danger:hover, a.text-danger:focus {
 a.text-light:hover, a.text-light:focus {
   color: #cccccc !important; }
 
-.text-dark, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span {
+.text-dark, .saferpay-paymentpage form.page.page-dcc main .box.box-dcc span, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .form-control.is-invalid.is-touched, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.is-invalid.is-touched, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select.is-invalid.is-touched {
   color: #191919 !important; }
 
-a.text-dark:hover, a.text-dark:focus {
+a.text-dark:hover, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input a.form-control.is-invalid.is-touched:hover, a.text-dark:focus, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input a.form-control.is-invalid.is-touched:focus {
   color: black !important; }
 
 .text-gray {
@@ -9536,7 +9514,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   margin-right: 0;
   margin-left: 0; }
 
-@media (max-width: 590.98px) {
+@media (max-width: 549.98px) {
   .rounded-0 {
     border-radius: 0 !important; } }
 
@@ -9552,7 +9530,7 @@ a.text-white-80:hover, a.text-white-80:focus {
 .w-min-200 {
   min-width: 12.5rem; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .w-min-framemd-200 {
     min-width: 12.5rem; } }
 
@@ -9778,7 +9756,7 @@ body.modal-open {
 .bg-transparent {
   background-color: transparent !important; }
 
-@media (min-width: 591px) {
+@media (min-width: 550px) {
   .bg-framemd-transparent {
     background-color: transparent !important; } }
 
@@ -11368,8 +11346,8 @@ iframe {
     .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
       line-height: 2.5rem;
       position: relative;
-      max-width: 46%; }
-      @media (min-width: 591px) {
+      max-width: 54%; }
+      @media (min-width: 550px) {
         .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
           max-width: 1.75rem; } }
       .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.icon.icon-hint {
@@ -11380,8 +11358,8 @@ iframe {
         line-height: 0;
         color: white;
         float: right;
-        overflow: hidden; }
-        @media (min-width: 591px) {
+        overflow: auto; }
+        @media (min-width: 550px) {
           .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.text.text-hint {
             max-width: 75vw; } }
         .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.text.text-hint::before {
@@ -11391,6 +11369,11 @@ iframe {
           left: auto;
           position: absolute;
           top: 0.5rem; }
+    .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .cvc {
+      width: 45.83%; }
+      @media (min-width: 550px) {
+        .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input .cvc {
+          width: auto; } }
   .saferpay-paymentpage form.page.page-card.page-hosted footer > ul {
     list-style-type: none; }
     .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem {
