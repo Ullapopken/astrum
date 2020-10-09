@@ -11169,8 +11169,7 @@ iframe {
       display: inline-block;
       height: 100%; }
   .saferpay-paymentpage .btn-next {
-    font-size: 0;
-    background-color: #6C9431; }
+    font-size: 0; }
   .saferpay-paymentpage[lang='de'] form.page.page-dcc .btn-next::before {
     content: "Bestätigen" !important; }
   .saferpay-paymentpage[lang='en-GB'] form.page.page-dcc .btn-next::before {
