@@ -6976,7 +6976,7 @@ button.bg-white-80:focus {
 .mx-11 {
   margin-left: 0.9375rem !important; }
 
-.p-0, iframe, .saferpay-paymentpage form.page.page-dcc > footer > ul, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul {
+.p-0, .saferpay-paymentpage form.page.page-dcc > footer > ul, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul {
   padding: 0 !important; }
 
 .pt-0,
@@ -11087,12 +11087,6 @@ display-8 = sm-display-5 --> md-display-4
 
 .form-control, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select, .custom-select, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select {
   border-radius: 0% !important; }
-
-iframe {
-  border: none;
-  overflow: hidden;
-  height: 0;
-  width: 100%; }
 
 .rounded-bottom, .saferpay-paymentpage div.box.box-content, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget > span.text.text-hint {
   border-radius: 0% !important; }

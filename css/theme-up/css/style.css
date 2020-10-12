@@ -12820,6 +12820,12 @@ header .language-selector .language {
 #sideMenu .language-selector .languageprefix {
   display: inline; }
 
+iframe {
+  border: none;
+  overflow: hidden;
+  height: 28.125rem;
+  width: 100%; }
+
 .payment-spinner {
   height: 15.625rem; }
 
@@ -12832,6 +12838,12 @@ header .language-selector .language {
 .payment-description-icon {
   top: 1.5rem;
   right: 1rem; }
+
+.saferpay-iframe {
+  height: 29.0625rem; }
+  @media (min-width: 768px) {
+    .saferpay-iframe {
+      height: 37.1875rem; } }
 
 .close-modal {
   cursor: pointer;
@@ -15225,12 +15237,6 @@ header .custom-search .search-input-absolute {
 
 .btn-collapsible.btn-light:not(:disabled):not(.disabled):active, .btn-collapsible.btn-light:not(:disabled):not(.disabled).active {
   background-color: #F2F2F2; }
-
-iframe {
-  border: none;
-  overflow: hidden;
-  height: 0;
-  width: 100%; }
 
 .siteLogo-component img {
   width: 8.875rem;

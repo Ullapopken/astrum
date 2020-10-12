@@ -6976,7 +6976,7 @@ button.bg-white-alt:focus {
 .mx-11 {
   margin-left: 0.9375rem !important; }
 
-.p-0, iframe, .saferpay-paymentpage form.page.page-dcc > footer > ul, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul {
+.p-0, .saferpay-paymentpage form.page.page-dcc > footer > ul, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul {
   padding: 0 !important; }
 
 .pt-0,
@@ -11124,12 +11124,6 @@ display-8 = sm-display-5 --> md-display-4
 
 .btn-collapsible.btn-light:not(:disabled):not(.disabled):active, .btn-collapsible.btn-light:not(:disabled):not(.disabled).active {
   background-color: #F2F2F2; }
-
-iframe {
-  border: none;
-  overflow: hidden;
-  height: 0;
-  width: 100%; }
 
 .saferpay-paymentpage {
   /* card validation failed Page */

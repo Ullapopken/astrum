@@ -12929,6 +12929,12 @@ header .language-selector .language {
 #sideMenu .language-selector .languageprefix {
   display: inline; }
 
+iframe {
+  border: none;
+  overflow: hidden;
+  height: 28.125rem;
+  width: 100%; }
+
 .payment-spinner {
   height: 15.625rem; }
 
@@ -12941,6 +12947,12 @@ header .language-selector .language {
 .payment-description-icon {
   top: 1.5rem;
   right: 1rem; }
+
+.saferpay-iframe {
+  height: 29.0625rem; }
+  @media (min-width: 768px) {
+    .saferpay-iframe {
+      height: 37.1875rem; } }
 
 .close-modal {
   cursor: pointer;
@@ -15278,12 +15290,6 @@ header .custom-search .search-input-absolute {
 
 .form-control, .custom-select {
   border-radius: 0% !important; }
-
-iframe {
-  border: none;
-  overflow: hidden;
-  height: 0;
-  width: 100%; }
 
 .rounded-bottom {
   border-radius: 0% !important; }
