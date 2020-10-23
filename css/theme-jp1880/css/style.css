@@ -12197,12 +12197,13 @@ a.text-white-80:hover, a.text-white-80:focus {
     display: inline-block;
     content: "-"; }
 
-body.modal-open {
+body.locked {
+  top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
   position: fixed;
-  right: 0;
-  top: 0; }
+  overflow: hidden; }
 
 .modal-dialog-centered .modal-content.modal-content-full-height {
   min-height: calc(100vh - 2rem); }
