@@ -13379,7 +13379,8 @@ header .custom-search .search-input-absolute {
   min-height: 18.75rem; }
 
 .image-viewer-carousel .slick-disabled {
-  opacity: 0; }
+  display: none;
+  visibility: hidden; }
 
 .image-viewer-carousel .slick-slide {
   padding: 0 0.25rem; }
