@@ -10708,10 +10708,10 @@ button.bg-white-80:focus {
 a.text-primary:hover, .image-promotion-component a.headline:hover, a.text-primary:focus, .image-promotion-component a.headline:focus {
   color: #425b1e !important; }
 
-.text-secondary {
+.text-secondary, .seotext h2, .seotext .h2, .seotext h3, .seotext .h3, .seotext h4, .seotext .h4, .seotext a {
   color: #000 !important; }
 
-a.text-secondary:hover, a.text-secondary:focus {
+a.text-secondary:hover, .seotext a:hover, a.text-secondary:focus, .seotext a:focus {
   color: black !important; }
 
 .text-success {
