@@ -12832,23 +12832,6 @@ body.locked {
   top: 0.5rem;
   right: 0.5rem; }
 
-.icon-password-show {
-  top: 0.5rem;
-  right: 0.75rem;
-  line-height: 1.5rem; }
-
-.password-icon-eye {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M22 12C19.6 8.29787 16 6 12 6C8 6 4.4 8.29787 2 12C4.4 15.7021 8 18 12 18C16 18 19.6 15.7021 22 12Z' stroke='%23000' stroke-miterlimit='10'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12ZM12 9.5C12 8.67157 11.3284 8 10.5 8C9.67157 8 9 8.67157 9 9.5C9 10.3284 9.67157 11 10.5 11C11.3284 11 12 10.3284 12 9.5Z' fill='%23000'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  width: 1.5rem;
-  height: 1.5rem; }
-
-.password-icon-eyeSliced {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M22 12C19.6 8.29787 16 6 12 6C8 6 4.4 8.29787 2 12C4.4 15.7021 8 18 12 18C16 18 19.6 15.7021 22 12Z' stroke='%23000' stroke-miterlimit='10'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.7071 4.63057L20 3.92346L15.497 8.42641C14.5954 7.544 13.3612 7.00003 12 7.00003C9.23857 7.00003 7 9.23861 7 12C7 13.3613 7.54396 14.5955 8.42638 15.4971L4.1774 19.7461L4.88451 20.4532L9.19676 16.1409C9.99627 16.6832 10.9611 17 12 17C14.7614 17 17 14.7615 17 12C17 10.9612 16.6832 9.9963 16.1409 9.19679L20.7071 4.63057ZM16.1409 9.19679C15.9523 8.91872 15.7364 8.66064 15.497 8.42641L8.42638 15.4971C8.66061 15.7364 8.91868 15.9523 9.19676 16.1409L16.1409 9.19679ZM10.5 8.00003C11.3284 8.00003 12 8.6716 12 9.50003C12 10.3285 11.3284 11 10.5 11C9.67157 11 9 10.3285 9 9.50003C9 8.6716 9.67157 8.00003 10.5 8.00003Z' fill='%23000'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  width: 1.5rem;
-  height: 1.5rem; }
-
 .userFormLogin-mobile .btn-register,
 .userFormLogin-mobile .btn-login {
   max-width: 17.5rem; }
@@ -13585,6 +13568,24 @@ header .custom-search .search-input-absolute {
   @media (min-width: 992px) {
     .double-teaser-category-component .image-container {
       max-height: 37.5rem; } }
+
+.icon-password-show {
+  top: -1.5rem;
+  right: 0;
+  line-height: 1.5rem;
+  height: 1.5rem; }
+
+.password-icon-eye {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M22 12C19.6 8.29787 16 6 12 6C8 6 4.4 8.29787 2 12C4.4 15.7021 8 18 12 18C16 18 19.6 15.7021 22 12Z' stroke='%23000' stroke-miterlimit='10'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12ZM12 9.5C12 8.67157 11.3284 8 10.5 8C9.67157 8 9 8.67157 9 9.5C9 10.3284 9.67157 11 10.5 11C11.3284 11 12 10.3284 12 9.5Z' fill='%23000'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.password-icon-eyeSliced {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M22 12C19.6 8.29787 16 6 12 6C8 6 4.4 8.29787 2 12C4.4 15.7021 8 18 12 18C16 18 19.6 15.7021 22 12Z' stroke='%23000' stroke-miterlimit='10'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.7071 4.63057L20 3.92346L15.497 8.42641C14.5954 7.544 13.3612 7.00003 12 7.00003C9.23857 7.00003 7 9.23861 7 12C7 13.3613 7.54396 14.5955 8.42638 15.4971L4.1774 19.7461L4.88451 20.4532L9.19676 16.1409C9.99627 16.6832 10.9611 17 12 17C14.7614 17 17 14.7615 17 12C17 10.9612 16.6832 9.9963 16.1409 9.19679L20.7071 4.63057ZM16.1409 9.19679C15.9523 8.91872 15.7364 8.66064 15.497 8.42641L8.42638 15.4971C8.66061 15.7364 8.91868 15.9523 9.19676 16.1409L16.1409 9.19679ZM10.5 8.00003C11.3284 8.00003 12 8.6716 12 9.50003C12 10.3285 11.3284 11 10.5 11C9.67157 11 9 10.3285 9 9.50003C9 8.6716 9.67157 8.00003 10.5 8.00003Z' fill='%23000'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem; }
 
 .category-slider .category-button {
   bottom: 10%; }
