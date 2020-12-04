@@ -1365,11 +1365,11 @@ pre {
 .form-control, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select {
   display: block;
   width: 100%;
-  height: calc(1.7143em + 0.875rem + 2px);
+  height: calc(1.5em + 0.875rem + 2px);
   padding: 0.4375rem 0.9375rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7143;
+  line-height: 1.5;
   color: #191919;
   background-color: #FFF;
   background-clip: padding-box;
@@ -1426,7 +1426,7 @@ select.form-control:focus::-ms-value, .saferpay-paymentpage form.page.page-card.
   padding-bottom: calc(0.4375rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
-  line-height: 1.7143; }
+  line-height: 1.5; }
 
 .col-form-label-lg {
   padding-top: calc(1.4375rem + 1px);
@@ -1445,8 +1445,8 @@ select.form-control:focus::-ms-value, .saferpay-paymentpage form.page.page-card.
   width: 100%;
   padding: 0.4375rem 0;
   margin-bottom: 0;
-  font-size: 0.875rem;
-  line-height: 1.7143;
+  font-size: 1rem;
+  line-height: 1.5;
   color: #191919;
   background-color: transparent;
   border: solid transparent;
@@ -3366,9 +3366,9 @@ input[type="button"].btn-block {
           align-items: center;
   padding: 0.4375rem 0.9375rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7143;
+  line-height: 1.5;
   color: #191919;
   text-align: center;
   white-space: nowrap;
@@ -3574,11 +3574,11 @@ input[type="button"].btn-block {
 .custom-select, .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > select {
   display: inline-block;
   width: 100%;
-  height: calc(1.7143em + 0.875rem + 2px);
+  height: calc(1.5em + 0.875rem + 2px);
   padding: 0.4375rem 1.9375rem 0.4375rem 0.9375rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7143;
+  line-height: 1.5;
   color: #191919;
   vertical-align: middle;
   background: #FFF url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.9375rem center/8px 10px;
@@ -3625,14 +3625,14 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(1.7143em + 0.875rem + 2px);
+  height: calc(1.5em + 0.875rem + 2px);
   margin-bottom: 0; }
 
 .custom-file-input {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(1.7143em + 0.875rem + 2px);
+  height: calc(1.5em + 0.875rem + 2px);
   margin: 0;
   opacity: 0; }
   .custom-file-input:focus ~ .custom-file-label {
@@ -3652,10 +3652,10 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(1.7143em + 0.875rem + 2px);
+  height: calc(1.5em + 0.875rem + 2px);
   padding: 0.4375rem 0.9375rem;
   font-weight: 400;
-  line-height: 1.7143;
+  line-height: 1.5;
   color: #191919;
   background-color: #FFF;
   border: 1px solid #E7E7E7;
@@ -3667,9 +3667,9 @@ input[type="button"].btn-block {
     bottom: 0;
     z-index: 3;
     display: block;
-    height: calc(1.7143em + 0.875rem);
+    height: calc(1.5em + 0.875rem);
     padding: 0.4375rem 0.9375rem;
-    line-height: 1.7143;
+    line-height: 1.5;
     color: #191919;
     content: "Browse";
     background-color: #e9ecef;
@@ -11150,7 +11150,7 @@ display-8 = sm-display-5 --> md-display-4
     .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-label > label {
       cursor: pointer; }
     .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > input.input-verificationcode {
-      height: calc(1.7143em + 0.875rem + 2px); }
+      height: calc(1.5em + 0.875rem + 2px); }
     .saferpay-paymentpage form.page.page-card.page-hosted main .form-container .form-group > div.form-input > .details-summary-widget {
       line-height: 2.5rem;
       position: relative;
