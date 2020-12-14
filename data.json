@@ -239,16 +239,6 @@
                 },
                 {
                     "group": "forms",
-                    "name": "input-type-checkbox",
-                    "title": "Input Type Checkbox"
-                },
-                {
-                    "group": "forms",
-                    "name": "input-type-checkbox-disabled",
-                    "title": "Input Type Checkbox Disabled"
-                },
-                {
-                    "group": "forms",
                     "name": "input-type-custom-checkbox",
                     "title": "Input Type Custom Checkbox"
                 },

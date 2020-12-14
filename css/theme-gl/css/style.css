@@ -12302,75 +12302,6 @@ body.locked {
 .is-invalid .invalid-feedback {
   display: block; }
 
-.custom-checkbox .custom-control-input ~ .custom-control-label::before {
-  top: 0.25rem; }
-
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='45' height='45' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23191919'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  width: 2.8125rem;
-  height: 2.8125rem;
-  background-position: 50% 50%;
-  background-size: contain;
-  width: 1rem;
-  height: 1rem;
-  top: 0.25rem; }
-
-.custom-checkbox .custom-control-input:disabled ~ .custom-control-label {
-  color: #DCDCDC; }
-  .custom-checkbox .custom-control-input:disabled ~ .custom-control-label::before {
-    background-color: #FFF;
-    border-color: #DCDCDC;
-    top: 0.25rem; }
-
-.custom-checkbox.custom-checkbox--round,
-.custom-radio.custom-radio--round {
-  padding-left: 2rem;
-  min-height: 1.5rem; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label::before,
-  .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label::before {
-    border-color: #828282;
-    border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    left: -2rem; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label::after,
-  .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label::after {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: -2rem; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::before, .custom-checkbox.custom-checkbox--round .custom-control-input ~ .custom-control-label--inline::after,
-  .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::before,
-  .custom-radio.custom-radio--round .custom-control-input ~ .custom-control-label--inline::after {
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%); }
-  .custom-checkbox.custom-checkbox--round .custom-control-input:focus ~ .custom-control-label::before,
-  .custom-radio.custom-radio--round .custom-control-input:focus ~ .custom-control-label::before {
-    border-color: #E7E7E7; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input:checked ~ .custom-control-label::before,
-  .custom-radio.custom-radio--round .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #6093AA;
-    border-color: #6093AA;
-    border-radius: 50%; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input:checked ~ .custom-control-label::after,
-  .custom-radio.custom-radio--round .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23FFF'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    width: 6.25rem;
-    height: 6.25rem;
-    background-position: 50% 50%;
-    background-size: contain;
-    width: 1.5rem;
-    height: 1.5rem; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input:disabled ~ .custom-control-label::before,
-  .custom-radio.custom-radio--round .custom-control-input:disabled ~ .custom-control-label::before {
-    background-color: #FFF;
-    border-color: #E7E7E7; }
-  .custom-checkbox.custom-checkbox--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover,
-  .custom-radio.custom-radio--round .custom-control-input:not(:disabled) ~ .custom-control-label:hover {
-    cursor: pointer; }
-
 .has-warning:not(.is-invalid) .form-control {
   border-color: #D7A726;
   background-color: #f7edd4; }
@@ -12403,6 +12334,101 @@ body.locked {
 @media (min-width: 1200px) {
   .bg-xl-transparent {
     background-color: transparent !important; } }
+
+.custom-radio {
+  padding-left: 2rem;
+  min-height: 1.5rem; }
+  .custom-radio .custom-control-input ~ .custom-control-label::before {
+    border-color: #828282;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -2rem; }
+  .custom-radio .custom-control-input ~ .custom-control-label::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -2rem; }
+  .custom-radio .custom-control-input ~ .custom-control-label--center::before, .custom-radio .custom-control-input ~ .custom-control-label--center::after {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .custom-radio .custom-control-input:not(:disabled) ~ .custom-control-label {
+    cursor: pointer; }
+  .custom-radio .custom-control-input:focus ~ .custom-control-label, .custom-radio .custom-control-input:hover ~ .custom-control-label {
+    text-decoration: underline; }
+    .custom-radio .custom-control-input:focus ~ .custom-control-label::before, .custom-radio .custom-control-input:hover ~ .custom-control-label::before {
+      background-color: #F2F2F2; }
+  .custom-radio .custom-control-input:disabled ~ .custom-control-label::before {
+    border-color: #E7E7E7;
+    background-color: initial; }
+  .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #6093AA;
+    border-color: #6093AA;
+    border-radius: 50%; }
+  .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23FFF'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-position: 50% 50%;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem; }
+  .custom-radio .custom-control-input:checked:disabled ~ .custom-control-label::before {
+    opacity: 0.5;
+    background-color: #6093AA;
+    border-color: #6093AA; }
+  .custom-radio .custom-control-input:checked:focus ~ .custom-control-label::before, .custom-radio .custom-control-input:checked:hover ~ .custom-control-label::before {
+    background-color: #54869d;
+    border-color: #54869d; }
+
+.custom-checkbox {
+  padding-left: 1.75rem;
+  min-height: 1.5rem; }
+  .custom-checkbox .custom-control-input ~ .custom-control-label::before {
+    border-color: #828282;
+    height: 1rem;
+    width: 1rem;
+    top: 0.25rem;
+    left: -1.75rem; }
+  .custom-checkbox .custom-control-input ~ .custom-control-label::after {
+    height: 1rem;
+    width: 1rem;
+    top: 0.25rem;
+    left: -1.75rem; }
+  .custom-checkbox .custom-control-input ~ .custom-control-label--center::before, .custom-checkbox .custom-control-input ~ .custom-control-label--center::after {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .custom-checkbox .custom-control-input:not(:disabled) ~ .custom-control-label {
+    cursor: pointer; }
+  .custom-checkbox .custom-control-input:focus ~ .custom-control-label, .custom-checkbox .custom-control-input:hover ~ .custom-control-label {
+    text-decoration: underline; }
+    .custom-checkbox .custom-control-input:focus ~ .custom-control-label::before, .custom-checkbox .custom-control-input:hover ~ .custom-control-label::before {
+      background-color: #F2F2F2; }
+  .custom-checkbox .custom-control-input:disabled ~ .custom-control-label::before {
+    border-color: #E7E7E7;
+    background-color: initial; }
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #6093AA;
+    border-color: #6093AA; }
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='45' height='45' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23FFF'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 1rem;
+    width: 1rem;
+    top: 0.25rem; }
+  .custom-checkbox .custom-control-input:checked:disabled ~ .custom-control-label::before {
+    opacity: 0.5;
+    background-color: #6093AA;
+    border-color: #6093AA; }
+  .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked:hover ~ .custom-control-label::before {
+    background-color: #54869d;
+    border-color: #54869d; }
 
 .header-icon .icon .icon-overlay {
   position: absolute;
@@ -13700,13 +13726,13 @@ header .custom-search .search-input-absolute {
   font-weight: 400; }
 
 /* Open Sans SemiBold, 14/24px */
-.display-22, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .custom-control-label, .ff-suggest-wrapper ff-suggest-item .ffw-query {
+.display-22, .custom-radio .custom-control-input:checked ~ .custom-control-label, .custom-checkbox .custom-control-input:checked ~ .custom-control-label, .ff-suggest-wrapper ff-suggest-item .ffw-query {
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 600; }
 
 /* Open Sans Regular, 14/24px */
-.display-23, .icon-questionMark-white-20::before, .icon-exclamationMark-white-16::before, .list-custom-checkmark {
+.display-23, .icon-questionMark-white-20::before, .icon-exclamationMark-white-16::before, .list-custom-checkmark, .custom-radio .custom-control-input ~ .custom-control-label, .custom-checkbox .custom-control-input ~ .custom-control-label {
   font-size: 0.875rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -14150,43 +14176,43 @@ header .custom-search .search-input-absolute {
   overflow: hidden;
   max-height: 8.125rem; }
 
-.display-22.max-lines-1, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .max-lines-1.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-1.ffw-query {
+.display-22.max-lines-1, .custom-radio .custom-control-input:checked ~ .max-lines-1.custom-control-label, .custom-checkbox .custom-control-input:checked ~ .max-lines-1.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-1.ffw-query {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-22.max-lines-2, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .max-lines-2.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-2.ffw-query {
+.display-22.max-lines-2, .custom-radio .custom-control-input:checked ~ .max-lines-2.custom-control-label, .custom-checkbox .custom-control-input:checked ~ .max-lines-2.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-2.ffw-query {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-22.max-lines-3, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .max-lines-3.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-3.ffw-query {
+.display-22.max-lines-3, .custom-radio .custom-control-input:checked ~ .max-lines-3.custom-control-label, .custom-checkbox .custom-control-input:checked ~ .max-lines-3.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-3.ffw-query {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-22.max-lines-4, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .max-lines-4.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-4.ffw-query {
+.display-22.max-lines-4, .custom-radio .custom-control-input:checked ~ .max-lines-4.custom-control-label, .custom-checkbox .custom-control-input:checked ~ .max-lines-4.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-4.ffw-query {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-22.max-lines-5, .filterComponent .filterMenuBody .filterMenuUpper .filterMenuSlot .custom-radio.custom-radio--round .custom-control-input:checked ~ .max-lines-5.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-5.ffw-query {
+.display-22.max-lines-5, .custom-radio .custom-control-input:checked ~ .max-lines-5.custom-control-label, .custom-checkbox .custom-control-input:checked ~ .max-lines-5.custom-control-label, .ff-suggest-wrapper ff-suggest-item .max-lines-5.ffw-query {
   overflow: hidden;
   max-height: 7.5rem; }
 
-.display-23.max-lines-1, .max-lines-1.icon-questionMark-white-20::before, .max-lines-1.icon-exclamationMark-white-16::before, .max-lines-1.list-custom-checkmark {
+.display-23.max-lines-1, .max-lines-1.icon-questionMark-white-20::before, .max-lines-1.icon-exclamationMark-white-16::before, .max-lines-1.list-custom-checkmark, .custom-radio .custom-control-input ~ .max-lines-1.custom-control-label, .custom-checkbox .custom-control-input ~ .max-lines-1.custom-control-label {
   overflow: hidden;
   max-height: 1.5rem; }
 
-.display-23.max-lines-2, .max-lines-2.icon-questionMark-white-20::before, .max-lines-2.icon-exclamationMark-white-16::before, .max-lines-2.list-custom-checkmark {
+.display-23.max-lines-2, .max-lines-2.icon-questionMark-white-20::before, .max-lines-2.icon-exclamationMark-white-16::before, .max-lines-2.list-custom-checkmark, .custom-radio .custom-control-input ~ .max-lines-2.custom-control-label, .custom-checkbox .custom-control-input ~ .max-lines-2.custom-control-label {
   overflow: hidden;
   max-height: 3rem; }
 
-.display-23.max-lines-3, .max-lines-3.icon-questionMark-white-20::before, .max-lines-3.icon-exclamationMark-white-16::before, .max-lines-3.list-custom-checkmark {
+.display-23.max-lines-3, .max-lines-3.icon-questionMark-white-20::before, .max-lines-3.icon-exclamationMark-white-16::before, .max-lines-3.list-custom-checkmark, .custom-radio .custom-control-input ~ .max-lines-3.custom-control-label, .custom-checkbox .custom-control-input ~ .max-lines-3.custom-control-label {
   overflow: hidden;
   max-height: 4.5rem; }
 
-.display-23.max-lines-4, .max-lines-4.icon-questionMark-white-20::before, .max-lines-4.icon-exclamationMark-white-16::before, .max-lines-4.list-custom-checkmark {
+.display-23.max-lines-4, .max-lines-4.icon-questionMark-white-20::before, .max-lines-4.icon-exclamationMark-white-16::before, .max-lines-4.list-custom-checkmark, .custom-radio .custom-control-input ~ .max-lines-4.custom-control-label, .custom-checkbox .custom-control-input ~ .max-lines-4.custom-control-label {
   overflow: hidden;
   max-height: 6rem; }
 
-.display-23.max-lines-5, .max-lines-5.icon-questionMark-white-20::before, .max-lines-5.icon-exclamationMark-white-16::before, .max-lines-5.list-custom-checkmark {
+.display-23.max-lines-5, .max-lines-5.icon-questionMark-white-20::before, .max-lines-5.icon-exclamationMark-white-16::before, .max-lines-5.list-custom-checkmark, .custom-radio .custom-control-input ~ .max-lines-5.custom-control-label, .custom-checkbox .custom-control-input ~ .max-lines-5.custom-control-label {
   overflow: hidden;
   max-height: 7.5rem; }
 
