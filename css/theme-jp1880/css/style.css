@@ -12585,7 +12585,7 @@ body.locked {
     .sidebar.sidebar-left.active {
       left: 0; }
   .sidebar.sidebar-right {
-    right: -calc(100vw - 32px); }
+    right: calc(-1 * calc(100vw - 32px)); }
     .sidebar.sidebar-right.active {
       right: 0; }
   .sidebar.active {
