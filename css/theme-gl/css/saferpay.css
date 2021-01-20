@@ -9451,6 +9451,9 @@ a.text-white-80:hover, a.text-white-80:focus {
     text-decoration: underline;
     color: #191919; }
 
+.underline-on-hover:hover {
+  text-decoration: none; }
+
 .z-index-modal-1 {
   z-index: 900; }
 
@@ -9695,7 +9698,7 @@ body.locked {
   padding-left: 2rem;
   min-height: 1.5rem; }
   .custom-radio .custom-control-input ~ .custom-control-label::before {
-    border-color: #828282;
+    border-color: #191919;
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
@@ -9735,14 +9738,14 @@ body.locked {
     background-color: #6093AA;
     border-color: #6093AA; }
   .custom-radio .custom-control-input:checked:focus ~ .custom-control-label::before, .custom-radio .custom-control-input:checked:hover ~ .custom-control-label::before {
-    background-color: #54869d;
-    border-color: #54869d; }
+    background-color: #697378;
+    border-color: #697378; }
 
 .custom-checkbox {
   padding-left: 1.75rem;
   min-height: 1.5rem; }
   .custom-checkbox .custom-control-input ~ .custom-control-label::before {
-    border-color: #828282;
+    border-color: #191919;
     height: 1rem;
     width: 1rem;
     top: 0.25rem;
@@ -9783,8 +9786,8 @@ body.locked {
     background-color: #6093AA;
     border-color: #6093AA; }
   .custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked:hover ~ .custom-control-label::before {
-    background-color: #54869d;
-    border-color: #54869d; }
+    background-color: #697378;
+    border-color: #697378; }
 
 .display-1, .display-2, .display-3, .display-4, .saferpay-paymentpage form.page.page-dcc > header h1, .display-5, .display-8 {
   font-family: "Open Sans", Arial, sans-serif; }
