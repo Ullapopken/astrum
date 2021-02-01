@@ -128,78 +128,68 @@
                 },
                 {
                     "group": "buttons",
-                    "name": "primary",
-                    "title": "btn-primary"
+                    "name": "button-types",
+                    "title": "Button Types"
                 },
                 {
                     "group": "buttons",
                     "name": "dark",
-                    "title": "btn-dark"
+                    "title": "Main Button"
                 },
                 {
                     "group": "buttons",
-                    "name": "dark-alt",
-                    "title": "btn-dark-alt"
+                    "name": "primary",
+                    "title": "Primary Button"
                 },
                 {
                     "group": "buttons",
                     "name": "light",
-                    "title": "btn-light"
+                    "title": "Secondary Button"
                 },
                 {
                     "group": "buttons",
-                    "name": "gray-surface",
-                    "title": "btn-gray-surface"
+                    "name": "green",
+                    "title": "Cookie Button"
                 },
                 {
                     "group": "buttons",
-                    "name": "yellow-sunshine",
-                    "title": "btn-yellow-sunshine"
-                },
-                {
-                    "group": "buttons",
-                    "name": "link",
-                    "title": "btn-link"
+                    "name": "dark-alt",
+                    "title": "Home Button B"
                 },
                 {
                     "group": "buttons",
                     "name": "white",
-                    "title": "btn-white"
+                    "title": "Home Button W"
                 },
                 {
                     "group": "buttons",
-                    "name": "white-alt",
-                    "title": "btn-white-alt"
+                    "name": "gray-surface",
+                    "title": "Category Button"
                 },
                 {
                     "group": "buttons",
                     "name": "white-outline",
-                    "title": "btn-white-outline"
+                    "title": "Ghost Button"
                 },
                 {
                     "group": "buttons",
-                    "name": "white-invisible",
-                    "title": "btn-white-invisible"
+                    "name": "link",
+                    "title": "Text-Link-Button"
                 },
                 {
                     "group": "buttons",
-                    "name": "button-svg",
-                    "title": "Button SVG Icons"
+                    "name": "buttons-icons-overview",
+                    "title": "Button Icons Overview"
                 },
                 {
                     "group": "buttons",
-                    "name": "buttons-icons-no",
-                    "title": "Buttons - No Icons"
+                    "name": "button-icons-position",
+                    "title": "Button Icons Position"
                 },
                 {
                     "group": "buttons",
-                    "name": "buttons-icons-block",
-                    "title": "Buttons - Icons fix"
-                },
-                {
-                    "group": "buttons",
-                    "name": "buttons-icons-inline",
-                    "title": "Buttons - Icons inline"
+                    "name": "button-icon",
+                    "title": "Icon Button"
                 }
             ]
         },
