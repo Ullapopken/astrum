@@ -153,23 +153,28 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "white-transparent",
+                    "title": "Home Button W"
+                },
+                {
+                    "group": "buttons",
                     "name": "dark-alt",
                     "title": "Home Button B"
                 },
                 {
                     "group": "buttons",
-                    "name": "white",
-                    "title": "Home Button W"
+                    "name": "outline-white",
+                    "title": "2nd Home Button W"
+                },
+                {
+                    "group": "buttons",
+                    "name": "outline-dark",
+                    "title": "2nd Home Button B"
                 },
                 {
                     "group": "buttons",
                     "name": "gray-surface",
                     "title": "Category Button"
-                },
-                {
-                    "group": "buttons",
-                    "name": "white-outline",
-                    "title": "Ghost Button"
                 },
                 {
                     "group": "buttons",
