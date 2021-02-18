@@ -2805,7 +2805,7 @@ fieldset:disabled .saferpay-paymentpage form.page.page-card.page-hosted footer >
 
 .btn-sm, .btn-group-sm > .btn, .saferpay-paymentpage form.page.page-dcc > footer > ul li.navitem.navitem-next.btn-group-sm > .btn.btn-next::before, .saferpay-paymentpage form.page.page-card.page-hosted footer > ul li.navitem.navitem-next.btn-group-sm > .btn.btn-next::before {
   padding: 0.3125rem 0.9375rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   border-radius: 0.25rem; }
 
