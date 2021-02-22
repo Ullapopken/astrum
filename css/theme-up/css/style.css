@@ -12841,12 +12841,6 @@ iframe {
 .payment-spinner {
   height: 15.625rem; }
 
-.number-of-rates-button {
-  height: 2.5rem;
-  width: 2.5rem; }
-  .number-of-rates-button .btn {
-    padding: 0.4375rem; }
-
 .payment-description-icon {
   top: 1.5rem;
   right: 1rem; }
