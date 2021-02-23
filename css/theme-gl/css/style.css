@@ -12845,12 +12845,6 @@ iframe {
   top: 1.5rem;
   right: 1rem; }
 
-.saferpay-iframe {
-  height: 29.0625rem; }
-  @media (min-width: 768px) {
-    .saferpay-iframe {
-      height: 37.1875rem; } }
-
 .close-modal {
   cursor: pointer;
   position: absolute;
