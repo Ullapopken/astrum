@@ -2275,7 +2275,7 @@ textarea.form-control {
   padding: 0.4375rem 0;
   font-size: 0.875rem;
   line-height: 1.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -3500,13 +3500,13 @@ fieldset:disabled a.btn {
   padding: 0.6875rem 0.9375rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.3125rem 0.9375rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
 
 .btn-block {
   display: block;
@@ -4473,7 +4473,7 @@ input[type="button"].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
 
@@ -20041,14 +20041,16 @@ header .custom-search .search-input-absolute {
 .form-control, .custom-select {
   border-radius: 0% !important; }
 
-.rounded-bottom {
-  border-radius: 0% !important; }
-
-.modal-content {
-  border-radius: 0% !important; }
-
+.rounded,
+.rounded-bottom,
+.modal-content,
 .alert {
-  border-radius: 0% !important; }
+  border-radius: 0 !important; }
+
+.rounded-circle, ff-record-list ff-record .colortiles .colortiles-container .colortile.selected:after, ff-asn ff-asn-group .filtercolortilewrapper:after, ff-asn ff-asn-group-slider .filtercolortilewrapper:after {
+  border-radius: 0 !important; }
+  .rounded-circle.checkout-arrow, ff-record-list ff-record .colortiles .colortiles-container .checkout-arrow.colortile.selected:after, ff-asn ff-asn-group .checkout-arrow.filtercolortilewrapper:after, ff-asn ff-asn-group-slider .checkout-arrow.filtercolortilewrapper:after {
+    border-radius: 50% !important; }
 
 .top-header.bg-dark a {
   color: #FFF; }
