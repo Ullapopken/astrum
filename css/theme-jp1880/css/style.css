@@ -7071,7 +7071,7 @@ button.bg-white-80:focus {
 .d-inline {
   display: inline !important; }
 
-.d-inline-block, .header-icons-wrapper .bg-login-icon-mobile {
+.d-inline-block {
   display: inline-block !important; }
 
 .d-block {
@@ -7086,7 +7086,7 @@ button.bg-white-80:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .sidebar .bg-login-icon-mobile, ff-asn ff-asn-group-slider .ffw-wrapper {
+.d-flex, ff-asn ff-asn-group-slider .ffw-wrapper {
   display: -webkit-box !important;
   display: flex !important; }
 
@@ -8147,8 +8147,7 @@ button.bg-white-80:focus {
   padding: 0.25rem !important; }
 
 .pt-1,
-.py-1,
-.sidebar .login-icon-mobile-text {
+.py-1 {
   padding-top: 0.25rem !important; }
 
 .pr-1,
@@ -8157,8 +8156,7 @@ button.bg-white-80:focus {
   padding-right: 0.25rem !important; }
 
 .pb-1,
-.py-1,
-.sidebar .login-icon-mobile-text {
+.py-1 {
   padding-bottom: 0.25rem !important; }
 
 .pl-1,
@@ -10620,13 +10618,13 @@ button.bg-white-80:focus {
 .text-justify {
   text-align: justify !important; }
 
-.text-wrap, .sidebar .login-icon-mobile-text {
+.text-wrap {
   white-space: normal !important; }
 
 .text-nowrap {
   white-space: nowrap !important; }
 
-.text-truncate, .sidebar .login-icon-mobile-text {
+.text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -11383,7 +11381,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-bagFill, .header-icon .default-icon-bag:hover {
+.default-icon-bagFill, .header-icon:hover .default-icon-bag {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 46 64'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:none;stroke:%23000;stroke-miterlimit:10;stroke-width:2px;}%3C/style%3E%3C/defs%3E%3Cpolygon points='35 18 45 18 45 63 1 63 1 18 11 18 35 18'/%3E%3Cpath class='cls-1' d='M22,24V11a10,10,0,0,1,20,0V24' transform='translate(-9)'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -11407,7 +11405,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-quickOrderFill, .header-icon .default-icon-quickOrder:hover {
+.default-icon-quickOrderFill, .header-icon:hover .default-icon-quickOrder {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' id='Layer_1' data-name='Layer 1' width='24' height='24' viewBox='0 0 46 64'%3E%3Cdefs%3E%3Cstyle%3E.cls-2{stroke-width:2px;stroke:white}.cls-1{fill:black;stroke:%23000;stroke-miterlimit:10;stroke-width:2px;}.cls-3{stroke-width:2px;stroke:black;fill}%3C/style%3E%3C/defs%3E%3Ctitle%3Ebestellkarte%3C/title%3E%3Cpolyline class='cls-1' points='14 8 1 8 1 63 45 63 45 8 32 8'/%3E%3Cline class='cls-2' x1='16' y1='24' x2='38' y2='24'/%3E%3Cline class='cls-2' x1='16' y1='34' x2='38' y2='34'/%3E%3Cline class='cls-2' x1='16' y1='44' x2='38' y2='44'/%3E%3Cline class='cls-2' x1='16' y1='54' x2='38' y2='54'/%3E%3Cline class='cls-2' x1='12' y1='24' x2='8' y2='24'/%3E%3Cline class='cls-2' x1='12' y1='34' x2='8' y2='34'/%3E%3Cline class='cls-2' x1='12' y1='44' x2='8' y2='44'/%3E%3Cline class='cls-2' x1='12' y1='54' x2='8' y2='54'/%3E%3Cpolygon class='cls-3' points='27 5 27 1 19 1 19 5 15 5 13 13 33 13 31 5 27 5' fill='white' stroke='black'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -11419,7 +11417,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-loginFill, .header-icon .default-icon-login:hover {
+.default-icon-loginFill, .header-icon:hover .default-icon-login {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 63.6 63.6'%3E%3Ctitle%3Eanmeldung_aktiv%3C/title%3E%3Ccircle cx='31.8' cy='14.8' r='14.8'/%3E%3Cpath d='M45,35.1a14.92,14.92,0,0,1-12.7,7.3,14.7,14.7,0,0,1-12.7-7.3A31.83,31.83,0,0,0,.5,64.2H64.1A31.83,31.83,0,0,0,45,35.1Z' transform='translate(-0.5 -0.6)'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -11431,7 +11429,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-favoritesPinFill, .default-icon-favorites:hover {
+.default-icon-favoritesPinFill, .header-icon:hover .default-icon-favorites {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 34 63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:none;stroke:%23000;stroke-miterlimit:10;stroke-width:2px;}%3C/style%3E%3C/defs%3E%3Cline class='cls-1' x1='17' y1='63' x2='17' y2='35'/%3E%3Cpath d='M32,1H22V5l5,4L25,26l-9,4-1,6H32M32,1H42V5L37,9l2,17,9,4,1,6H32' transform='translate(-15 -1)'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -11611,7 +11609,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-pinFill, .header-icon .default-icon-pin:hover {
+.default-icon-pinFill, .header-icon:hover .default-icon-pin {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18 7.94595C18 10.921 15.3138 16.935 12.7807 20.8533C12.4101 21.4265 11.5892 21.4272 11.2139 20.8571C8.68232 17.0121 6 11.3715 6 7.94595C6 4.66209 8.68629 2 12 2C15.3137 2 18 4.66209 18 7.94595Z' fill='%23191919'/%3E%3Ccircle cx='12' cy='8' r='2.5' fill='white' stroke='white'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -12017,7 +12015,7 @@ a.text-white-80:hover, a.text-white-80:focus {
 .text-14 {
   font-size: 0.875rem; }
 
-.text-12, .sidebar .login-icon-mobile-text {
+.text-12 {
   font-size: 0.75rem; }
 
 .text-10 {
@@ -12436,22 +12434,21 @@ body.locked {
     background-color: #52633a;
     border-color: #52633a; }
 
-.header-icon .icon .icon-overlay {
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  top: -0.375rem;
-  right: -0.4375rem; }
-  .header-icon .icon .icon-overlay .icon-logged-in {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23FFF'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
+.header-icon {
+  min-width: 2.5rem; }
+  .header-icon .icon .icon-overlay {
+    position: absolute;
     width: 1rem;
-    height: 1rem; }
+    height: 1rem;
+    top: -0.375rem;
+    right: -0.4375rem; }
+    .header-icon .icon .icon-overlay .icon-logged-in {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.5694 10.7505L12.6128 5.70709L11.9057 5L6.8623 10.0434L4.20712 7.38824L3.5 8.09534L6.8623 11.4576L7.5694 10.7505Z' fill='%23FFF'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      width: 1rem;
+      height: 1rem; }
 
-.header-icon a:hover {
-  text-decoration: none; }
-
-.bg-icon-mobile, .sidebar .bg-login-icon-mobile {
+.bg-icon-mobile {
   width: 2.5rem;
   height: 2.5rem; }
 
@@ -13795,7 +13792,7 @@ header .custom-search .search-input-absolute {
   font-weight: 400; }
 
 /* Open Sans Regular, 10/14px */
-.display-26, .header-icons-wrapper .login-icon-mobile-text {
+.display-26 {
   font-size: 0.625rem;
   line-height: 0.875rem;
   font-weight: 400; }
@@ -14301,23 +14298,23 @@ header .custom-search .search-input-absolute {
   overflow: hidden;
   max-height: 6.25rem; }
 
-.display-26.max-lines-1, .header-icons-wrapper .max-lines-1.login-icon-mobile-text {
+.display-26.max-lines-1 {
   overflow: hidden;
   max-height: 0.875rem; }
 
-.display-26.max-lines-2, .header-icons-wrapper .max-lines-2.login-icon-mobile-text {
+.display-26.max-lines-2 {
   overflow: hidden;
   max-height: 1.75rem; }
 
-.display-26.max-lines-3, .header-icons-wrapper .max-lines-3.login-icon-mobile-text {
+.display-26.max-lines-3 {
   overflow: hidden;
   max-height: 2.625rem; }
 
-.display-26.max-lines-4, .header-icons-wrapper .max-lines-4.login-icon-mobile-text {
+.display-26.max-lines-4 {
   overflow: hidden;
   max-height: 3.5rem; }
 
-.display-26.max-lines-5, .header-icons-wrapper .max-lines-5.login-icon-mobile-text {
+.display-26.max-lines-5 {
   overflow: hidden;
   max-height: 4.375rem; }
 
