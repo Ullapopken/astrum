@@ -12369,18 +12369,20 @@ body.locked {
     left: -100%; }
     .sidebar.sidebar-left.active {
       left: 0; }
+    .sidebar.sidebar-left .sidebar-closer {
+      right: -2.25rem;
+      top: 0; }
   .sidebar.sidebar-right {
     right: calc(-1 * calc(100vw - 32px)); }
     .sidebar.sidebar-right.active {
       right: 0; }
+    .sidebar.sidebar-right .sidebar-closer {
+      right: 0;
+      top: 0; }
   .sidebar.active {
     visibility: visible; }
   .sidebar .sidebar-slot {
     min-height: 0; }
-  .sidebar .sidebar-closer {
-    position: absolute;
-    right: -2.25rem;
-    top: 0; }
   .sidebar .sidebar-upper {
     min-height: 0; }
   .sidebar .hide-on-scroll {
