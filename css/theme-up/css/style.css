@@ -12542,8 +12542,8 @@ iframe {
   height: 2.5rem;
   width: 2.5rem; }
 
-.address-disabled {
-  opacity: 0.7; }
+.disabled-tile {
+  opacity: 0.5; }
 
 [data-scroll-up] {
   bottom: 0;
