@@ -11757,6 +11757,14 @@ a.text-white-80:hover, a.text-white-80:focus {
   .w-min-xl-200 {
     min-width: 12.5rem; } }
 
+.alert-close {
+  top: 0;
+  right: 0; }
+
+.alert-sm {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem; }
+
 .pointer {
   cursor: pointer; }
 

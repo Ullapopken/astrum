@@ -11648,6 +11648,14 @@ a.text-white-alt:hover, a.text-white-alt:focus {
   .w-min-xl-200 {
     min-width: 12.5rem; } }
 
+.alert-close {
+  top: 0;
+  right: 0; }
+
+.alert-sm {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem; }
+
 .pointer {
   cursor: pointer; }
 

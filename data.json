@@ -260,8 +260,13 @@
             "components": [
                 {
                     "group": "komponenten",
-                    "name": "messages",
-                    "title": "Messages (alert)"
+                    "name": "alert",
+                    "title": "Alert"
+                },
+                {
+                    "group": "komponenten",
+                    "name": "alert-sm",
+                    "title": "Alert-SM"
                 },
                 {
                     "group": "komponenten",
