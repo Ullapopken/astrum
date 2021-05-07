@@ -20675,9 +20675,6 @@ header .custom-search .search-input-absolute {
   .rounded-circle.checkout-arrow, ff-record-list ff-record .colortiles .colortiles-container .checkout-arrow.colortile.selected:after, ff-asn ff-asn-group .checkout-arrow.filtercolortilewrapper:after, ff-asn ff-asn-group-slider .checkout-arrow.filtercolortilewrapper:after {
     border-radius: 50% !important; }
 
-.top-header.bg-dark a {
-  color: #FFF; }
-
 .siteLogo-component img {
   width: auto;
   max-width: 100%;
