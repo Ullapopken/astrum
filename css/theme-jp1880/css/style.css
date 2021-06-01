@@ -12811,12 +12811,6 @@ ff-asn ff-asn-group, ff-asn ff-asn-group-slider {
       height: 2.375rem;
       width: 2.375rem;
       top: 0.3125rem; }
-  ff-asn ff-asn-group .resetFilter, ff-asn ff-asn-group-slider .resetFilter {
-    cursor: pointer; }
-
-ff-asn ff-asn-group-slider .ffw-wrapper .removeFilter {
-  cursor: pointer;
-  width: 84%; }
 
 ff-asn ff-asn-group-slider .ffw-wrapper .ffw-sliderSection input {
   width: 6.25rem; }
@@ -12829,9 +12823,6 @@ ff-asn ff-asn-group-slider ff-slider {
     width: 1.5rem;
     position: relative;
     bottom: 0.625rem; }
-
-.deleteAllFilters {
-  cursor: pointer; }
 
 .hiddenScrollbar {
   overflow-y: scroll; }
