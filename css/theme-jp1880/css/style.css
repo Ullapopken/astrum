@@ -13164,6 +13164,23 @@ header .custom-search .search-input-absolute {
   width: 1.5rem;
   height: 1.5rem; }
 
+.product-markers {
+  top: 0.125rem;
+  min-height: 1.375rem; }
+  .product-markers.product-page-markers {
+    padding-left: 0.5rem; }
+    @media (min-width: 768px) {
+      .product-markers.product-page-markers {
+        padding-left: 0.625rem; } }
+    @media (min-width: 992px) {
+      .product-markers.product-page-markers {
+        padding-left: 5.75rem; } }
+    @media (min-width: 1200px) {
+      .product-markers.product-page-markers {
+        padding-left: 6.5rem; } }
+  .product-markers .product-marker {
+    border-bottom: 0.125rem solid; }
+
 .category-slider .category-button {
   bottom: 10%; }
 
