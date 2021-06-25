@@ -13004,6 +13004,12 @@ header .custom-search .search-input-absolute {
   .product-tiles .product-tile:nth-child(odd) {
     padding-right: 0.5rem; } }
 
+.sold-badge {
+  bottom: 6rem; }
+  @media (min-width: 576px) {
+    .sold-badge {
+      width: 80%; } }
+
 .checkout-arrow {
   bottom: -1.75rem;
   right: calc(50% - 28px); }
