@@ -13005,10 +13005,7 @@ header .custom-search .search-input-absolute {
     padding-right: 0.5rem; } }
 
 .sold-badge {
-  bottom: 6rem; }
-  @media (min-width: 576px) {
-    .sold-badge {
-      width: 80%; } }
+  bottom: 0; }
 
 .checkout-arrow {
   bottom: -1.75rem;
