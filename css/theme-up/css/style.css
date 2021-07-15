@@ -13074,6 +13074,8 @@ header .custom-search .search-input-absolute {
         padding-left: 6.5rem; } }
   .product-markers .product-marker {
     border-bottom: 0.125rem solid; }
+    .product-markers .product-marker:last-child {
+      margin-right: 0 !important; }
 
 .category-slider .category-slider-next {
   right: 0;
