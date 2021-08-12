@@ -12854,6 +12854,22 @@ header .custom-search .search-input-absolute {
   top: calc(50% - 20px);
   opacity: 0.7; }
 
+.product-img-skeleton {
+  width: 100vw;
+  height: calc(100vw / (2 / 3)); }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .product-img-skeleton {
+      width: 337px;
+      height: 505.5px; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .product-img-skeleton {
+      width: 410px;
+      height: 615px; } }
+  @media (min-width: 1200px) {
+    .product-img-skeleton {
+      width: 468px;
+      height: 702px; } }
+
 .cookie-notification {
   position: fixed;
   bottom: 0;
