@@ -13057,7 +13057,7 @@ header .custom-search .search-input-absolute {
       max-height: 37.5rem; } }
 
 .icon-password-show {
-  top: 0.5rem;
+  top: -1.5rem;
   right: 0;
   line-height: 1.5rem;
   height: 1.5rem; }
