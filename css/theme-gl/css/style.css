@@ -7440,7 +7440,7 @@ button.bg-white-80:focus {
 .my-3 {
   margin-bottom: 1rem !important; }
 
-.ml-3, ff-asn ff-asn-group .clusterLevel1, ff-asn ff-asn-group-slider .clusterLevel1,
+.ml-3, ff-asn ff-asn-group .clusterLevel1, ff-asn ff-asn-group-slider .clusterLevel1, .remove-favorites::before,
 .mx-3,
 .teaserWrapperComponent .teaserbanner .textWrapper-inner {
   margin-left: 1rem !important; }
@@ -12913,6 +12913,11 @@ header .custom-search .search-input-absolute {
 
 .sold-badge {
   bottom: 0; }
+
+.remove-favorites {
+  top: 0;
+  right: 0;
+  box-sizing: content-box; }
 
 .checkout-arrow {
   bottom: -1.75rem;
