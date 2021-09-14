@@ -12606,6 +12606,15 @@ iframe {
   ff-record-list ff-record:nth-child(odd) {
     padding-right: 0.5rem; } }
 
+ff-record-list ff-record .skeleton-image {
+  min-height: 0px;
+  padding-bottom: calc(100% / (2 / 3)); }
+  ff-record-list ff-record .skeleton-image > img {
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
 ff-record-list ff-record .thumb {
   background-size: cover;
   padding-bottom: 150%; }
