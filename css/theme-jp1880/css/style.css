@@ -11017,7 +11017,7 @@ a.text-white-80:hover, a.text-white-80:focus {
   width: 1.5rem;
   height: 1.5rem; }
 
-.default-icon-favoritesPinFill, .header-icon:hover .default-icon-favorites {
+.default-icon-favoritesPinFill, .default-icon-favorites-checked, .header-icon:hover .default-icon-favorites {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 34 63'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:none;stroke:%23000;stroke-miterlimit:10;stroke-width:2px;}%3C/style%3E%3C/defs%3E%3Cline class='cls-1' x1='17' y1='63' x2='17' y2='35'/%3E%3Cpath d='M32,1H22V5l5,4L25,26l-9,4-1,6H32M32,1H42V5L37,9l2,17,9,4,1,6H32' transform='translate(-15 -1)'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   width: 1.5rem;
@@ -13196,6 +13196,10 @@ header .custom-search .search-input-absolute {
     border-bottom: 0.125rem solid; }
     .product-markers .product-marker:last-child {
       margin-right: 0 !important; }
+
+.favorites-icon-form {
+  top: 0;
+  right: 0; }
 
 .category-slider .category-button {
   bottom: 10%; }
