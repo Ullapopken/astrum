@@ -12948,6 +12948,9 @@ header .custom-search .search-input-absolute {
   .product-gallery {
     width: 73px; } }
 
+.product-gallery .slick-slide img {
+  min-height: 1.25rem; }
+
 .product-carousel-prev {
   left: 0;
   top: calc(50% - 20px);
