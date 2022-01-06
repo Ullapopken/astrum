@@ -12574,6 +12574,9 @@ iframe {
     width: 2rem;
     height: 2rem; } }
 
+.password-reset-success-page-btn {
+  width: 15.625rem; }
+
 .cart-items .product-image, .order-items .product-image, .add-to-cart-modal .product-image, .quick-order-item .product-image {
   width: 94px; }
   .cart-items .product-image img, .order-items .product-image img, .add-to-cart-modal .product-image img, .quick-order-item .product-image img {
