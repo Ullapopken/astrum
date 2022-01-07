@@ -18799,8 +18799,8 @@ header .custom-search .search-input-absolute {
     background-color: #F8F8F8;
     border-color: #F8F8F8; }
   .btn-gray-surface:not(:disabled):not(.disabled):active, .btn-gray-surface:not(:disabled):not(.disabled).active {
-    background-color: #373737;
-    border-color: #373737;
+    background-color: #191919;
+    border-color: #191919;
     color: #FFF; }
     .btn-gray-surface:not(:disabled):not(.disabled):active.icon-left-envelope::before, .btn-gray-surface:not(:disabled):not(.disabled).active.icon-left-envelope::before {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 64 39'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:none;stroke:%23000;stroke-miterlimit:10;stroke-width:2px;}%3C/style%3E%3C/defs%3E%3Crect class='cls-1' x='1' y='1' width='62' height='37'/%3E%3Cpolyline class='cls-1' points='1 1 32 21 63 1'/%3E%3C/svg%3E");
