@@ -21772,6 +21772,20 @@ header .custom-search .search-input-absolute {
   right: 0;
 }
 
+.card-link {
+  text-decoration: underline;
+}
+
+.card:hover .card-link {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .card-story {
+    margin-left: 4.75rem;
+  }
+}
+
 .category-slider .category-slider-next {
   right: 0;
   top: calc(50% - 20px);
