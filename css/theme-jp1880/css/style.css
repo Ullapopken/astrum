@@ -21603,6 +21603,18 @@ header .custom-search .search-input-absolute {
   opacity: 0.7;
 }
 
+.sumbox-carousel-prev {
+  left: 0;
+  top: calc(50% - 47px);
+  opacity: 0.7;
+}
+
+.sumbox-carousel-next {
+  right: 0;
+  top: calc(50% - 47px);
+  opacity: 0.7;
+}
+
 .product-image-container {
   max-width: 29.25rem;
 }
@@ -21631,16 +21643,16 @@ header .custom-search .search-input-absolute {
   }
 }
 
-.order-history-entry .product-image img {
+.product-carousel-entry .product-image img {
   width: 80px;
 }
-.order-history-entry .slick-disabled {
+.product-carousel-entry .slick-disabled {
   opacity: 0;
 }
-.order-history-entry .slick-track {
+.product-carousel-entry .slick-track {
   margin-left: 0;
 }
-.order-history-entry .slick-slide {
+.product-carousel-entry .slick-slide {
   width: 96px;
 }
 
