@@ -21648,8 +21648,9 @@ header .custom-search .search-input-absolute {
 
 .location-is-used-chip {
   left: 0.5rem;
-  top: 0.25rem;
   bottom: 0.25rem;
+  height: 2rem;
+  max-width: calc(100% - 42px);
 }
 
 .image-viewer {
