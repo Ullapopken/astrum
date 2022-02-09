@@ -21854,6 +21854,12 @@ header .custom-search .search-input-absolute {
   }
 }
 
+.card-story-map {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 6.25rem;
+}
+
 .category-slider .category-slider-next {
   right: 0;
   top: calc(50% - 20px);
