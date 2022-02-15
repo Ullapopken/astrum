@@ -18912,7 +18912,7 @@ hr {
   top: 0.0625rem;
   content: "";
 }
-.list-custom-checkmark.display-21 > *::before, .list-custom-checkmark.icon-questionMark-white::before > *::before, .list-custom-checkmark.icon-exclamationMark-white::before > *::before, .list-custom-checkmark.display-21 > .list-custom-checkmark > *::before, .list-custom-checkmark.icon-questionMark-white::before > .list-custom-checkmark > *::before, .list-custom-checkmark.icon-exclamationMark-white::before > .list-custom-checkmark > *::before {
+.list-custom-checkmark.display-21 > *::before, .list-custom-checkmark.icon-questionMark-white::before > *::before, .list-custom-checkmark.icon-exclamationMark-white::before > *::before {
   top: 0.1875117195rem;
 }
 
@@ -21825,7 +21825,7 @@ header .custom-search .search-input-absolute {
 }
 
 /* Open Sans Regular, 16/26px */
-.display-21, .icon-questionMark-white::before, .icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > *, .list-custom-checkmark.icon-questionMark-white::before > *, .list-custom-checkmark.icon-exclamationMark-white::before > * {
+.display-21, .icon-questionMark-white::before, .icon-exclamationMark-white::before {
   font-size: 1rem;
   line-height: 1.625rem;
   font-weight: 400;
@@ -22314,23 +22314,23 @@ header .custom-search .search-input-absolute {
   max-height: 8.125rem;
 }
 
-.display-21.max-lines-1, .max-lines-1.icon-questionMark-white::before, .max-lines-1.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-1, .list-custom-checkmark.icon-questionMark-white::before > .max-lines-1, .list-custom-checkmark.icon-exclamationMark-white::before > .max-lines-1 {
+.display-21.max-lines-1, .max-lines-1.icon-questionMark-white::before, .max-lines-1.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 1.625rem;
 }
-.display-21.max-lines-2, .max-lines-2.icon-questionMark-white::before, .max-lines-2.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-2, .list-custom-checkmark.icon-questionMark-white::before > .max-lines-2, .list-custom-checkmark.icon-exclamationMark-white::before > .max-lines-2 {
+.display-21.max-lines-2, .max-lines-2.icon-questionMark-white::before, .max-lines-2.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 3.25rem;
 }
-.display-21.max-lines-3, .max-lines-3.icon-questionMark-white::before, .max-lines-3.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-3, .list-custom-checkmark.icon-questionMark-white::before > .max-lines-3, .list-custom-checkmark.icon-exclamationMark-white::before > .max-lines-3 {
+.display-21.max-lines-3, .max-lines-3.icon-questionMark-white::before, .max-lines-3.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 4.875rem;
 }
-.display-21.max-lines-4, .max-lines-4.icon-questionMark-white::before, .max-lines-4.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-4, .list-custom-checkmark.icon-questionMark-white::before > .max-lines-4, .list-custom-checkmark.icon-exclamationMark-white::before > .max-lines-4 {
+.display-21.max-lines-4, .max-lines-4.icon-questionMark-white::before, .max-lines-4.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 6.5rem;
 }
-.display-21.max-lines-5, .max-lines-5.icon-questionMark-white::before, .max-lines-5.icon-exclamationMark-white::before, .list-custom-checkmark.display-21 > .max-lines-5, .list-custom-checkmark.icon-questionMark-white::before > .max-lines-5, .list-custom-checkmark.icon-exclamationMark-white::before > .max-lines-5 {
+.display-21.max-lines-5, .max-lines-5.icon-questionMark-white::before, .max-lines-5.icon-exclamationMark-white::before {
   overflow: hidden;
   max-height: 8.125rem;
 }
