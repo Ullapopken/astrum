@@ -21395,6 +21395,10 @@ header .custom-search .search-input-absolute {
   max-width: calc(100% - 42px);
 }
 
+.openseadragon-container {
+  z-index: 0;
+}
+
 .product-image-viewer-modal {
   height: calc(100vh - 16px);
   width: calc(100vw - 16px);
