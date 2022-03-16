@@ -20047,6 +20047,27 @@ input::-webkit-inner-spin-button {
   scroll-behavior: auto !important;
 }
 
+.collapsing + span > .collapse-preview,
+.collapse.show + span > .collapse-preview {
+  display: none;
+}
+.collapsing + span > .collapse-full,
+.collapse.show + span > .collapse-full {
+  display: inline;
+}
+
+.collapse + span > .collapse-preview {
+  display: inline;
+}
+.collapse + span > .collapse-full {
+  display: none;
+}
+
+.collapse-preview .content,
+.collapse-full .content {
+  display: inline;
+}
+
 .header-icon {
   min-width: 2.5rem;
 }
