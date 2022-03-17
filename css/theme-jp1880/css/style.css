@@ -21489,9 +21489,14 @@ header .custom-search .search-input-absolute {
   height: 10rem;
 }
 
-.map-image-container {
+.store-finder .map-image-container {
   max-width: 6.875rem;
   max-height: 8.5rem;
+}
+
+.click-and-find .map-image-container {
+  max-width: 6.875rem;
+  max-height: 10.75rem;
 }
 
 .map-image-summary-step {
