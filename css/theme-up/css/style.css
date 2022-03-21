@@ -8303,7 +8303,7 @@ textarea.form-control-lg {
   border-color: #F2F2F2 !important;
 }
 
-.border-danger, .custom-search .is-invalid button.search-box-button {
+.border-danger, .form-checkbox-border.parsley-error, .custom-search .is-invalid button.search-box-button {
   border-color: #eb5050 !important;
 }
 
@@ -18744,7 +18744,7 @@ hr {
   border-color: #eb5050;
 }
 
-.border-transparent {
+.border-transparent, .form-checkbox-border:not(.parsley-error) {
   border-color: transparent !important;
 }
 
@@ -19334,7 +19334,7 @@ textarea.form-control {
 }
 
 .custom-checkbox .custom-control-label::before {
-  border-radius: 0.25rem;
+  border-radius: 2px;
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
   background-image: "";
