@@ -20869,6 +20869,12 @@ iframe {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 320px) {
+  .address-form-gender .address-form-gender-entry {
+    display: block !important;
+  }
+}
+
 [data-scroll-up] {
   bottom: 0;
   left: 0;
