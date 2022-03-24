@@ -9395,7 +9395,7 @@ textarea.form-control-lg {
   margin-left: -0.25rem !important;
 }
 
-.ms-n2 {
+.ms-n2, .product-carousel-entry .slick-initialized.slick-slider {
   margin-left: -0.5rem !important;
 }
 
@@ -9755,7 +9755,7 @@ textarea.form-control-lg {
   padding-left: 0.25rem !important;
 }
 
-.ps-2 {
+.ps-2, .product-carousel-entry .slick-list {
   padding-left: 0.5rem !important;
 }
 
@@ -21289,13 +21289,13 @@ header .custom-search .search-input-absolute {
 }
 
 .sumbox-carousel-prev {
-  left: 0;
+  left: -0.5625rem;
   top: calc(50% - 47px);
   opacity: 0.7;
 }
 
 .sumbox-carousel-next {
-  right: 0;
+  right: -0.5625rem;
   top: calc(50% - 47px);
   opacity: 0.7;
 }
@@ -21424,7 +21424,6 @@ header .custom-search .search-input-absolute {
 .product-carousel-entry .slick-slide {
   width: 96px;
 }
-
 .bg-quickorder-warning {
   background-color: #f7edd4;
 }
