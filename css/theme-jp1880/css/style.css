@@ -21743,6 +21743,10 @@ header .custom-search .search-input-absolute {
   display: inline;
 }
 
+.cart-validation-product-image {
+  width: 3.3125rem;
+}
+
 .category-slider .category-button {
   bottom: 10%;
 }

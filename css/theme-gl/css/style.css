@@ -21648,6 +21648,10 @@ header .custom-search .search-input-absolute {
   display: inline;
 }
 
+.cart-validation-product-image {
+  width: 3.3125rem;
+}
+
 .category-slider .category-slider-next {
   right: 0;
   top: calc(50% - 20px);
