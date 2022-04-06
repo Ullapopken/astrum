@@ -114,6 +114,11 @@
                     "group": "icons",
                     "name": "icon-overview",
                     "title": "Übersicht"
+                },
+                {
+                    "group": "icons",
+                    "name": "payment-overview",
+                    "title": "Payments"
                 }
             ]
         },
