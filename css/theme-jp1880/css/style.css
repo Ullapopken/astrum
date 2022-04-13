@@ -8162,7 +8162,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, ff-asn ff-asn-group-slider .ffw-wrapper {
+.d-flex, ff-asn ff-asn-group-slider .ffw-wrapper, .payment-icon-wrapper .content {
   display: flex !important;
 }
 
@@ -8531,7 +8531,7 @@ textarea.form-control-lg {
   flex-shrink: 1 !important;
 }
 
-.flex-wrap {
+.flex-wrap, .payment-icon-wrapper .content {
   flex-wrap: wrap !important;
 }
 
@@ -20055,6 +20055,18 @@ input::-webkit-inner-spin-button {
 
 .disable-smooth-scroll {
   scroll-behavior: auto !important;
+}
+
+.payment-icon {
+  width: 4.375rem;
+  height: 1.875rem;
+  background-color: #F2F2F2;
+  word-break: break-all;
+}
+@media (min-width: 768px) {
+  .payment-icon {
+    background-color: #FFF;
+  }
 }
 
 .header-icon {
