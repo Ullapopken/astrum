@@ -21195,15 +21195,25 @@ header .custom-search .search-input-absolute {
 }
 
 .sumbox-carousel-prev {
-  left: -0.5625rem;
+  left: 0;
   top: calc(50% - 47px);
   opacity: 0.7;
 }
+@media (min-width: 768px) {
+  .sumbox-carousel-prev {
+    left: -0.5625rem;
+  }
+}
 
 .sumbox-carousel-next {
-  right: -0.5625rem;
+  right: 0;
   top: calc(50% - 47px);
   opacity: 0.7;
+}
+@media (min-width: 768px) {
+  .sumbox-carousel-next {
+    right: -0.5625rem;
+  }
 }
 
 .product-image-container {
