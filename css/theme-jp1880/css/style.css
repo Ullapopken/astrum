@@ -18546,6 +18546,7 @@ hr {
   }
 }
 
+/* stylelint-disable-line property-no-unknown */
 .mobile-full-width {
   margin-right: -15px;
   margin-left: -15px;
