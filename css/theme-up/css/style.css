@@ -19967,7 +19967,8 @@ input::-webkit-inner-spin-button {
   width: 4.375rem;
   height: 1.875rem;
   background-color: #F2F2F2;
-  word-break: break-all;
+  word-break: break-word;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .payment-icon {
