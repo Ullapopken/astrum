@@ -21108,6 +21108,10 @@ header .custom-search .search-input-absolute {
   text-indent: 0 !important;
 }
 
+ff-asn-group {
+  min-width: 9.6875rem;
+}
+
 .move-up-button {
   display: none;
   position: fixed;
