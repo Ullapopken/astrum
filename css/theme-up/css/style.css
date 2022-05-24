@@ -31555,13 +31555,12 @@ ff-asn-group {
 }
 
 .siteLogo-component img {
-  width: 8.875rem;
   max-width: 100%;
   height: auto;
 }
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
   .siteLogo-component img {
-    width: 14.5rem;
+    width: 5.9375rem;
   }
 }
 
