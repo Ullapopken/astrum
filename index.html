@@ -13,15 +13,6 @@
         <link rel="shortcut icon" type="image/png" :href="project_favicon" />
 
         <!-- Pattern Library Stylesheets: DO NOT CHANGE -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Open Sans']
-                }
-            });
-        </script>
         <style>
             /* Targeted theme styles */
             .ndpl-folding-cube .ndpl-cube:before { background-color: {{ theme.brand_color }} !important; }
@@ -46,6 +37,7 @@
         <link rel="stylesheet" href="app/css/styles.min.css">
 
         <!-- Font Libraries -->
+        <link rel="stylesheet" href="fonts/google/fonts.css" />
         <link rel="stylesheet" v-if="font_libraries.google_web_fonts" :href="font_libraries.google_web_fonts">
         <link rel="stylesheet" v-if="font_libraries.typography_web_fonts" :href="font_libraries.typography_web_fonts">
         <ndpl-script :script="'https://use.typekit.net/' + font_libraries.typekit_code + '.js'" v-if="font_libraries.typekit_code" inline-template>
