@@ -65,6 +65,14 @@
                     "options": {
                         "disable_code_sample": true
                     }
+                },
+                {
+                    "group": "branding",
+                    "name": "farbvarianten",
+                    "title": "Farbvarianten",
+                    "options": {
+                        "disable_code_sample": true
+                    }
                 }
             ]
         },
