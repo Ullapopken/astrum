@@ -10715,7 +10715,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-secondary, .seotext h2, .seotext .h2, .seotext h3, .seotext .h3, .seotext h4, .seotext .h4, .seotext a {
+.text-secondary, .category-textcontent h2, .category-textcontent .h2, .category-textcontent h3, .category-textcontent .h3, .category-textcontent h4, .category-textcontent .h4, .category-textcontent a {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
@@ -21731,7 +21731,7 @@ input::-webkit-inner-spin-button {
   padding: 0.25rem 0;
 }
 
-.seotext {
+.category-textcontent {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2;
@@ -21753,13 +21753,13 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 767.98px) {
-  .seotext {
+  .category-textcontent {
     -webkit-column-count: auto;
        -moz-column-count: auto;
             column-count: auto;
   }
 
-  .seotext-mobile-collapsed {
+  .category-textcontent-mobile-collapsed {
     overflow: hidden;
     max-height: 460px;
   }
@@ -23046,21 +23046,21 @@ ff-asn-group {
 }
 
 /* Open Sans SemiBold, 16/24px */
-.display-7, .icon-1-white::before, .icon-2-white::before, .icon-3-white::before, .seotext h3, .seotext .h3, .product-tab-link.active {
+.display-7, .icon-1-white::before, .icon-2-white::before, .icon-3-white::before, .category-textcontent h3, .category-textcontent .h3, .product-tab-link.active {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
 }
 
 /* Open Sans Regular, 16/24px */
-.display-9, .seotext h4, .seotext .h4 {
+.display-9, .category-textcontent h4, .category-textcontent .h4 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
 }
 
 /* Open Sans SemiBold, 18/26px */
-.display-11, .seotext h2, .seotext .h2 {
+.display-11, .category-textcontent h2, .category-textcontent .h2 {
   font-size: 1.125rem;
   line-height: 1.625rem;
   font-weight: 600;
@@ -23391,23 +23391,23 @@ ff-asn-group {
   max-height: 8.75rem;
 }
 
-.display-7.max-lines-1, .max-lines-1.icon-1-white::before, .max-lines-1.icon-2-white::before, .max-lines-1.icon-3-white::before, .seotext h3.max-lines-1, .seotext .max-lines-1.h3, .max-lines-1.product-tab-link.active {
+.display-7.max-lines-1, .max-lines-1.icon-1-white::before, .max-lines-1.icon-2-white::before, .max-lines-1.icon-3-white::before, .category-textcontent h3.max-lines-1, .category-textcontent .max-lines-1.h3, .max-lines-1.product-tab-link.active {
   overflow: hidden;
   max-height: 1.5rem;
 }
-.display-7.max-lines-2, .max-lines-2.icon-1-white::before, .max-lines-2.icon-2-white::before, .max-lines-2.icon-3-white::before, .seotext h3.max-lines-2, .seotext .max-lines-2.h3, .max-lines-2.product-tab-link.active {
+.display-7.max-lines-2, .max-lines-2.icon-1-white::before, .max-lines-2.icon-2-white::before, .max-lines-2.icon-3-white::before, .category-textcontent h3.max-lines-2, .category-textcontent .max-lines-2.h3, .max-lines-2.product-tab-link.active {
   overflow: hidden;
   max-height: 3rem;
 }
-.display-7.max-lines-3, .max-lines-3.icon-1-white::before, .max-lines-3.icon-2-white::before, .max-lines-3.icon-3-white::before, .seotext h3.max-lines-3, .seotext .max-lines-3.h3, .max-lines-3.product-tab-link.active {
+.display-7.max-lines-3, .max-lines-3.icon-1-white::before, .max-lines-3.icon-2-white::before, .max-lines-3.icon-3-white::before, .category-textcontent h3.max-lines-3, .category-textcontent .max-lines-3.h3, .max-lines-3.product-tab-link.active {
   overflow: hidden;
   max-height: 4.5rem;
 }
-.display-7.max-lines-4, .max-lines-4.icon-1-white::before, .max-lines-4.icon-2-white::before, .max-lines-4.icon-3-white::before, .seotext h3.max-lines-4, .seotext .max-lines-4.h3, .max-lines-4.product-tab-link.active {
+.display-7.max-lines-4, .max-lines-4.icon-1-white::before, .max-lines-4.icon-2-white::before, .max-lines-4.icon-3-white::before, .category-textcontent h3.max-lines-4, .category-textcontent .max-lines-4.h3, .max-lines-4.product-tab-link.active {
   overflow: hidden;
   max-height: 6rem;
 }
-.display-7.max-lines-5, .max-lines-5.icon-1-white::before, .max-lines-5.icon-2-white::before, .max-lines-5.icon-3-white::before, .seotext h3.max-lines-5, .seotext .max-lines-5.h3, .max-lines-5.product-tab-link.active {
+.display-7.max-lines-5, .max-lines-5.icon-1-white::before, .max-lines-5.icon-2-white::before, .max-lines-5.icon-3-white::before, .category-textcontent h3.max-lines-5, .category-textcontent .max-lines-5.h3, .max-lines-5.product-tab-link.active {
   overflow: hidden;
   max-height: 7.5rem;
 }
@@ -23463,23 +23463,23 @@ ff-asn-group {
   }
 }
 
-.display-9.max-lines-1, .seotext h4.max-lines-1, .seotext .max-lines-1.h4 {
+.display-9.max-lines-1, .category-textcontent h4.max-lines-1, .category-textcontent .max-lines-1.h4 {
   overflow: hidden;
   max-height: 1.5rem;
 }
-.display-9.max-lines-2, .seotext h4.max-lines-2, .seotext .max-lines-2.h4 {
+.display-9.max-lines-2, .category-textcontent h4.max-lines-2, .category-textcontent .max-lines-2.h4 {
   overflow: hidden;
   max-height: 3rem;
 }
-.display-9.max-lines-3, .seotext h4.max-lines-3, .seotext .max-lines-3.h4 {
+.display-9.max-lines-3, .category-textcontent h4.max-lines-3, .category-textcontent .max-lines-3.h4 {
   overflow: hidden;
   max-height: 4.5rem;
 }
-.display-9.max-lines-4, .seotext h4.max-lines-4, .seotext .max-lines-4.h4 {
+.display-9.max-lines-4, .category-textcontent h4.max-lines-4, .category-textcontent .max-lines-4.h4 {
   overflow: hidden;
   max-height: 6rem;
 }
-.display-9.max-lines-5, .seotext h4.max-lines-5, .seotext .max-lines-5.h4 {
+.display-9.max-lines-5, .category-textcontent h4.max-lines-5, .category-textcontent .max-lines-5.h4 {
   overflow: hidden;
   max-height: 7.5rem;
 }
@@ -23535,23 +23535,23 @@ ff-asn-group {
   }
 }
 
-.display-11.max-lines-1, .seotext h2.max-lines-1, .seotext .max-lines-1.h2 {
+.display-11.max-lines-1, .category-textcontent h2.max-lines-1, .category-textcontent .max-lines-1.h2 {
   overflow: hidden;
   max-height: 1.625rem;
 }
-.display-11.max-lines-2, .seotext h2.max-lines-2, .seotext .max-lines-2.h2 {
+.display-11.max-lines-2, .category-textcontent h2.max-lines-2, .category-textcontent .max-lines-2.h2 {
   overflow: hidden;
   max-height: 3.25rem;
 }
-.display-11.max-lines-3, .seotext h2.max-lines-3, .seotext .max-lines-3.h2 {
+.display-11.max-lines-3, .category-textcontent h2.max-lines-3, .category-textcontent .max-lines-3.h2 {
   overflow: hidden;
   max-height: 4.875rem;
 }
-.display-11.max-lines-4, .seotext h2.max-lines-4, .seotext .max-lines-4.h2 {
+.display-11.max-lines-4, .category-textcontent h2.max-lines-4, .category-textcontent .max-lines-4.h2 {
   overflow: hidden;
   max-height: 6.5rem;
 }
-.display-11.max-lines-5, .seotext h2.max-lines-5, .seotext .max-lines-5.h2 {
+.display-11.max-lines-5, .category-textcontent h2.max-lines-5, .category-textcontent .max-lines-5.h2 {
   overflow: hidden;
   max-height: 8.125rem;
 }
