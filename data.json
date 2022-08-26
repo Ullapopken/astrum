@@ -122,6 +122,10 @@
                     "group": "icons",
                     "name": "icon-overview",
                     "title": "Übersicht"
+                },                {
+                    "group": "icons",
+                    "name": "tiles",
+                    "title": "Tiles"
                 },
                 {
                     "group": "icons",
