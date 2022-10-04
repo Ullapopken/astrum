@@ -1,12 +1,23 @@
+/* === Bebas Neue - regular */
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("./font/BebasNeue-Regular.woff2") format("woff2"),
+		url("./font/BebasNeue-Regular.woff") format("woff");
+}
+
 /* === Open Sans - regular */
 @font-face {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-Regular.woff2") format("woff2"),
-	url("./font/OpenSans-Regular.woff") format("woff");
+		url("./font/OpenSans-Regular.woff") format("woff");
 }
 
 /* === Open Sans - 300 */
@@ -15,9 +26,9 @@
 	font-style: normal;
 	font-weight: 300;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-Light.woff2") format("woff2"),
-	url("./font/OpenSans-Light.woff") format("woff");
+		url("./font/OpenSans-Light.woff") format("woff");
 }
 
 /* === Open Sans - 300italic */
@@ -26,9 +37,9 @@
 	font-style: italic;
 	font-weight: 300;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-LightItalic.woff2") format("woff2"),
-	url("./font/OpenSans-LightItalic.woff") format("woff");
+		url("./font/OpenSans-LightItalic.woff") format("woff");
 }
 
 /* === Open Sans - italic */
@@ -37,9 +48,9 @@
 	font-style: italic;
 	font-weight: 400;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-Italic.woff2") format("woff2"),
-	url("./font/OpenSans-Italic.woff") format("woff");
+		url("./font/OpenSans-Italic.woff") format("woff");
 }
 
 /* === Open Sans - 600 */
@@ -48,9 +59,9 @@
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-SemiBold.woff2") format("woff2"),
-	url("./font/OpenSans-SemiBold.woff") format("woff");
+		url("./font/OpenSans-SemiBold.woff") format("woff");
 }
 
 /* === Open Sans - 600italic */
@@ -59,9 +70,9 @@
 	font-style: italic;
 	font-weight: 600;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-SemiBoldItalic.woff2") format("woff2"),
-	url("./font/OpenSans-SemiBoldItalic.woff") format("woff");
+		url("./font/OpenSans-SemiBoldItalic.woff") format("woff");
 }
 
 /* === Open Sans - 700 */
@@ -70,9 +81,9 @@
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-Bold.woff2") format("woff2"),
-	url("./font/OpenSans-Bold.woff") format("woff");
+		url("./font/OpenSans-Bold.woff") format("woff");
 }
 
 /* === Open Sans - 700italic */
@@ -81,9 +92,9 @@
 	font-style: italic;
 	font-weight: 700;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-BoldItalic.woff2") format("woff2"),
-	url("./font/OpenSans-BoldItalic.woff") format("woff");
+		url("./font/OpenSans-BoldItalic.woff") format("woff");
 }
 
 /* === Open Sans - 800 */
@@ -92,9 +103,9 @@
 	font-style: normal;
 	font-weight: 800;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-ExtraBold.woff2") format("woff2"),
-	url("./font/OpenSans-ExtraBold.woff") format("woff");
+		url("./font/OpenSans-ExtraBold.woff") format("woff");
 }
 
 /* === Open Sans - 800italic */
@@ -103,7 +114,7 @@
 	font-style: italic;
 	font-weight: 800;
 	font-display: swap;
-
+	
 	src: url("./font/OpenSans-ExtraBoldItalic.woff2") format("woff2"),
-	url("./font/OpenSans-ExtraBoldItalic.woff") format("woff");
+		url("./font/OpenSans-ExtraBoldItalic.woff") format("woff");
 }
