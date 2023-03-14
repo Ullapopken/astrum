@@ -1,0 +1,237 @@
+/* === Bebas Neue - regular */
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/BebasNeue-Regular.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/BebasNeue-Regular.woff") format("woff");
+}
+
+/* === Open Sans - regular */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-Regular.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-Regular.woff") format("woff");
+}
+
+/* === Open Sans - 300 */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-Light.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-Light.woff") format("woff");
+}
+
+/* === Open Sans - 300italic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-LightItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-LightItalic.woff") format("woff");
+}
+
+/* === Open Sans - italic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-Italic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-Italic.woff") format("woff");
+}
+
+/* === Open Sans - 600 */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-SemiBold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-SemiBold.woff") format("woff");
+}
+
+/* === Open Sans - 600italic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-SemiBoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-SemiBoldItalic.woff") format("woff");
+}
+
+/* === Open Sans - 700 */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-Bold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-Bold.woff") format("woff");
+}
+
+/* === Open Sans - 700italic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-BoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-BoldItalic.woff") format("woff");
+}
+
+/* === Open Sans - 800 */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-ExtraBold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-ExtraBold.woff") format("woff");
+}
+
+/* === Open Sans - 800italic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 800;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/OpenSans-ExtraBoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/OpenSans-ExtraBoldItalic.woff") format("woff");
+}
+
+/* === Public Sans - regular */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-Regular.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-Regular.woff") format("woff");
+}
+
+/* === Public Sans - 300 */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-Light.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-Light.woff") format("woff");
+}
+
+/* === Public Sans - 300italic */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-LightItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-LightItalic.woff") format("woff");
+}
+
+/* === Public Sans - italic */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-Italic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-Italic.woff") format("woff");
+}
+
+/* === Public Sans - 600 */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-SemiBold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-SemiBold.woff") format("woff");
+}
+
+/* === Public Sans - 600italic */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-SemiBoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-SemiBoldItalic.woff") format("woff");
+}
+
+/* === Public Sans - 700 */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-Bold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-Bold.woff") format("woff");
+}
+
+/* === Public Sans - 700italic */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-BoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-BoldItalic.woff") format("woff");
+}
+
+/* === Public Sans - 800 */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-ExtraBold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-ExtraBold.woff") format("woff");
+}
+
+/* === Public Sans - 800italic */
+@font-face {
+	font-family: 'Public Sans';
+	font-style: italic;
+	font-weight: 800;
+	font-display: swap;
+	
+	src: url("/_ui/responsive/fonts/google/font/PublicSans-ExtraBoldItalic.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/PublicSans-ExtraBoldItalic.woff") format("woff");
+}
+
+/* Schmuckschriftart für GL und LS */
+@font-face {
+	font-family: 'TheSeasonsBold';
+	src: url("/_ui/responsive/fonts/google/font/TheSeasons-Bold.woff2") format("woff2"),
+		url("/_ui/responsive/fonts/google/font/TheSeasons-Bold.woff") format("woff");
+}
