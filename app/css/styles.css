@@ -479,9 +479,14 @@
     display: none;
 }
 .ndpl-sidebar__logo {
-    float: left;
+    display: block;
     margin: 0 0 24px 0;
+    width: 200px;
     height: 50px;
+}
+
+.ndpl-theme-dropdown {
+    margin: 0 0 24px 0;
 }
 
 @media only screen and (min-width: 60em) {

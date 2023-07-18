@@ -1,5 +1,4 @@
 {
-    "project_logo": "logo/logo-up.svg",
     "project_favicon": "favicon.png",
     "project_name": null,
     "project_url": null,
@@ -31,7 +30,14 @@
     },
     "assets": {
         "css": [
-            "css/theme-up/css/style.css"
+            "css/theme-up/css/style.css",
+            "css/theme-gl/css/style.css",
+            "css/theme-jp1880/css/style.css"
+        ],
+        "project_logos": [
+            "logo/logo-up.svg",
+            "logo/logo-gl.svg",
+            "logo/logo-jp1880.svg"
         ],
         "js": [
             "js/astrum.js"

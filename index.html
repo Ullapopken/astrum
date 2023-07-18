@@ -34,7 +34,7 @@
         </style>
         <link rel="stylesheet" v-if="theme.code_highlight_theme" :href="'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/' + theme.code_highlight_theme + '.min.css'">
         <style v-if="theme.override_code_highlight_bg">.hljs { background: {{ theme.override_code_highlight_bg }}} !important; }</style>
-        <link rel="stylesheet" href="app/css/styles.min.css">
+        <link rel="stylesheet" href="app/css/styles.css">
 
         <!-- Font Libraries -->
         <link rel="stylesheet" href="fonts/fonts.css" />
@@ -44,8 +44,8 @@
             <script :src="script" @load="loadTypekit"></script>
         </ndpl-script>
 
-        <!-- Custom stylesheets are loaded from the assets.css array in data.json -->
-        <link rel="stylesheet" v-for="css in assets.css" :href="css">
+        <!-- Custom stylesheets are loaded from the assets.css array in data.json. Default theme is UP. -->
+        <link id="theme-css" rel="stylesheet" type="text/css" href="css/theme-up/css/style.css">
     </head>
     <body id="top"
           class="ndpl-body ndpl-c-background"
@@ -103,10 +103,16 @@
 
             <header class="ndpl-sidebar__header">
 
-                <img class="ndpl-sidebar__logo"
-                     :src="project_logo"
-                     :alt="project_name"
-                     v-if="project_logo"/>
+                <div class="ndpl-theme-dropdown">
+                    <label for="theme-select">Theme:</label>
+                    <select id="theme-select" class="ndpl-theme-dropdown__select" @change="changeTheme($event.target.value)">
+                        <option value="up">Ulla Popken</option>
+                        <option value="gl">Gina Laura</option>
+                        <option value="jp1880">JP1880</option>
+                    </select>
+                </div>
+
+                <img class="ndpl-sidebar__logo" src="logo/logo-up.svg"/>
 
                 <h1 class="ndpl-sidebar__title ndpl-c-brand-ca">
                     <span v-if="theme.show_project_name">{{{ project }}}</span>
@@ -295,6 +301,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.0/js/smooth-scroll.min.js"></script>
-    <script src="app/js/main.min.js"></script>
+    <script src="app/js/main.js"></script>
     </body>
 </html>

@@ -276,7 +276,6 @@ new Vue({
 
     data: {
         intro: null,
-        project_logo: null,
         project_favicon: null,
         project_name: null,
         project_url: null,
@@ -289,6 +288,7 @@ new Vue({
         theme: {},
         assets: {
             css: [],
+            project_logos: [],
             js: []
         },
         font_libraries: {
@@ -457,6 +457,28 @@ new Vue({
     },
 
     methods: {
+
+        /**
+         * Event listener for the select element to set the theme.
+         * @param theme The theme to set.
+         */
+        changeTheme: function(theme) {
+            var cssAssets = this.assets.css;
+            var logoAssets = this.assets.project_logos;
+
+            var cssPath = cssAssets.find(function(asset) {
+                return asset.includes(theme);
+            });
+
+            var logoPath = logoAssets.find(function(asset) {
+                return asset.includes(theme);
+            });
+
+            // set new CSS file
+            document.querySelector("link#theme-css").setAttribute("href", cssPath);
+            // set logo
+            document.querySelector(".ndpl-sidebar__logo").setAttribute("src", logoPath);
+        },
 
         /**
          * Apply syntax highlighting to pre code elements
