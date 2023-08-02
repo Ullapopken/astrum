@@ -32,12 +32,14 @@
         "css": [
             "css/theme-up/css/style.css",
             "css/theme-gl/css/style.css",
-            "css/theme-jp1880/css/style.css"
+            "css/theme-jp1880/css/style.css",
+            "css/theme-su/css/style.css"
         ],
         "project_logos": [
             "logo/logo-up.svg",
             "logo/logo-gl.svg",
-            "logo/logo-jp1880.svg"
+            "logo/logo-jp1880.svg",
+            "logo/logo-su.svg"
         ],
         "js": [
             "js/astrum.js"

@@ -132,6 +132,17 @@
 		url(./font/OpenSans-ExtraBoldItalic.woff) format("woff");
 }
 
+/* === Playfair Display - 700 */
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url(./font/PlayfairDisplay-Bold.woff2) format("woff2"),
+		url(./font/PlayfairDisplay-Bold.woff) format("woff");
+}
+
 /* === Public Sans - regular */
 @font-face {
 	font-family: 'Public Sans';
@@ -240,5 +251,71 @@
 	
 	src: url(./font/PublicSans-ExtraBoldItalic.woff2) format("woff2"),
 		url(./font/PublicSans-ExtraBoldItalic.woff) format("woff");
+}
+
+/* === Ubuntu - regular */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-Regular.woff2) format("woff2"),
+		url(./font/Ubuntu-Regular.woff) format("woff");
+}
+
+/* === Ubuntu - 300 */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-Light.woff2) format("woff2"),
+		url(./font/Ubuntu-Light.woff) format("woff");
+}
+
+/* === Ubuntu - 300italic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-LightItalic.woff2) format("woff2"),
+		url(./font/Ubuntu-LightItalic.woff) format("woff");
+}
+
+/* === Ubuntu - italic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-Italic.woff2) format("woff2"),
+		url(./font/Ubuntu-Italic.woff) format("woff");
+}
+
+/* === Ubuntu - 700 */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-Bold.woff2) format("woff2"),
+		url(./font/Ubuntu-Bold.woff) format("woff");
+}
+
+/* === Ubuntu - 700italic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url(./font/Ubuntu-BoldItalic.woff2) format("woff2"),
+		url(./font/Ubuntu-BoldItalic.woff) format("woff");
 }
 
