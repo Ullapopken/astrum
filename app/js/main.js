@@ -276,6 +276,7 @@ new Vue({
 
     data: {
         intro: null,
+        default_theme: "up",
         project_favicon: null,
         project_name: null,
         project_url: null,
@@ -478,6 +479,18 @@ new Vue({
             document.querySelector("link#theme-css").setAttribute("href", cssPath);
             // set logo
             document.querySelector(".ndpl-sidebar__logo").setAttribute("src", logoPath);
+
+            // Set the default_theme to the new theme
+            this.default_theme = theme;
+            this.updateHash('theme=' + theme);
+
+            // Call the loadComponent method again to use the updated value of this.default_theme
+            var _this = this;
+            this.groups.forEach(function(group) {
+                group.components.forEach(function(component) {
+                    _this.loadComponent(component);
+                });
+            });
         },
 
         /**
@@ -644,28 +657,86 @@ new Vue({
         },
 
         /**
-         * Load component files.
+         * Loads component files.
          *
-         * @param component
+         * @param component - The component to load.
          */
         loadComponent: function(component) {
             var _this = this,
                 component_path = './components/' + component.group + '/' + component.name;
 
-            // Get and set component markup
-            _this.$http.get(component_path + '/markup.html' + '?cb=' + new Date()).then(function (response) {
-                component.html = response.data;
-                _this.areComponentsLoaded();
-            }, function () {
-                _this.logError('HTML file for <strong>' + component.name + '</strong> component failed to load from <code>' + component_path + '/html.md</code>');
-            });
+            var themeSuffix = _this.getThemeSuffix();
+            var markupPath = component_path + '/markup' + themeSuffix + '.html';
+            var descriptionPath = component_path + '/description.md';
 
-            // Get and set component description
-            _this.$http.get(component_path + '/description.md' + '?cb=' + new Date()).then(function (response) {
-                component.description = marked(response.data);
-                _this.areComponentsLoaded();
-            }, function () {
-                _this.logError('Description file for <strong>' + component.name + '</strong> component failed to load from <code>' + component_path + '/description.md</code>');
+            // Loads the component's markup file.
+            _this.loadFile(markupPath)
+                .then(function(response) {
+                    if (response !== "") {
+                        component.html = response;
+                    } else {
+                        // If the theme-specific file is not found, use the default markup.html.
+                        var defaultMarkupPath = component_path + '/markup.html';
+                        _this.loadFile(defaultMarkupPath)
+                            .then(function(defaultResponse) {
+                                component.html = defaultResponse;
+                            })
+                            .catch(function(error) {
+                                console.log("Error loading default markup: ", error);
+                            });
+                    }
+                    _this.areComponentsLoaded();
+                })
+                .catch(function(error) {
+                    console.log("Error loading markup: ", error);
+                });
+
+            // Loads the component's description file.
+            _this.loadFile(descriptionPath)
+                .then(function(response) {
+                    _this.areComponentsLoaded();
+                })
+                .catch(function(error) {
+                    console.log("Error loading description: ", error);
+                });
+        },
+
+        /**
+         * Determines the suffix for the theme.
+         *
+         * @returns {string} - The suffix for the theme.
+         */
+        getThemeSuffix: function() {
+            var themeMappings = {
+                gl: "-gl",
+                jp1880: "-jp1880"
+            };
+
+            return themeMappings[this.default_theme] || "";
+        },
+
+        /**
+         * Loads a file.
+         *
+         * @param filePath - The path to the file to load.
+         * @returns {Promise} - A Promise object containing the response.
+         */
+        loadFile: function (filePath) {
+            return new Promise(function (resolve, reject) {
+                fetch(filePath)
+                    .then(function (response) {
+                        if (!response.ok) {
+                            reject("File not found. Fetch status: " + response.status);
+                        } else {
+                            return response.text();
+                        }
+                    })
+                    .then(function (text) {
+                        resolve(text);
+                    })
+                    .catch(function (error) {
+                        reject("Error loading file: " + error.message);
+                    });
             });
         },
 

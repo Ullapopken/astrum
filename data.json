@@ -45,6 +45,7 @@
             "js/astrum.js"
         ]
     },
+    "default_theme": "up",
     "font_libraries": {
         "typekit_code": null,
         "typography_web_fonts": null,

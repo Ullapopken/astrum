@@ -1100,3 +1100,8 @@
         border-radius: 0 0 6px 6px;
     }
 }
+
+.ndpl-info-bg {
+    --bs-bg-opacity: 1;
+    background-color: rgba(43, 148, 207, var(--bs-bg-opacity)) !important;
+}
