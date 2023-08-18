@@ -709,7 +709,8 @@ new Vue({
         getThemeSuffix: function() {
             var themeMappings = {
                 gl: "-gl",
-                jp1880: "-jp1880"
+                jp1880: "-jp1880",
+                su: "-su"
             };
 
             return themeMappings[this.default_theme] || "";
