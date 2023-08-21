@@ -24,7 +24,6 @@
         "max_width": null,
         "titles": {
             "library_title": "Pattern Library",
-            "pages_title": "Übersicht",
             "components_title": "Komponenten"
         }
     },
@@ -54,13 +53,7 @@
     "content": {
         "show_first_page_on_load": true,
         "title": "Overview",
-        "pages": [
-            {
-                "name": "introduction",
-                "title": "Introduction",
-                "file": "./pages/intro.md"
-            }
-        ]
+        "pages": []
     },
     "groups": [
         {
