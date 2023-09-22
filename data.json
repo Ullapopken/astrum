@@ -64,7 +64,7 @@
                     "group": "branding",
                     "name": "farben",
                     "title": "Farben",
-                    "themes": ["gl", "jp1800", "su"],
+                    "themes": ["gl", "jp1880", "su"],
                     "options": {
                         "disable_code_sample": true
                     }
@@ -87,7 +87,7 @@
                     "group": "typografie",
                     "name": "ueberschriften-gross",
                     "title": "Überschriften Groß",
-                    "themes": ["gl", "jp1800", "su"]
+                    "themes": ["gl", "jp1880", "su"]
                 },
                 {
                     "group": "typografie",
@@ -148,7 +148,7 @@
                     "group": "buttons",
                     "name": "buttons-overview",
                     "title": "Theme Übersicht",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "buttons",
@@ -179,25 +179,25 @@
                     "group": "buttons",
                     "name": "white-transparent",
                     "title": "Home Button W",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "buttons",
                     "name": "dark-alt",
                     "title": "Home Button B",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "buttons",
                     "name": "outline-white",
                     "title": "2nd Home Button W",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "buttons",
                     "name": "outline-dark",
                     "title": "2nd Home Button B",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "buttons",
@@ -290,7 +290,7 @@
                     "group": "komponenten",
                     "name": "alert",
                     "title": "Alert",
-                    "themes": ["jp1800"]
+                    "themes": ["jp1880"]
                 },
                 {
                     "group": "komponenten",
