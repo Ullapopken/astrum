@@ -276,7 +276,7 @@ new Vue({
 
     data: {
         intro: null,
-        default_theme: "up",
+        current_theme: "up",
         project_favicon: null,
         project_name: null,
         project_url: null,
@@ -480,11 +480,10 @@ new Vue({
             // set logo
             document.querySelector(".ndpl-sidebar__logo").setAttribute("src", logoPath);
 
-            // Set the default_theme to the new theme
-            this.default_theme = theme;
-            this.updateHash('theme=' + theme);
+            // Set the current_theme to the new theme
+            this.current_theme = theme;
 
-            // Call the loadComponent method again to use the updated value of this.default_theme
+            // Call the loadComponent method again to use the updated value of this.current_theme
             var _this = this;
             this.groups.forEach(function(group) {
                 group.components.forEach(function(component) {
@@ -665,8 +664,11 @@ new Vue({
             var _this = this,
                 component_path = './components/' + component.group + '/' + component.name;
 
-            var themeSuffix = _this.getThemeSuffix();
-            var markupPath = component_path + '/markup' + themeSuffix + '.html';
+            var markupPath = component_path + '/markup.html';
+            // Sollte im data.json ein Theme gepflegt sein, Dateinamen ggf anpassen
+            if (component.themes?.includes(this.current_theme)) {
+                markupPath = component_path + "/markup-" + this.current_theme + ".html";
+            }
             var descriptionPath = component_path + '/description.md';
 
             // Loads the component's markup file.
@@ -674,16 +676,6 @@ new Vue({
                 .then(function(response) {
                     if (response !== "") {
                         component.html = response;
-                    } else {
-                        // If the theme-specific file is not found, use the default markup.html.
-                        var defaultMarkupPath = component_path + '/markup.html';
-                        _this.loadFile(defaultMarkupPath)
-                            .then(function(defaultResponse) {
-                                component.html = defaultResponse;
-                            })
-                            .catch(function(error) {
-                                console.log("Error loading default markup: ", error);
-                            });
                     }
                     _this.areComponentsLoaded();
                 })
@@ -699,21 +691,6 @@ new Vue({
                 .catch(function(error) {
                     console.log("Error loading description: ", error);
                 });
-        },
-
-        /**
-         * Determines the suffix for the theme.
-         *
-         * @returns {string} - The suffix for the theme.
-         */
-        getThemeSuffix: function() {
-            var themeMappings = {
-                gl: "-gl",
-                jp1880: "-jp1880",
-                su: "-su"
-            };
-
-            return themeMappings[this.default_theme] || "";
         },
 
         /**
