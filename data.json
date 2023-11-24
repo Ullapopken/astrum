@@ -32,13 +32,15 @@
             "css/theme-up/css/style.css",
             "css/theme-gl/css/style.css",
             "css/theme-jp1880/css/style.css",
-            "css/theme-su/css/style.css"
+            "css/theme-su/css/style.css",
+            "css/theme-hs/css/style.css"
         ],
         "project_logos": [
             "logo/logo-up.svg",
             "logo/logo-gl.svg",
             "logo/logo-jp1880.svg",
-            "logo/logo-su.svg"
+            "logo/logo-su.svg",
+            "logo/logo-hs.svg"
         ],
         "js": [
             "js/astrum.js"
@@ -64,7 +66,7 @@
                     "group": "branding",
                     "name": "farben",
                     "title": "Farben",
-                    "themes": ["gl", "jp1880", "su"],
+                    "themes": ["gl", "jp1880", "su", "hs"],
                     "options": {
                         "disable_code_sample": true
                     }
@@ -73,6 +75,7 @@
                     "group": "branding",
                     "name": "farbvarianten",
                     "title": "Farbvarianten",
+                    "themes": ["hs"],
                     "options": {
                         "disable_code_sample": true
                     }
@@ -87,19 +90,19 @@
                     "group": "typografie",
                     "name": "ueberschriften-gross",
                     "title": "Überschriften Groß",
-                    "themes": ["gl", "jp1880", "su"]
+                    "themes": ["gl", "jp1880", "su", "hs"]
                 },
                 {
                     "group": "typografie",
                     "name": "ueberschriften-klein",
                     "title": "Überschriften Klein",
-                    "themes": ["gl", "su"]
+                    "themes": ["gl", "su", "hs"]
                 },
                 {
                     "group": "typografie",
                     "name": "texte",
                     "title": "Texte",
-                    "themes": ["gl", "su"]
+                    "themes": ["gl", "su", "hs"]
                 },
                 {
                   "group": "typografie",
@@ -127,7 +130,9 @@
                 {
                     "group": "icons",
                     "name": "icon-overview",
-                    "title": "Übersicht"
+                    "title": "Übersicht",
+                    "themes": ["hs"]
+
                 },                {
                     "group": "icons",
                     "name": "tiles",

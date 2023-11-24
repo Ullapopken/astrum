@@ -22,6 +22,28 @@
 		url(./font/BebasNeue-Regular.woff) format("woff");
 }
 
+/* === Lora - regular */
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url(./font/Lora-Regular.woff2) format("woff2"),
+		url(./font/Lora-Regular.woff) format("woff");
+}
+
+/* === Lora - 500 */
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	
+	src: url(./font/Lora-Medium.woff2) format("woff2"),
+		url(./font/Lora-Medium.woff) format("woff");
+}
+
 /* === Open Sans - regular */
 @font-face {
 	font-family: 'Open Sans';
@@ -251,6 +273,39 @@
 	
 	src: url(./font/PublicSans-ExtraBoldItalic.woff2) format("woff2"),
 		url(./font/PublicSans-ExtraBoldItalic.woff) format("woff");
+}
+
+/* === Roboto - regular */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	
+	src: url(./font/Roboto-Regular.woff2) format("woff2"),
+		url(./font/Roboto-Regular.woff) format("woff");
+}
+
+/* === Roboto - 500 */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	
+	src: url(./font/Roboto-Medium.woff2) format("woff2"),
+		url(./font/Roboto-Medium.woff) format("woff");
+}
+
+/* === Roboto - 700 */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	
+	src: url(./font/Roboto-Bold.woff2) format("woff2"),
+		url(./font/Roboto-Bold.woff) format("woff");
 }
 
 /* === Ubuntu - regular */
